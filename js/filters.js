@@ -185,9 +185,11 @@ function updateResultsList(spots) {
             <div class="result-info">
                 <h4>${spot.displayName}</h4>
                 <p class="result-price">${formatPrice(spot.price)} &middot; ${style.label}</p>
-                <p class="result-available">${spot.availableFrom ? t('Available from') + ' ' + formatDate(spot.availableFrom) : '—'}</p>
-                <a href="${oboUrl}" target="_blank" rel="noopener" class="result-obo-link"
-                   onclick="event.stopPropagation()">${t('View on ÖBO')} ↗</a>
+                <p class="result-available">
+                    ${spot.availableFrom ? t('Available from') + ' ' + formatDate(spot.availableFrom) : '—'}
+                    <a href="${oboUrl}" target="_blank" rel="noopener" class="result-obo-link"
+                       onclick="event.stopPropagation()">${t('View on ÖBO')} ↗</a>
+                </p>
             </div>
         </div>`;
     }).join('');
