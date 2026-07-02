@@ -260,7 +260,8 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
     text-align: center;
     transition: background 0.15s;
 }
-.popup-obo-link:hover { background: var(--accent-hover); }
+.popup-obo-link:visited { color: white; }
+.popup-obo-link:hover { background: var(--accent-hover); color: white; }
 
 /* --- Mobile Filter Toggle --- */
 #filterToggle {

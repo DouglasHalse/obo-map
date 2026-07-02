@@ -69,24 +69,29 @@ function getOboUrl(spot) {
 
 // === Marker styles (all types from actual data) ===
 const MARKER_STYLES = {
-    'Varmgarage':                      { color: '#e74c3c', label: 'Varmgarage',                      icon: '🏠' },
-    'Garage med motorvärmare':         { color: '#c0392b', label: 'Garage m/värmare',               icon: '🏠🔥' },
-    'Kallgarage':                      { color: '#7f8c8d', label: 'Kallgarage',                     icon: '🏚️' },
-    'Laddplats garage':                { color: '#8e44ad', label: 'Laddplats garage',               icon: '⚡🏠' },
-    'Motorcykelgarage':                { color: '#e67e22', label: 'MC-garage',                      icon: '🏍️' },
-    'P-plats med elbilsladdare':       { color: '#9b59b6', label: 'Elbilsladdare',                  icon: '⚡' },
-    'P-plats med tak och el':         { color: '#f39c12', label: 'Tak + el',                       icon: '🏠⚡' },
-    'P-plats med tidsstyrd el och tak':{ color: '#e67e22', label: 'Tak + tidstyrd el',             icon: '🏠⏰' },
-    'P-plats med tak, grind och el':  { color: '#d68910', label: 'Tak, grind + el',                icon: '🏠🔒' },
-    'P-plats med tak, el och förråd': { color: '#d4ac0d', label: 'Tak, el + förråd',               icon: '🏠📦' },
-    'P-plats med el':                  { color: '#3498db', label: 'El',                             icon: '🔌' },
-    'P-plats med tidstyrd el':         { color: '#2980b9', label: 'Tidstyrd el',                    icon: '⏰' },
-    'Parkeringsplats':                 { color: '#2ecc71', label: 'Parkeringsplats',                icon: '🅿️' },
-    'MC-plats':                        { color: '#e67e22', label: 'MC-plats',                       icon: '🏍️' },
-    'Husvagnsparkering':               { color: '#795548', label: 'Husvagn',                        icon: '🚐' },
-    'default':                         { color: '#95a5a6', label: 'Övrig',                          icon: '📍' },
+    'Varmgarage':                      { color: '#e74c3c', label: { sv: 'Varmgarage',             en: 'Heated garage' },            icon: '🏠' },
+    'Garage med motorvärmare':         { color: '#c0392b', label: { sv: 'Garage m/värmare',       en: 'Garage w/heater' },           icon: '🏠🔥' },
+    'Kallgarage':                      { color: '#7f8c8d', label: { sv: 'Kallgarage',             en: 'Cold garage' },               icon: '🏚️' },
+    'Laddplats garage':                { color: '#8e44ad', label: { sv: 'Laddplats garage',       en: 'Charging garage' },           icon: '⚡🏠' },
+    'Motorcykelgarage':                { color: '#e67e22', label: { sv: 'MC-garage',              en: 'Motorcycle garage' },         icon: '🏍️' },
+    'P-plats med elbilsladdare':       { color: '#9b59b6', label: { sv: 'Elbilsladdare',          en: 'EV charger' },                icon: '⚡' },
+    'P-plats med tak och el':         { color: '#f39c12', label: { sv: 'Tak + el',               en: 'Covered + elec.' },           icon: '🏠⚡' },
+    'P-plats med tidsstyrd el och tak':{ color: '#e67e22', label: { sv: 'Tak + tidstyrd el',     en: 'Covered + timer' },           icon: '🏠⏰' },
+    'P-plats med tak, grind och el':  { color: '#d68910', label: { sv: 'Tak, grind + el',        en: 'Covered, gate + elec.' },     icon: '🏠🔒' },
+    'P-plats med tak, el och förråd': { color: '#d4ac0d', label: { sv: 'Tak, el + förråd',       en: 'Covered, elec. + storage' },  icon: '🏠📦' },
+    'P-plats med el':                  { color: '#3498db', label: { sv: 'El',                     en: 'Electricity' },               icon: '🔌' },
+    'P-plats med tidstyrd el':         { color: '#2980b9', label: { sv: 'Tidstyrd el',            en: 'Timer electricity' },         icon: '⏰' },
+    'Parkeringsplats':                 { color: '#2ecc71', label: { sv: 'Parkeringsplats',        en: 'Parking spot' },              icon: '🅿️' },
+    'MC-plats':                        { color: '#e67e22', label: { sv: 'MC-plats',               en: 'Motorcycle spot' },           icon: '🏍️' },
+    'Husvagnsparkering':               { color: '#795548', label: { sv: 'Husvagn',                en: 'Caravan spot' },              icon: '🚐' },
+    'default':                         { color: '#95a5a6', label: { sv: 'Övrig',                  en: 'Other' },                     icon: '📍' },
 };
 
 function getMarkerStyle(type) {
-    return MARKER_STYLES[type] || MARKER_STYLES['default'];
+    const style = MARKER_STYLES[type] || MARKER_STYLES['default'];
+    return {
+        color: style.color,
+        label: style.label[currentLang] || style.label['sv'],
+        icon: style.icon,
+    };
 }
