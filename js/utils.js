@@ -85,11 +85,11 @@ const MARKER_STYLES = {
     'MC-plats':                        { color: '#e67e22', label: { sv: 'Motorcykelplats',                en: 'Motorcycle spot' },           icon: '🏍️' },
     'Husvagnsparkering':               { color: '#795548', label: { sv: 'Husvagnsparkering',              en: 'Caravan spot' },              icon: '🚐' },
     // Residential types
-    '1 rum och kök':                   { color: '#cf0035', label: { sv: '1 r&k',                  en: '1 bed' },                     icon: '🏠' },
-    '2 rum och kök':                   { color: '#cf0035', label: { sv: '2 r&k',                  en: '2 bed' },                     icon: '🏠' },
-    '3 rum och kök':                   { color: '#cf0035', label: { sv: '3 r&k',                  en: '3 bed' },                     icon: '🏠' },
-    '4 rum och kök':                   { color: '#cf0035', label: { sv: '4 r&k',                  en: '4 bed' },                     icon: '🏠' },
-    '5 rum och kök':                   { color: '#cf0035', label: { sv: '5 r&k',                  en: '5 bed' },                     icon: '🏠' },
+    '1 rum och kök':  { color: '#cf0035', label: { sv: '1 rum och kök', en: '1 room + kitchen' }, icon: '🏠' },
+    '2 rum och kök':  { color: '#cf0035', label: { sv: '2 rum och kök', en: '2 rooms + kitchen' }, icon: '🏠' },
+    '3 rum och kök':  { color: '#cf0035', label: { sv: '3 rum och kök', en: '3 rooms + kitchen' }, icon: '🏠' },
+    '4 rum och kök':  { color: '#cf0035', label: { sv: '4 rum och kök', en: '4 rooms + kitchen' }, icon: '🏠' },
+    '5 rum och kök':  { color: '#cf0035', label: { sv: '5 rum och kök', en: '5 rooms + kitchen' }, icon: '🏠' },
     'default':                         { color: '#95a5a6', label: { sv: 'Övrig',                  en: 'Other' },                     icon: '📍' },
 };
 
