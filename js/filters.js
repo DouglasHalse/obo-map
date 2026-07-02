@@ -64,10 +64,9 @@ function buildFilterUI(spots) {
         </div>
 
         <div class="filter-group">
-            <label class="toggle-label">
+            <label class="checkbox-row">
                 <input type="checkbox" id="availableNow">
-                <span class="toggle-switch"></span>
-                <span>${t('Available now')}</span>
+                ${t('Available now')}
             </label>
         </div>
     `;
