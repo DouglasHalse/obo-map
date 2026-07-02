@@ -1803,5 +1803,10 @@
     "lat": 59.2642262,
     "lon": 15.2056321,
     "precise": true
+  },
+  "Norrgatan 18, Örebro, Sweden": {
+    "lat": 59.2826322,
+    "lon": 15.2070316,
+    "precise": true
   }
 }

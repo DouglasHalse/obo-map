@@ -80,12 +80,15 @@ def fetch_all():
 def normalize_spot(item):
     loc = item.get("location", {})
     area_info = loc.get("area", {})
+    size = item.get("size", {})
     display_name = item.get("displayName", "")
     return {
         "id": item["id"],
         "number": item.get("number", ""),
         "displayName": display_name,
-        "type": item.get("size", {}).get("roomsDisplayName", ""),
+        "type": size.get("roomsDisplayName", ""),
+        "shortType": size.get("shortRoomsDisplayName", ""),
+        "sqm": size.get("area"),
         "area": area_info.get("displayName", ""),
         "areaPath": [a.get("displayName", "") for a in loc.get("areaPath", [])],
         "source": item.get("_source", ""),

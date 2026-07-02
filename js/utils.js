@@ -86,12 +86,14 @@ const MARKER_STYLES = {
     'MC-plats':                        { color: '#e67e22', label: { sv: 'Motorcykelplats',                en: 'Motorcycle spot' },           icon: '🏍️' },
     'Husvagnsparkering':               { color: '#795548', label: { sv: 'Husvagnsparkering',              en: 'Caravan spot' },              icon: '🚐' },
     // Residential types
-    '1 rum och kök':  { color: '#cf0035', label: { sv: '1 rum och kök', en: '1 room + kitchen' }, icon: '🏠' },
-    '2 rum och kök':  { color: '#cf0035', label: { sv: '2 rum och kök', en: '2 rooms + kitchen' }, icon: '🏠' },
-    '3 rum och kök':  { color: '#cf0035', label: { sv: '3 rum och kök', en: '3 rooms + kitchen' }, icon: '🏠' },
-    '4 rum och kök':  { color: '#cf0035', label: { sv: '4 rum och kök', en: '4 rooms + kitchen' }, icon: '🏠' },
-    '5 rum och kök':  { color: '#cf0035', label: { sv: '5 rum och kök', en: '5 rooms + kitchen' }, icon: '🏠' },
-    'default':                         { color: '#95a5a6', label: { sv: 'Övrig',                  en: 'Other' },                     icon: '📍' },
+    '1 rum och kök':  { color: '#cf0035', label: { sv: '1:a', en: '1 room' }, icon: '🏠' },
+    '2 rum och kök':  { color: '#cf0035', label: { sv: '2:a', en: '2 rooms' }, icon: '🏠' },
+    '3 rum och kök':  { color: '#cf0035', label: { sv: '3:a', en: '3 rooms' }, icon: '🏠' },
+    '4 rum och kök':  { color: '#cf0035', label: { sv: '4:a', en: '4 rooms' }, icon: '🏠' },
+    '5 rum och kök':  { color: '#cf0035', label: { sv: '5:a', en: '5 rooms' }, icon: '🏠' },
+    '1 rum kokvrå':   { color: '#cf0035', label: { sv: '1:a', en: '1 room' }, icon: '🏠' },
+    '2 rum kokvrå':   { color: '#cf0035', label: { sv: '2:a', en: '2 rooms' }, icon: '🏠' },
+    'default':        { color: '#95a5a6', label: { sv: 'Övrig', en: 'Other' }, icon: '📍' },
 };
 
 function getMarkerStyle(type) {
@@ -101,4 +103,15 @@ function getMarkerStyle(type) {
         label: style.label[currentLang] || style.label['sv'],
         icon: style.icon,
     };
+}
+
+function formatSize(spot) {
+    const parts = [];
+    if (spot.sqm) parts.push(Math.round(spot.sqm) + ' ' + t('sqm'));
+    if (spot.shortType && spot.shortType.match(/^\d/)) {
+        const n = spot.shortType.match(/^\d+/)[0];
+        const roomLabel = currentLang === 'sv' ? n + ':a' : n + ' room' + (n > 1 ? 's' : '');
+        parts.unshift(roomLabel);
+    }
+    return parts.join(' · ');
 }
