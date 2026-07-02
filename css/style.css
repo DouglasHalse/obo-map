@@ -128,18 +128,24 @@ html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Sego
 .filter-group { margin-bottom: 14px; }
 .filter-group label { display: block; font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
 
-select, input[type="range"] {
+select {
     width: 100%;
-    padding: 8px 10px;
+    padding: 7px 10px;
     border: 1px solid var(--border);
     border-radius: var(--radius);
     font-size: 0.85rem;
     background: white;
     color: var(--text);
     cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10' height='6'%3E%3Cpath d='M0 0l5 6 5-6z' fill='%236c757d'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
+    padding-right: 28px;
 }
 select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(207,0,53,0.15); }
-input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: var(--accent); }
+input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: var(--accent); width: 100%; }
 
 /* Toggle / checkbox */
 .checkbox-row {
