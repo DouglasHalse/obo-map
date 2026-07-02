@@ -66,31 +66,56 @@ html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Sego
 /* --- Category Tabs --- */
 .category-tabs {
     display: flex;
-    flex-wrap: wrap;
-    gap: 3px;
-    padding: 8px 10px;
+    gap: 0;
     border-bottom: 1px solid var(--border);
+    overflow-x: auto;
+}
+.category-group {
+    flex: 1;
+    min-width: 0;
+    padding: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.category-group + .category-group {
+    border-left: 1px solid var(--border);
+}
+.category-group-label {
+    font-size: 0.65rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    color: var(--text-secondary);
+    text-align: center;
+    padding: 0 2px;
+}
+.category-group-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    justify-content: center;
 }
 .category-tab {
     flex: 0 0 auto;
-    padding: 5px 9px;
+    padding: 3px 7px;
     border: 1px solid var(--border);
-    border-radius: 6px;
+    border-radius: 5px;
     background: white;
     color: var(--text-secondary);
-    font-size: 0.72rem;
+    font-size: 0.68rem;
     font-weight: 600;
     cursor: pointer;
     transition: all 0.15s;
     white-space: nowrap;
     display: flex;
     align-items: center;
-    gap: 4px;
+    gap: 3px;
 }
 .category-tab:hover { background: #fff0f3; color: var(--accent); border-color: var(--accent); }
 .category-tab.active { background: var(--accent); color: white; border-color: var(--accent); }
 .tab-count {
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     opacity: 0.7;
     font-weight: 400;
 }
