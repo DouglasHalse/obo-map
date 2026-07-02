@@ -41,17 +41,23 @@ function buildFilterUI(spots) {
 
         <div class="filter-group">
             <label>${t('Type')}</label>
-            <div class="checkbox-group" id="typeFilters">
-                ${knownTypes.map(tp => {
-                    const style = getMarkerStyle(tp);
-                    return `
-                        <label class="checkbox-label">
-                            <input type="checkbox" value="${tp}" class="type-checkbox">
+            <div class="multi-select" id="typeMultiSelect">
+                <div class="multi-select-trigger" id="typeSelectTrigger">
+                    <span class="multi-select-label">${t('All areas')}</span>
+                    <span class="multi-select-arrow">▼</span>
+                </div>
+                <div class="multi-select-dropdown" id="typeSelectDropdown">
+                    ${knownTypes.map(tp => {
+                        const style = getMarkerStyle(tp);
+                        return `<label class="multi-select-option">
+                            <input type="checkbox" value="${tp}">
                             <span class="checkmark" style="background:${style.color}"></span>
                             ${style.label}
                         </label>`;
-                }).join('')}
+                    }).join('')}
+                </div>
             </div>
+            <div class="multi-select-tags" id="typeSelectTags"></div>
         </div>
 
         <div class="filter-group">
@@ -74,12 +80,39 @@ function buildFilterUI(spots) {
         applyFilters();
     });
 
-    document.querySelectorAll('.type-checkbox').forEach(cb => {
+    // Type multi-select
+    const typeDropdown = document.getElementById('typeSelectDropdown');
+    const typeTrigger = document.getElementById('typeSelectTrigger');
+    const typeLabel = typeTrigger.querySelector('.multi-select-label');
+    const typeTags = document.getElementById('typeSelectTags');
+
+    typeTrigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        typeDropdown.classList.toggle('open');
+    });
+
+    typeDropdown.querySelectorAll('input[type="checkbox"]').forEach(cb => {
         cb.addEventListener('change', () => {
-            filterState.types = [...document.querySelectorAll('.type-checkbox:checked')].map(c => c.value);
+            filterState.types = [...typeDropdown.querySelectorAll('input:checked')].map(c => c.value);
+            updateTypeDisplay();
             applyFilters();
         });
     });
+
+    document.addEventListener('click', (e) => {
+        if (!document.getElementById('typeMultiSelect').contains(e.target)) {
+            typeDropdown.classList.remove('open');
+        }
+    });
+
+    function updateTypeDisplay() {
+        const count = filterState.types.length;
+        typeLabel.textContent = count ? `${t('Type')} (${count})` : t('All areas');
+        typeTags.innerHTML = filterState.types.map(tp => {
+            const style = getMarkerStyle(tp);
+            return '<span class="tag" style="background:' + style.color + '" onclick="event.stopPropagation();removeTypeFilter(\'' + tp.replace(/'/g, "\\\\'") + '\')">' + style.label + ' ✕</span>';
+        }).join('');
+    }
 
     document.getElementById('availableNow').addEventListener('change', (e) => {
         filterState.availableNow = e.target.checked;
@@ -123,6 +156,16 @@ function updateStats(showing) {
     document.getElementById('stats').innerHTML = `
         <p class="stats-text">${t('Showing')} <strong>${showing}</strong> ${t('of')} ${allSpots.length} ${t('listings')}</p>
     `;
+}
+
+function removeTypeFilter(value) {
+    const cb = document.querySelector('#typeSelectDropdown input[value="' + value + '"]');
+    if (cb) {
+        cb.checked = false;
+        filterState.types = filterState.types.filter(t => t !== value);
+        updateTypeDisplay();
+        applyFilters();
+    }
 }
 
 function updateResultsList(spots) {
