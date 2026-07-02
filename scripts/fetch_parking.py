@@ -286,8 +286,6 @@ def main():
     spots = geocode_addresses(spots)
     geocoded = sum(1 for s in spots if s["lat"])
     not_found = sum(1 for s in spots if not s["lat"])
-    print("\n=== Area boundaries ===")
-    geocode_areas(spots)
     print(f"\n=== Writing: {OUTPUT} ===")
     output = {
         "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),

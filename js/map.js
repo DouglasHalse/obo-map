@@ -131,49 +131,6 @@ function flyToSpot(spotId) {
     });
 }
 
-let areaPolygonLayer = null;
-let areaData = {};
-
-function loadAreas(data) {
-    areaData = data;
-}
-
-function highlightArea(areaName) {
-    clearAreaHighlight();
-    const area = areaData[areaName];
-    if (!area || !area.geometry) return;
-
-    const geo = area.geometry;
-    let latlngs;
-
-    if (geo.type === 'Polygon') {
-        // GeoJSON coords are [lon, lat] — swap for Leaflet [lat, lon]
-        latlngs = geo.coordinates[0].map(c => [c[1], c[0]]);
-    } else if (geo.type === 'MultiPolygon') {
-        latlngs = geo.coordinates[0][0].map(c => [c[1], c[0]]);
-    } else {
-        return;
-    }
-
-    areaPolygonLayer = L.polygon(latlngs, {
-        color: '#cf0035',
-        weight: 2,
-        opacity: 0.8,
-        fillColor: '#cf0035',
-        fillOpacity: 0.15,
-        interactive: false,
-    }).addTo(map);
-
-    map.fitBounds(areaPolygonLayer.getBounds(), { padding: [50, 50], maxZoom: 15 });
-}
-
-function clearAreaHighlight() {
-    if (areaPolygonLayer) {
-        map.removeLayer(areaPolygonLayer);
-        areaPolygonLayer = null;
-    }
-}
-
 function highlightResultCard(spotId) {
     document.querySelectorAll('.result-card').forEach(card => card.classList.remove('active'));
     const card = document.querySelector(`.result-card[data-id="${spotId}"]`);
