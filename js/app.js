@@ -30,7 +30,7 @@ let activeCategory = 'residential';
 let allData = null;
 
 document.addEventListener('DOMContentLoaded', async () => {
-    document.getElementById('langToggle').textContent = getLang() === 'sv' ? 'EN' : 'SV';
+    document.getElementById('langToggle').textContent = getLang() === 'en' ? 'SV' : 'EN';
     document.getElementById('langToggle').addEventListener('click', toggleLanguage);
 
     // Set header text immediately (before data loads)

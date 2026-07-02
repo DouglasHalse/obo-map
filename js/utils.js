@@ -32,7 +32,7 @@ const STRINGS = {
     'sqm':             { sv: 'kvm', en: 'm²' },
 };
 
-let currentLang = localStorage.getItem(LANG_KEY) || 'sv';
+let currentLang = localStorage.getItem(LANG_KEY) || 'en';
 
 function t(key) {
     const entry = STRINGS[key];
