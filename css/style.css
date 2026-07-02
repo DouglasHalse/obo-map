@@ -242,42 +242,42 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
 }
 .result-card {
     display: flex;
-    gap: 12px;
-    padding: 10px;
-    border-radius: var(--radius);
+    gap: 8px;
+    padding: 6px 8px;
+    border-radius: 6px;
     cursor: pointer;
     transition: background 0.15s;
     border: 1px solid transparent;
-    margin-bottom: 4px;
+    margin-bottom: 2px;
 }
 .result-card:hover { background: var(--card-hover); }
 .result-card.active { background: var(--card-hover); border-color: var(--accent); }
 
-.result-image { width: 70px; height: 50px; border-radius: 6px; overflow: hidden; flex-shrink: 0; background: #e9ecef; }
+.result-image { width: 56px; height: 38px; border-radius: 4px; overflow: hidden; flex-shrink: 0; background: #e9ecef; }
 .result-image img { width: 100%; height: 100%; object-fit: cover; }
-.no-image { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 1.5rem; }
+.no-image { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
 
 .result-info { flex: 1; min-width: 0; }
-.result-info h4 { font-size: 0.9rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 4px; }
+.result-info h4 { font-size: 0.8rem; font-weight: 600; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin-bottom: 2px; }
 
-.result-badges { display: flex; gap: 4px; flex-wrap: wrap; margin-bottom: 4px; }
+.result-badges { display: flex; gap: 3px; flex-wrap: wrap; margin-bottom: 2px; }
 .badge {
     display: inline-block;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-size: 0.7rem;
+    padding: 1px 6px;
+    border-radius: 9px;
+    font-size: 0.65rem;
     font-weight: 600;
     color: white;
     white-space: nowrap;
 }
 .badge-available { background: var(--available) !important; }
 
-.result-price { font-size: 0.85rem; font-weight: 600; color: var(--text); }
-.result-available { font-size: 0.75rem; color: var(--text-secondary); }
+.result-price { font-size: 0.78rem; font-weight: 600; color: var(--text); }
+.result-available { font-size: 0.7rem; color: var(--text-secondary); }
 .result-obo-link {
     display: inline-block;
-    margin-top: 4px;
-    font-size: 0.72rem;
+    margin-top: 2px;
+    font-size: 0.68rem;
     color: var(--accent);
     text-decoration: none;
     font-weight: 600;
