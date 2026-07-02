@@ -36,11 +36,13 @@ OREBRO_AREAS = [
     "Almby/Nasby", "Ornsro", "Osternarke",
 ]
 
-# Abbreviation fixes for Nominatim
+# Abbreviation fixes for Nominatim (normalize before geocoding)
 ADDRESS_FIXES = {
-    "L Wivallius vag":   "Lars Wivallius vag",
-    "Hj Bergmans Vag":   "Hjalmar Bergmans Vag",
-    "Hj Bergmans vag":   "Hjalmar Bergmans vag",
+    "L Wivallius väg":   "Lars Wivallius väg",
+    "Lars Wivallius väg": "Lars Wivallius väg",  # already ok
+    "Hj Bergmans Väg":   "Hjalmar Bergmans väg",
+    "Hj Bergmans väg":   "Hjalmar Bergmans väg",
+    "Ö Vintergatan":     "Östra Vintergatan",
 }
 
 
