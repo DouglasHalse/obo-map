@@ -23,6 +23,8 @@ jobs:
 
       - name: Fetch and geocode parking data
         run: python scripts/fetch_parking.py
+        env:
+          GOOGLE_GEOCODE_KEY: ${{ secrets.GOOGLE_GEOCODE_KEY }}
 
       - name: Commit updated data
         run: |

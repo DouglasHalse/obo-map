@@ -2,6 +2,7 @@
 """Fetch all OBO parking spots, geocode addresses, output JSON."""
 
 import json
+import os
 import time
 from pathlib import Path
 from urllib.parse import urlencode
@@ -14,6 +15,7 @@ from geopy.extra.rate_limiter import RateLimiter
 API_BASE = "https://obo-fastighet.momentum.se/Prod/Obo/PmApi/v2/market/objects"
 API_KEY = "pJnKrR6B3FzRNFsF33xL8LhSs55KPJrm"
 GEOAPIFY_KEY = "b6f995767b844f73871eb632ebee3d12"
+GOOGLE_KEY = os.environ.get("GOOGLE_GEOCODE_KEY", "")
 TYPE_IDS = {
     "residential":                  "Bostad",
     "VJKbFxvkM99GGWCvwXyhWYCX":   "Bostad Snabbvalet",
@@ -137,6 +139,25 @@ def geocode_nominatim(addr, geocode_fn):
     return None
 
 
+def geocode_google(addr):
+    """Geocode with Google Maps. Returns (lat, lon, precise) or None."""
+    try:
+        r = requests.get("https://maps.googleapis.com/maps/api/geocode/json", params={
+            "address": addr, "key": GOOGLE_KEY
+        }, timeout=10)
+        r.raise_for_status()
+        data = r.json()
+        if data["status"] == "OK":
+            res = data["results"][0]
+            loc = res["geometry"]["location"]
+            # Google almost always returns building-level (ROOFTOP)
+            precise = res.get("geometry", {}).get("location_type") == "ROOFTOP"
+            return (loc["lat"], loc["lng"], precise)
+    except Exception as e:
+        print(f"    Google error: {e}")
+    return None
+
+
 def geocode_addresses(spots):
     cache = {}
     if GEOCODE_CACHE.exists():
@@ -174,16 +195,27 @@ def geocode_addresses(spots):
         result = geocode_geoapify(addr)
         if result:
             lat, lon, precise = result
+            # If Geoapify gives street-level, try Google for better precision
+            if not precise:
+                google_result = geocode_google(addr)
+                if google_result:
+                    lat, lon, precise = google_result
             cache[addr] = {"lat": lat, "lon": lon, "precise": precise}
         else:
-            # Fallback to Nominatim
-            result = geocode_nominatim(addr, nom_geocode)
+            # Geoapify failed — try Google, then Nominatim
+            result = geocode_google(addr)
             if result:
                 lat, lon, precise = result
                 cache[addr] = {"lat": lat, "lon": lon, "precise": precise}
             else:
-                cache[addr] = {"lat": None, "lon": None, "precise": False}
-                print(f"  [{i+1}] NOT FOUND: {addr}")
+                # Fallback to Nominatim
+                result = geocode_nominatim(addr, nom_geocode)
+                if result:
+                    lat, lon, precise = result
+                    cache[addr] = {"lat": lat, "lon": lon, "precise": precise}
+                else:
+                    cache[addr] = {"lat": None, "lon": None, "precise": False}
+                    print(f"  [{i+1}] NOT FOUND: {addr}")
 
         if (i + 1) % 20 == 0:
             with open(GEOCODE_CACHE, "w") as f:

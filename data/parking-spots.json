@@ -1,5 +1,5 @@
 {
-  "generated": "2026-07-02T21:19:42Z",
+  "generated": "2026-07-02T21:40:29Z",
   "total": 1432,
   "geocoded": 1432,
   "notFound": 0,
@@ -392,9 +392,9 @@
       "signNumber": "",
       "image": "XfFmCmvQkq6mrx44bJwHrhV8",
       "queueType": "residential",
-      "lat": 59.2968156,
-      "lon": 15.1797212,
-      "precise": false
+      "lat": 59.29473520000001,
+      "lon": 15.1949967,
+      "precise": true
     },
     {
       "id": "f9CHCbH8XkgQ7y6fd77KxRJP",
@@ -924,9 +924,9 @@
       "signNumber": "",
       "image": "WdC7D7q9fb7fQ7t6qhHy7FfK",
       "queueType": "residential",
-      "lat": 59.2870496,
-      "lon": 15.1815513,
-      "precise": false
+      "lat": 59.28761470000001,
+      "lon": 15.1788954,
+      "precise": true
     },
     {
       "id": "QrXjHKRcJ8C8rP9FQqHDymWJ",
@@ -1820,9 +1820,9 @@
       "signNumber": "",
       "image": "4WdxHWGcHXFCDBbjtjy4vdVY",
       "queueType": "residential",
-      "lat": 59.2870496,
-      "lon": 15.1815513,
-      "precise": false
+      "lat": 59.28761470000001,
+      "lon": 15.1788954,
+      "precise": true
     },
     {
       "id": "wC4VfCqxWqktpJWhhKq7Y86c",
@@ -2968,9 +2968,9 @@
       "signNumber": "",
       "image": "R7bk7MqGxk8rmxybJcjxgxKC",
       "queueType": "senior",
-      "lat": 59.2793289,
-      "lon": 15.2222296,
-      "precise": false
+      "lat": 59.2792876,
+      "lon": 15.2220997,
+      "precise": true
     },
     {
       "id": "J9FDppKfWGhhkXfVd6hfkGFD",
@@ -3332,9 +3332,9 @@
       "signNumber": "",
       "image": "8xHJGjjQfwfqckFk9BMd77DH",
       "queueType": "student",
-      "lat": 59.26504,
-      "lon": 15.2338929,
-      "precise": false
+      "lat": 59.2679282,
+      "lon": 15.2155971,
+      "precise": true
     },
     {
       "id": "T4JdfpKVDVj7CYj6FJ6KQmg8",
@@ -3416,9 +3416,9 @@
       "signNumber": "",
       "image": "cD7rXJmQCh9rmkbfkRjqFB6J",
       "queueType": "student",
-      "lat": 59.26504,
-      "lon": 15.2338929,
-      "precise": false
+      "lat": 59.2679282,
+      "lon": 15.2155971,
+      "precise": true
     },
     {
       "id": "9J8wBFQJ76qbbxpyfYTPq4Qc",
@@ -3444,9 +3444,9 @@
       "signNumber": "",
       "image": "9J8wBFQJ76qbbxpyfYTPq4Qc",
       "queueType": "student",
-      "lat": 59.26504,
-      "lon": 15.2338929,
-      "precise": false
+      "lat": 59.2679282,
+      "lon": 15.2155971,
+      "precise": true
     },
     {
       "id": "wjPdTbBgWXxYBcbW4pfY8tyh",
@@ -4060,9 +4060,9 @@
       "signNumber": "",
       "image": "wCjDDMxpqDFjXymhf46kCGk7",
       "queueType": "parking",
-      "lat": 59.2837494,
-      "lon": 15.1909108,
-      "precise": false
+      "lat": 59.2812858,
+      "lon": 15.1954655,
+      "precise": true
     },
     {
       "id": "qfdGkPrRKvvmjmC7t6RXq9x7",
@@ -5040,9 +5040,9 @@
       "signNumber": "",
       "image": "wyJVMFGRqWgkkRpRm6FfrGhb",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "kJrKVHxfPvdxYxBPdwrW4whH",
@@ -5096,9 +5096,9 @@
       "signNumber": "",
       "image": "PDbC9JJf7YWXr7wmW4WWQvkw",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "WDCJPpPWMJQr9FPQYxfv4MwX",
@@ -5124,9 +5124,9 @@
       "signNumber": "",
       "image": "WDCJPpPWMJQr9FPQYxfv4MwX",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "C9WdqTjhMCdvQPtwtv7qrrGj",
@@ -6132,9 +6132,9 @@
       "signNumber": "",
       "image": "7kBT4bbkBJmfh7QjMc48WPx7",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "JGvQRDGr8xbw9K4r7RRmrGQh",
@@ -8736,9 +8736,9 @@
       "signNumber": "",
       "image": "j6QHkpmdDkBdJkGRxXKkwyxm",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "VwBVjwj7kMXyHxmr6Dw7fdWw",
@@ -9742,9 +9742,9 @@
       "signNumber": "",
       "image": "C4m9kRf9hPxKxphYFcYpPyBc",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "VYfpmJFBk7PcYGykdX9gd6Xt",
@@ -13156,9 +13156,9 @@
       "signNumber": "",
       "image": "7YChMRQwbhVdwjW8TpqwFDHg",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "VdVtJy66mcDdDMd4t9dVR4wP",
@@ -14332,9 +14332,9 @@
       "signNumber": "",
       "image": "m4QVqKtk6HTwt67HH4JQcYGD",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "xqy6kFcThD4qrqHKYvwWtKqM",
@@ -14752,9 +14752,9 @@
       "signNumber": "",
       "image": "GTyBJwqbpPYgJ4JjyfJBwFJW",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "g9rQX6CBbpVPfgxRtxvCdrTJ",
@@ -18448,9 +18448,9 @@
       "signNumber": "",
       "image": "WpQGfVxq8GBTJxrjFD6mxP6r",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "TtHvWV88tQ6qWchJy9MFF9yH",
@@ -18476,9 +18476,9 @@
       "signNumber": "",
       "image": "TtHvWV88tQ6qWchJy9MFF9yH",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "GJM7tY4cdbf8KhTqTtBDQtgy",
@@ -18532,9 +18532,9 @@
       "signNumber": "",
       "image": "j7bdvyCGHFMbqFj8MCGr9qp6",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "cXQ6PRmQq9MYTGbkRg4X6bQv",
@@ -18560,9 +18560,9 @@
       "signNumber": "",
       "image": "cXQ6PRmQq9MYTGbkRg4X6bQv",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "QcQDJbdj8rh8GWDYkbyJwhBm",
@@ -19960,9 +19960,9 @@
       "signNumber": "",
       "image": "pX9bBrbVtPJx6rk68RhwqTPD",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "PPPJhTX4RDGFdCVfCYtFC4GT",
@@ -22228,9 +22228,9 @@
       "signNumber": "",
       "image": "Dxd7mwy4X9jFc8vKqTVYJfdW",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "VqbJ4jRxGTgv7rVRt98h8Jkc",
@@ -22312,9 +22312,9 @@
       "signNumber": "",
       "image": "rYMFqWdTVgPKrCymgMKKpDrV",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "TKQBX4hk7qR4qCD9GxbDQCXH",
@@ -22620,9 +22620,9 @@
       "signNumber": "",
       "image": "fdDGkjHdXWrj4jxVt6XVMQ8y",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "t7wwv8bjDK98CdVvFph9CKPR",
@@ -23656,9 +23656,9 @@
       "signNumber": "",
       "image": "xhQTYHphVvKcH84Kbd67JKMW",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "GThFYXTyyp7qwrF7qxyMCjgt",
@@ -23684,9 +23684,9 @@
       "signNumber": "",
       "image": "GThFYXTyyp7qwrF7qxyMCjgt",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "TRmjfm7j8pRfP67xBYqKwbmD",
@@ -25168,9 +25168,9 @@
       "signNumber": "",
       "image": "cwJPq4GGxBPGdJjKXgMqQfwQ",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "JMVdK9hQQ6h6KXWtMDBbKmFM",
@@ -25280,9 +25280,9 @@
       "signNumber": "",
       "image": "DM8t6WVKCjfMtYbDgG89McM8",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "M7YwRcqVwcVCyMCphMjCTgwB",
@@ -25392,9 +25392,9 @@
       "signNumber": "",
       "image": "rhKKQYFJr4dXPRcPwyDrP66C",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "vWBW6GTQPCwbkJFFhpXGkxgq",
@@ -27016,9 +27016,9 @@
       "signNumber": "",
       "image": "8pfwGW67hmpTGYrrmPHxYMQk",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "Rj4ftwtFwX9H8kBq6cCkkqw6",
@@ -27044,9 +27044,9 @@
       "signNumber": "",
       "image": "Rj4ftwtFwX9H8kBq6cCkkqw6",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "XWWByW8qr8gMxHXyfwKwHPqr",
@@ -27968,9 +27968,9 @@
       "signNumber": "",
       "image": "yBC89Ryt6fm6JRhFbVYr7fwg",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "QQJ7Hm4b4JTHMgKVGMrVwqRw",
@@ -27996,9 +27996,9 @@
       "signNumber": "",
       "image": "QQJ7Hm4b4JTHMgKVGMrVwqRw",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "FHb879gd6jJF7XXvFQbdkYd4",
@@ -28332,9 +28332,9 @@
       "signNumber": "",
       "image": "mYYJvGhg9JgyFQvrQHXrpTxy",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "dpTmvfxYvdvHk84CX8JBPgPT",
@@ -28360,9 +28360,9 @@
       "signNumber": "",
       "image": "dpTmvfxYvdvHk84CX8JBPgPT",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "yyJbfp8jQDdbBd8MgTCWv874",
@@ -28388,9 +28388,9 @@
       "signNumber": "",
       "image": "yyJbfp8jQDdbBd8MgTCWv874",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "MVGwTXw6FCRCjd7PgVqhRbcr",
@@ -28416,9 +28416,9 @@
       "signNumber": "",
       "image": "MVGwTXw6FCRCjd7PgVqhRbcr",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "FMtrKkc8VgP69wbRP4JDt4gt",
@@ -28444,9 +28444,9 @@
       "signNumber": "",
       "image": "FMtrKkc8VgP69wbRP4JDt4gt",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "fjJqTpqjHmrfHT48YgjgpxjB",
@@ -28472,9 +28472,9 @@
       "signNumber": "",
       "image": "fjJqTpqjHmrfHT48YgjgpxjB",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "grTX6DCVF4kXyCHQjftTVxcj",
@@ -28500,9 +28500,9 @@
       "signNumber": "",
       "image": "grTX6DCVF4kXyCHQjftTVxcj",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "TDtQwqcDbb7bcjXTb86QBDgp",
@@ -28864,9 +28864,9 @@
       "signNumber": "",
       "image": "fghWCgbMMrcvBRT9YrJWvjmw",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "GQjgFYVrFXVTQTfyYKwVjDMq",
@@ -29508,9 +29508,9 @@
       "signNumber": "",
       "image": "fmrGRMHyVCDgw4tjPqHf7W76",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "BYGRqgQkQfQJQG6hJpP7kTjH",
@@ -29564,9 +29564,9 @@
       "signNumber": "",
       "image": "gBKXdrvVhvbXyTGQbrw7Y9q7",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "9PPGrtMGRPGPrRbjTgv6CvtX",
@@ -29592,9 +29592,9 @@
       "signNumber": "",
       "image": "9PPGrtMGRPGPrRbjTgv6CvtX",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "CPYtCBVykmRfK6CrBM7kwDFq",
@@ -29620,9 +29620,9 @@
       "signNumber": "",
       "image": "CPYtCBVykmRfK6CrBM7kwDFq",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "YrV7kVwRCvrfg98QqDdJyyxj",
@@ -29648,9 +29648,9 @@
       "signNumber": "",
       "image": "YrV7kVwRCvrfg98QqDdJyyxj",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "hChfQHMX69kVTFM8BF4KXFCP",
@@ -29676,9 +29676,9 @@
       "signNumber": "",
       "image": "hChfQHMX69kVTFM8BF4KXFCP",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "pGxbgMXYHRT4vtCqTRqdYthh",
@@ -30740,9 +30740,9 @@
       "signNumber": "",
       "image": "CpqXR4vGTQfqF6TWdvj7MP9F",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "vJ7Rv9KK97jqFxKxdrGJRp6Q",
@@ -30768,9 +30768,9 @@
       "signNumber": "",
       "image": "vJ7Rv9KK97jqFxKxdrGJRp6Q",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "M8jFhQTXGTgv9KpKtJyrxXBp",
@@ -30796,9 +30796,9 @@
       "signNumber": "",
       "image": "M8jFhQTXGTgv9KpKtJyrxXBp",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "HhTYy4MM8cjCxqH8XTYMyH9y",
@@ -30824,9 +30824,9 @@
       "signNumber": "",
       "image": "HhTYy4MM8cjCxqH8XTYMyH9y",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "Cd4kTgdvX6vb4fpjMVCtdq6c",
@@ -30852,9 +30852,9 @@
       "signNumber": "",
       "image": "Cd4kTgdvX6vb4fpjMVCtdq6c",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "84BVPTYjKhjWJQR4PD8CvRYf",
@@ -30880,9 +30880,9 @@
       "signNumber": "",
       "image": "84BVPTYjKhjWJQR4PD8CvRYf",
       "queueType": "parking",
-      "lat": 59.2807813,
-      "lon": 15.1915993,
-      "precise": false
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
+      "precise": true
     },
     {
       "id": "qRGJ6pPm7kHVbT7q4bjH6KR6",
@@ -30934,9 +30934,9 @@
       "signNumber": "",
       "image": null,
       "queueType": "parking",
-      "lat": 59.2995454,
-      "lon": 15.1881576,
-      "precise": false
+      "lat": 59.29906630000001,
+      "lon": 15.187231,
+      "precise": true
     },
     {
       "id": "4gVTHXpCKkHbKW8mT784gxtW",
@@ -34936,9 +34936,9 @@
       "signNumber": "",
       "image": "kkyrVrpbdRyqdbCcHR4jcwTC",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "bWpkTtTc7frHfBBghK9xMr86",
@@ -36448,9 +36448,9 @@
       "signNumber": "",
       "image": "cMvqj9PWycWpY8fY4w9d4qbd",
       "queueType": "parking",
-      "lat": 59.2890428,
-      "lon": 15.200019,
-      "precise": false
+      "lat": 59.2892063,
+      "lon": 15.2001187,
+      "precise": true
     },
     {
       "id": "6CjXkTbbHcxgh7GTYvmJKr4g",
@@ -37260,9 +37260,9 @@
       "signNumber": "",
       "image": "pJqhRcvFcY788RjRkjkjh7yH",
       "queueType": "parking",
-      "lat": 59.2796445,
-      "lon": 15.238865,
-      "precise": false
+      "lat": 59.2809322,
+      "lon": 15.2368643,
+      "precise": true
     },
     {
       "id": "QkH4FG66vQvtgCBcRkVqQRgt",
@@ -38296,9 +38296,9 @@
       "signNumber": "",
       "image": "C97GbKT74vTvGhpRH6V4TtdV",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "fyhgVXFTmFdQdqG8CPXWPFhr",
@@ -38324,9 +38324,9 @@
       "signNumber": "",
       "image": "fyhgVXFTmFdQdqG8CPXWPFhr",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "8PDK79XVYkfj9JF6XFqTKW8t",
@@ -38352,9 +38352,9 @@
       "signNumber": "",
       "image": "8PDK79XVYkfj9JF6XFqTKW8t",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "P4crVTQMvYg6hFqDv4q4Typ6",
@@ -38380,9 +38380,9 @@
       "signNumber": "",
       "image": "P4crVTQMvYg6hFqDv4q4Typ6",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "kFxDR9QMtjbj6BfcQQkDHDfD",
@@ -38408,9 +38408,9 @@
       "signNumber": "",
       "image": "kFxDR9QMtjbj6BfcQQkDHDfD",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "gHrRhVyJV7FmVpKkw7cKrFPB",
@@ -38436,9 +38436,9 @@
       "signNumber": "",
       "image": "gHrRhVyJV7FmVpKkw7cKrFPB",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "crXCDrD96mWK4wcqTMPqwVG8",
@@ -38464,9 +38464,9 @@
       "signNumber": "",
       "image": "crXCDrD96mWK4wcqTMPqwVG8",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "8JtkbybY9VDxGGJpGHC88jJY",
@@ -38492,9 +38492,9 @@
       "signNumber": "",
       "image": "8JtkbybY9VDxGGJpGHC88jJY",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "XRKdJCgGPKgxBvgkMJXQYhPw",
@@ -38520,9 +38520,9 @@
       "signNumber": "",
       "image": "XRKdJCgGPKgxBvgkMJXQYhPw",
       "queueType": "parking",
-      "lat": 59.2828966,
-      "lon": 15.1861511,
-      "precise": false
+      "lat": 59.2826124,
+      "lon": 15.1878571,
+      "precise": true
     },
     {
       "id": "CbcxykKJvQV8JQ4xQhW8Hdjy",

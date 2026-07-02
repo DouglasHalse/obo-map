@@ -65,9 +65,9 @@
     "precise": true
   },
   "Vivallaringen 2  S, Örebro, Sweden": {
-    "lat": 59.2968156,
-    "lon": 15.1797212,
-    "precise": false
+    "lat": 59.29473520000001,
+    "lon": 15.1949967,
+    "precise": true
   },
   "Krönikegatan 10  B, Örebro, Sweden": {
     "lat": 59.2999396,
@@ -160,9 +160,9 @@
     "precise": true
   },
   "Varberga Torg 5, Örebro, Sweden": {
-    "lat": 59.2870496,
-    "lon": 15.1815513,
-    "precise": false
+    "lat": 59.28761470000001,
+    "lon": 15.1788954,
+    "precise": true
   },
   "Varbergagatan 198, Örebro, Sweden": {
     "lat": 59.2900581,
@@ -450,9 +450,9 @@
     "precise": true
   },
   "Sofiagatan 10, Örebro, Sweden": {
-    "lat": 59.2793289,
-    "lon": 15.2222296,
-    "precise": false
+    "lat": 59.2792876,
+    "lon": 15.2220997,
+    "precise": true
   },
   "Studentgatan 16 , Örebro, Sweden": {
     "lat": 59.2525896,
@@ -490,9 +490,9 @@
     "precise": true
   },
   "Rudbecksgatan 38 A 602 , Örebro, Sweden": {
-    "lat": 59.26504,
-    "lon": 15.2338929,
-    "precise": false
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
   },
   "Rudbecksgatan 40 , Örebro, Sweden": {
     "lat": 59.2680744,
@@ -505,14 +505,14 @@
     "precise": true
   },
   "Rudbecksgatan 38 A  502 , Örebro, Sweden": {
-    "lat": 59.26504,
-    "lon": 15.2338929,
-    "precise": false
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
   },
   "Rudbecksgatan 38 A  511 , Örebro, Sweden": {
-    "lat": 59.26504,
-    "lon": 15.2338929,
-    "precise": false
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
   },
   "Rudbecksgatan 38 A, Örebro, Sweden": {
     "lat": 59.2683291,
@@ -565,9 +565,9 @@
     "precise": true
   },
   "Apelvägen 1, Örebro, Sweden": {
-    "lat": 59.2837494,
-    "lon": 15.1909108,
-    "precise": false
+    "lat": 59.2812858,
+    "lon": 15.1954655,
+    "precise": true
   },
   "Poesigatan 18, Örebro, Sweden": {
     "lat": 59.2990713,
@@ -700,9 +700,9 @@
     "precise": true
   },
   "Lertagsgatan 1B, Örebro, Sweden": {
-    "lat": 59.2807813,
-    "lon": 15.1915993,
-    "precise": false
+    "lat": 59.28079549999999,
+    "lon": 15.191586,
+    "precise": true
   },
   "Varbergagatan 79, Örebro, Sweden": {
     "lat": 59.2896139,
@@ -1175,9 +1175,9 @@
     "precise": true
   },
   "Örnsköldsgatan 89, Örebro, Sweden": {
-    "lat": 59.2828966,
-    "lon": 15.1861511,
-    "precise": false
+    "lat": 59.2826124,
+    "lon": 15.1878571,
+    "precise": true
   },
   "Visgatan 2, Örebro, Sweden": {
     "lat": 59.2971717,
@@ -1355,9 +1355,9 @@
     "precise": true
   },
   "Hjalmar Bergmans väg 50, Örebro, Sweden": {
-    "lat": 59.2890428,
-    "lon": 15.200019,
-    "precise": false
+    "lat": 59.2892063,
+    "lon": 15.2001187,
+    "precise": true
   },
   "Norrgatan 27, Örebro, Sweden": {
     "lat": 59.2826322,
@@ -1590,9 +1590,9 @@
     "precise": true
   },
   "Poesigatan 20, Örebro, Sweden": {
-    "lat": 59.2995454,
-    "lon": 15.1881576,
-    "precise": false
+    "lat": 59.29906630000001,
+    "lon": 15.187231,
+    "precise": true
   },
   "Halltorpsvägen 52, Örebro, Sweden": {
     "lat": 59.2405107,
@@ -1700,9 +1700,9 @@
     "precise": true
   },
   "Torgvägen 4 A-B, Örebro, Sweden": {
-    "lat": 59.2796445,
-    "lon": 15.238865,
-    "precise": false
+    "lat": 59.2809322,
+    "lon": 15.2368643,
+    "precise": true
   },
   "Holmsätersvägen 5, Örebro, Sweden": {
     "lat": 59.2518799,
@@ -1712,6 +1712,11 @@
   "Vinögatan 15, Örebro, Sweden": {
     "lat": 59.1409477,
     "lon": 15.6703324,
+    "precise": true
+  },
+  "Norrgatan 18, Örebro, Sweden": {
+    "lat": 59.2826322,
+    "lon": 15.2070316,
     "precise": true
   },
   "Rudbecksgatan 40, Örebro, Sweden": {
@@ -1802,11 +1807,6 @@
   "Ekängsgatan 7, Örebro, Sweden": {
     "lat": 59.2642262,
     "lon": 15.2056321,
-    "precise": true
-  },
-  "Norrgatan 18, Örebro, Sweden": {
-    "lat": 59.2826322,
-    "lon": 15.2070316,
     "precise": true
   }
 }
