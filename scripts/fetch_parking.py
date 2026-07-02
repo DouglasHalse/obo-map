@@ -190,20 +190,15 @@ def geocode_addresses(spots):
 
     print(f"New addresses: {len(to_geocode)}, retrying imprecise: {len(to_retry)}")
 
-    # Geoapify for new + imprecise retries
+    # Google for new + imprecise retries (most accurate)
     for i, addr in enumerate(to_geocode + to_retry):
-        result = geocode_geoapify(addr)
+        result = geocode_google(addr)
         if result:
             lat, lon, precise = result
-            # If Geoapify gives street-level, try Google for better precision
-            if not precise:
-                google_result = geocode_google(addr)
-                if google_result:
-                    lat, lon, precise = google_result
             cache[addr] = {"lat": lat, "lon": lon, "precise": precise}
         else:
-            # Geoapify failed — try Google, then Nominatim
-            result = geocode_google(addr)
+            # Google failed — try Geoapify
+            result = geocode_geoapify(addr)
             if result:
                 lat, lon, precise = result
                 cache[addr] = {"lat": lat, "lon": lon, "precise": precise}
