@@ -34,7 +34,6 @@ html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Sego
     display: flex;
     flex-direction: column;
     z-index: 1000;
-    overflow: hidden;
     transition: transform 0.3s ease;
 }
 
@@ -123,10 +122,8 @@ html, body { height: 100%; font-family: -apple-system, BlinkMacSystemFont, 'Sego
 
 /* --- Filters --- */
 #filters {
-    padding: 16px 20px;
+    padding: 16px 20px 8px;
     border-bottom: 1px solid var(--border);
-    overflow-y: auto;
-    max-height: 50%;
 }
 .filter-group { margin-bottom: 14px; }
 .filter-group label { display: block; font-size: 0.8rem; font-weight: 600; color: var(--text-secondary); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 6px; }
@@ -136,7 +133,7 @@ select, input[type="range"] {
     padding: 8px 10px;
     border: 1px solid var(--border);
     border-radius: var(--radius);
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     background: white;
     color: var(--text);
     cursor: pointer;
