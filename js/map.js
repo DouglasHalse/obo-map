@@ -64,7 +64,6 @@ function createPopupContent(spot) {
     const style = getMarkerStyle(spot.type);
     const price = formatPrice(spot.price);
     const avail = spot.availableFrom ? formatDate(spot.availableFrom) : t('Not available');
-    const sourceLabel = spot.source === 'tenant' ? t('Tenant') : t('Public');
     const oboUrl = getOboUrl(spot);
 
     let imgHtml = '';

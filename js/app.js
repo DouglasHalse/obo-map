@@ -26,7 +26,7 @@ const HEADER_TEXTS = {
     en: { title: '🏠 ÖBO Housing & Parking', sub: 'Available listings in Örebro' },
 };
 
-let activeCategory = 'QFpVYrKF9r9rBRR4MqqRCFxg';
+let activeCategory = 'residential';
 let allData = null;
 
 document.addEventListener('DOMContentLoaded', async () => {

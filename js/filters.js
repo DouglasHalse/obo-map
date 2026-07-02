@@ -121,7 +121,7 @@ function applyFilters() {
 
 function updateStats(showing) {
     document.getElementById('stats').innerHTML = `
-        <p class="stats-text">${t('Showing')} <strong>${showing}</strong> ${t('of')} ${allSpots.length} ${t('Parking spots').toLowerCase()}</p>
+        <p class="stats-text">${t('Showing')} <strong>${showing}</strong> ${t('of')} ${allSpots.length} ${t('listings')}</p>
     `;
 }
 
@@ -136,7 +136,7 @@ function updateResultsList(spots) {
         const oboUrl = getOboUrl(spot);
 
         return `
-        <div class="result-card ${isAvailable ? 'available' : ''} ${spot.source === 'tenant' ? 'tenant' : ''}"
+        <div class="result-card ${isAvailable ? 'available' : ''}"
              data-id="${spot.id}" onclick="flyToSpot('${spot.id}')">
             <div class="result-image">
                 ${spot.image

@@ -4,32 +4,32 @@
 const LANG_KEY = 'obo-map-lang';
 
 const STRINGS = {
-    'Parking spots':   { sv: 'Parkeringsplatser', en: 'Parking spots' },
+    'listings':        { sv: 'objekt', en: 'listings' },
     'Available now':   { sv: 'Lediga nu', en: 'Available now' },
     'Showing':         { sv: 'Visar', en: 'Showing' },
     'of':              { sv: 'av', en: 'of' },
     All:               { sv: 'Alla', en: 'All' },
     'All areas':       { sv: 'Alla områden', en: 'All areas' },
     'Area':            { sv: 'Område', en: 'Area' },
-    'Type':            { sv: 'Typ av plats', en: 'Parking type' },
-    'Category':        { sv: 'Kategori', en: 'Category' },
-    'Public':          { sv: 'Allmänna', en: 'Public' },
-    'Tenant':          { sv: 'Hyresgäster', en: 'Tenants' },
+    'Type':            { sv: 'Typ', en: 'Type' },
     'Max price':       { sv: 'Maxpris', en: 'Max price' },
     'kr/month':        { sv: 'kr/mån', en: 'kr/mo' },
     'Available from':  { sv: 'Ledig från', en: 'Available from' },
     'Not available':   { sv: 'Ej tillgänglig', en: 'Not available' },
     'Rent':            { sv: 'Hyra', en: 'Rent' },
     'Sign':            { sv: 'Skylt', en: 'Sign' },
-    'Loading':         { sv: 'Laddar parkeringsdata...', en: 'Loading parking data...' },
-    'Load error':      { sv: 'Kunde inte ladda parkeringsdata.', en: 'Could not load parking data.' },
+    'Loading':         { sv: 'Laddar data...', en: 'Loading data...' },
+    'Load error':      { sv: 'Kunde inte ladda data.', en: 'Could not load data.' },
     'More':            { sv: 'till — använd filtren', en: 'more — use filters' },
-    'No results':      { sv: 'Inga platser matchar filtren.', en: 'No spots match the filters.' },
+    'No results':      { sv: 'Inga objekt matchar filtren.', en: 'No listings match the filters.' },
     'View on ÖBO':     { sv: 'Visa på ÖBO', en: 'View on ÖBO' },
     'Map title':       { sv: 'ÖBO Parkeringskarta', en: 'ÖBO Parking Map' },
     'Subtitle':        { sv: 'Lediga bilplatser i Örebro', en: 'Available parking in Örebro' },
     'Filters':         { sv: 'Filter', en: 'Filters' },
     'Ledig nu':        { sv: 'Ledig nu', en: 'Available' },
+    'Rooms':           { sv: 'Rum', en: 'Rooms' },
+    'Size':            { sv: 'Yta', en: 'Size' },
+    'sqm':             { sv: 'kvm', en: 'm²' },
 };
 
 let currentLang = localStorage.getItem(LANG_KEY) || 'sv';
@@ -61,10 +61,10 @@ function formatPrice(price) {
     return Math.round(price).toLocaleString('sv-SE') + ' ' + t('kr/month');
 }
 
-// === ÖBO detail page URL ===
-const OBO_MARKET_BASE = 'https://minasidor.obo.se/market/QFpVYrKF9r9rBRR4MqqRCFxg';
+// === ÖBO detail page URL (uses spot's category type ID) ===
 function getOboUrl(spot) {
-    return OBO_MARKET_BASE + '/' + spot.id;
+    const base = 'https://minasidor.obo.se/market';
+    return base + '/' + (spot.category || 'QFpVYrKF9r9rBRR4MqqRCFxg') + '/' + spot.id;
 }
 
 // === Marker styles (all types from actual data) ===
@@ -84,6 +84,12 @@ const MARKER_STYLES = {
     'Parkeringsplats':                 { color: '#2ecc71', label: { sv: 'Parkeringsplats',        en: 'Parking spot' },              icon: '🅿️' },
     'MC-plats':                        { color: '#e67e22', label: { sv: 'MC-plats',               en: 'Motorcycle spot' },           icon: '🏍️' },
     'Husvagnsparkering':               { color: '#795548', label: { sv: 'Husvagn',                en: 'Caravan spot' },              icon: '🚐' },
+    // Residential types
+    '1 rum och kök':                   { color: '#cf0035', label: { sv: '1 r&k',                  en: '1 bed' },                     icon: '🏠' },
+    '2 rum och kök':                   { color: '#cf0035', label: { sv: '2 r&k',                  en: '2 bed' },                     icon: '🏠' },
+    '3 rum och kök':                   { color: '#cf0035', label: { sv: '3 r&k',                  en: '3 bed' },                     icon: '🏠' },
+    '4 rum och kök':                   { color: '#cf0035', label: { sv: '4 r&k',                  en: '4 bed' },                     icon: '🏠' },
+    '5 rum och kök':                   { color: '#cf0035', label: { sv: '5 r&k',                  en: '5 bed' },                     icon: '🏠' },
     'default':                         { color: '#95a5a6', label: { sv: 'Övrig',                  en: 'Other' },                     icon: '📍' },
 };
 
