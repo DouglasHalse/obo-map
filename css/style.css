@@ -145,6 +145,8 @@ select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px
 input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: var(--accent); }
 
 /* Toggle switch */
+.toggle-label { display: flex; align-items: center; gap: 10px; }
+.toggle-label input[type="checkbox"] { display: none; }
 .toggle-label .toggle-switch {
     width: 40px; height: 22px;
     background: #ccc;
