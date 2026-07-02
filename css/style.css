@@ -217,7 +217,7 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
 .result-card:hover { background: var(--card-hover); }
 .result-card.active { background: var(--card-hover); border-color: var(--accent); }
 
-.result-image { width: 56px; height: 38px; border-radius: 4px; overflow: hidden; flex-shrink: 0; background: #e9ecef; }
+.result-image { width: 72px; height: 46px; border-radius: 4px; overflow: hidden; flex-shrink: 0; background: #e9ecef; }
 .result-image img { width: 100%; height: 100%; object-fit: cover; }
 .no-image { width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; font-size: 1.2rem; }
 
@@ -239,8 +239,7 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
 .result-price { font-size: 0.78rem; font-weight: 600; color: var(--text); }
 .result-available { font-size: 0.7rem; color: var(--text-secondary); }
 .result-obo-link {
-    display: inline-block;
-    margin-top: 2px;
+    margin-left: 8px;
     font-size: 0.68rem;
     color: var(--accent);
     text-decoration: none;
