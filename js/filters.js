@@ -33,11 +33,22 @@ function buildFilterUI(spots) {
 
     container.innerHTML = `
         <div class="filter-group">
-            <label for="areaFilter">${t('Area')}</label>
-            <select id="areaFilter">
-                <option value="">${t('All areas')}</option>
-                ${areas.map(a => `<option value="${a}" onmouseover="highlightArea(this.value)" onmouseout="clearAreaHighlight()">${a}</option>`).join('')}
-            </select>
+            <label>${t('Area')}</label>
+            <div class="custom-select" id="areaDropdown">
+                <div class="custom-select-trigger">
+                    <span id="areaDropdownLabel">${t('All areas')}</span>
+                    <span class="arrow">▼</span>
+                </div>
+                <div class="custom-select-options" id="areaDropdownOptions">
+                    <div class="custom-select-option" data-value=""
+                         onmouseenter="clearAreaHighlight()"
+                         onclick="selectArea('')">${t('All areas')}</div>
+                    ${areas.map(a => `<div class="custom-select-option" data-value="${a.replace(/'/g, "\\'")}"
+                         onmouseenter="highlightArea('${a.replace(/'/g, "\\'")}')"
+                         onmouseleave="clearAreaHighlight()"
+                         onclick="selectArea('${a.replace(/'/g, "\\'")}')">${a}</div>`).join('')}
+                </div>
+            </div>
         </div>
 
         <div class="filter-group">
@@ -79,11 +90,24 @@ function buildFilterUI(spots) {
         </div>
     `;
 
-    document.getElementById('areaFilter').addEventListener('change', (e) => {
-        clearAreaHighlight();
-        filterState.area = e.target.value;
-        applyFilters();
+    // Custom area dropdown
+    const dropdown = document.getElementById('areaDropdown');
+    const trigger = dropdown.querySelector('.custom-select-trigger');
+    const options = document.getElementById('areaDropdownOptions');
+
+    trigger.addEventListener('click', (e) => {
+        e.stopPropagation();
+        options.classList.toggle('open');
     });
+
+    // Close on outside click
+    document.addEventListener('click', (e) => {
+        if (!dropdown.contains(e.target)) {
+            options.classList.remove('open');
+        }
+    });
+
+    // selectArea is called from onclick on each option (global)
 
     document.querySelectorAll('.type-checkbox').forEach(cb => {
         cb.addEventListener('change', () => {
@@ -183,4 +207,12 @@ function updateResultsList(spots) {
     } else {
         container.innerHTML = html;
     }
+}
+
+function selectArea(value) {
+    clearAreaHighlight();
+    filterState.area = value;
+    document.getElementById('areaDropdownLabel').textContent = value || t('All areas');
+    document.getElementById('areaDropdownOptions').classList.remove('open');
+    applyFilters();
 }
