@@ -6,8 +6,8 @@ const CATEGORY_LABELS = {
     'X7PPpCMvT7FHDfGVJgBtytKc':   { sv: 'Senior', en: 'Senior' },
     'BwCRpdHRgKvKXprdYwptKVKg':   { sv: 'Student', en: 'Student' },
     'qppm9gc6c96FHHvjWbTQbd8J':   { sv: 'Ungdom', en: 'Youth' },
-    'parking':                     { sv: 'P-plats hyresgäst', en: 'Tenant parking' },
-    'QFpVYrKF9r9rBRR4MqqRCFxg':   { sv: 'P-plats allmän', en: 'Public parking' },
+    'parking':                     { sv: 'Hyresgäst', en: 'Tenant' },
+    'QFpVYrKF9r9rBRR4MqqRCFxg':   { sv: 'Allmän', en: 'Public' },
     'commercial':                  { sv: 'Förråd', en: 'Storage' },
 };
 
