@@ -27,9 +27,7 @@ function initMap() {
         zoomToBoundsOnClick: true,
         iconCreateFunction: function (cluster) {
             const count = cluster.getChildCount();
-            let size = 'small';
-            if (count > 100) size = 'large';
-            else if (count > 20) size = 'medium';
+            let size = count > 100 ? 'large' : count > 20 ? 'medium' : 'small';
             return L.divIcon({
                 html: `<div class="cluster-icon cluster-${size}">${count}</div>`,
                 className: 'cluster-container',
@@ -43,7 +41,7 @@ function initMap() {
 
 function createMarkerIcon(spot) {
     const style = getMarkerStyle(spot.type);
-    const size = spot.source === 'tenant' ? 14 : 11; // tenant slightly larger
+    const size = spot.source === 'tenant' ? 14 : 11;
     const border = spot.source === 'tenant' ? '3px dashed #e74c3c' : '2px solid white';
 
     return L.divIcon({
@@ -66,8 +64,9 @@ function createMarkerIcon(spot) {
 function createPopupContent(spot) {
     const style = getMarkerStyle(spot.type);
     const price = formatPrice(spot.price);
-    const avail = spot.availableFrom || '—';
-    const sourceLabel = spot.source === 'tenant' ? 'Hyresgäst' : 'Allmän';
+    const avail = spot.availableFrom ? formatDate(spot.availableFrom) : t('Not available');
+    const sourceLabel = spot.source === 'tenant' ? t('Tenant') : t('Public');
+    const oboUrl = getOboUrl(spot);
 
     let imgHtml = '';
     if (spot.image) {
@@ -81,11 +80,14 @@ function createPopupContent(spot) {
             <h3>${spot.displayName}</h3>
             <p><span class="popup-badge" style="background:${style.color}">${style.label}</span>
                <span class="popup-source">${sourceLabel}</span></p>
-            <p><strong>Hyra:</strong> ${price}</p>
-            <p><strong>Ledig från:</strong> ${avail}</p>
-            <p><strong>Område:</strong> ${spot.area || '—'}</p>
-            ${spot.signNumber ? `<p><strong>Skylt:</strong> ${spot.signNumber}</p>` : ''}
+            <p><strong>${t('Rent')}:</strong> ${price}</p>
+            <p><strong>${t('Available from')}:</strong> ${avail}</p>
+            <p><strong>${t('Area')}:</strong> ${spot.area || '—'}</p>
+            ${spot.signNumber ? `<p><strong>${t('Sign')}:</strong> ${spot.signNumber}</p>` : ''}
             <p class="popup-id">${spot.number}</p>
+            <a href="${oboUrl}" target="_blank" rel="noopener" class="popup-obo-link">
+                ${t('View on ÖBO')} ↗
+            </a>
         </div>`;
 }
 
@@ -106,7 +108,6 @@ function addMarkers(spots) {
 
         marker.on('click', () => {
             highlightResultCard(spot.id);
-            // Pan map slightly to make room for popup on mobile
             if (window.innerWidth < 768) {
                 map.panTo([spot.lat - 0.001, spot.lon], { animate: true, duration: 0.3 });
             }
@@ -124,8 +125,7 @@ function updateMap(spots) {
 function flyToSpot(spotId) {
     const entry = allMarkers.find(m => m.spot.id === spotId);
     if (!entry) return;
-
-    const { marker, spot } = entry;
+    const { marker } = entry;
     markerCluster.zoomToShowLayer(marker, () => {
         marker.openPopup();
     });

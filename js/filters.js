@@ -3,10 +3,9 @@
 let filterState = {
     area: '',
     types: [],
-    priceMin: 0,
     priceMax: 5000,
     availableNow: false,
-    source: 'all',  // 'all', 'public', 'tenant'
+    source: 'all',
 };
 
 let allSpots = [];
@@ -27,26 +26,28 @@ function buildFilterUI(spots) {
     const prices = spots.map(s => s.price || 0).filter(p => p > 0);
     const priceMax = Math.ceil(Math.max(...prices, 3000) / 100) * 100;
 
-    filterState.priceMin = 0;
     filterState.priceMax = priceMax;
+
+    // Filter out "Övrig" from default — only show known types as checkboxes
+    const knownTypes = types.filter(t => MARKER_STYLES[t] && t !== 'default');
 
     container.innerHTML = `
         <div class="filter-group">
-            <label for="areaFilter">Område</label>
+            <label for="areaFilter">${t('Area')}</label>
             <select id="areaFilter">
-                <option value="">Alla områden</option>
+                <option value="">${t('All areas')}</option>
                 ${areas.map(a => `<option value="${a}">${a}</option>`).join('')}
             </select>
         </div>
 
         <div class="filter-group">
-            <label>Typ av plats</label>
+            <label>${t('Type')}</label>
             <div class="checkbox-group" id="typeFilters">
-                ${types.map(t => {
-                    const style = getMarkerStyle(t);
+                ${knownTypes.map(tp => {
+                    const style = getMarkerStyle(tp);
                     return `
                         <label class="checkbox-label">
-                            <input type="checkbox" value="${t}" class="type-checkbox">
+                            <input type="checkbox" value="${tp}" class="type-checkbox">
                             <span class="checkmark" style="background:${style.color}"></span>
                             ${style.label}
                         </label>`;
@@ -55,16 +56,16 @@ function buildFilterUI(spots) {
         </div>
 
         <div class="filter-group">
-            <label for="sourceFilter">Kategori</label>
+            <label for="sourceFilter">${t('Category')}</label>
             <select id="sourceFilter">
-                <option value="all">Alla platser</option>
-                <option value="public">Allmänna</option>
-                <option value="tenant">Hyresgäster</option>
+                <option value="all">${t('All areas')}</option>
+                <option value="public">${t('Public')}</option>
+                <option value="tenant">${t('Tenant')}</option>
             </select>
         </div>
 
         <div class="filter-group">
-            <label>Maxpris: <strong id="priceDisplay">${priceMax} kr/mån</strong></label>
+            <label>${t('Max price')}: <strong id="priceDisplay">${priceMax} ${t('kr/month')}</strong></label>
             <input type="range" id="priceMaxSlider" min="0" max="${priceMax}"
                    value="${priceMax}" step="100">
         </div>
@@ -73,12 +74,11 @@ function buildFilterUI(spots) {
             <label class="checkbox-label toggle-label">
                 <input type="checkbox" id="availableNow">
                 <span class="toggle-switch"></span>
-                Endast lediga nu
+                ${t('Available now')}
             </label>
         </div>
     `;
 
-    // Wire events
     document.getElementById('areaFilter').addEventListener('change', (e) => {
         filterState.area = e.target.value;
         applyFilters();
@@ -98,7 +98,7 @@ function buildFilterUI(spots) {
 
     document.getElementById('priceMaxSlider').addEventListener('input', (e) => {
         filterState.priceMax = +e.target.value;
-        document.getElementById('priceDisplay').textContent = `${e.target.value} kr/mån`;
+        document.getElementById('priceDisplay').textContent = `${e.target.value} ${t('kr/month')}`;
         applyFilters();
     });
 
@@ -115,15 +115,13 @@ function applyFilters() {
         if (filterState.area && spot.area !== filterState.area) return false;
         if (filterState.types.length > 0 && !filterState.types.includes(spot.type)) return false;
         if (filterState.source !== 'all' && spot.source !== filterState.source) return false;
-        const price = spot.price || 0;
-        if (price > filterState.priceMax) return false;
+        if ((spot.price || 0) > filterState.priceMax) return false;
         if (filterState.availableNow) {
             if (!spot.availableFrom || spot.availableFrom > today) return false;
         }
         return true;
     });
 
-    // Sort: available now first, then by price ascending
     filtered.sort((a, b) => {
         const aAvail = a.availableFrom && a.availableFrom <= today ? 0 : 1;
         const bAvail = b.availableFrom && b.availableFrom <= today ? 0 : 1;
@@ -139,7 +137,7 @@ function applyFilters() {
 
 function updateStats(showing) {
     document.getElementById('stats').innerHTML = `
-        <p class="stats-text">Visar <strong>${showing}</strong> av ${allSpots.length} platser</p>
+        <p class="stats-text">${t('Showing')} <strong>${showing}</strong> ${t('of')} ${allSpots.length} ${t('Parking spots').toLowerCase()}</p>
     `;
 }
 
@@ -151,6 +149,7 @@ function updateResultsList(spots) {
     const html = spots.slice(0, maxShow).map(spot => {
         const style = getMarkerStyle(spot.type);
         const isAvailable = spot.availableFrom && spot.availableFrom <= today;
+        const oboUrl = getOboUrl(spot);
 
         return `
         <div class="result-card ${isAvailable ? 'available' : ''} ${spot.source === 'tenant' ? 'tenant' : ''}"
@@ -165,19 +164,21 @@ function updateResultsList(spots) {
                 <h4>${spot.displayName}</h4>
                 <div class="result-badges">
                     <span class="badge" style="background:${style.color}">${style.label}</span>
-                    ${spot.source === 'tenant' ? '<span class="badge badge-tenant">Hyresgäst</span>' : ''}
-                    ${isAvailable ? '<span class="badge badge-available">Ledig nu</span>' : ''}
+                    ${spot.source === 'tenant' ? '<span class="badge badge-tenant">' + t('Tenant') + '</span>' : ''}
+                    ${isAvailable ? '<span class="badge badge-available">' + t('Ledig nu') + '</span>' : ''}
                 </div>
                 <p class="result-price">${formatPrice(spot.price)}</p>
-                <p class="result-available">${spot.availableFrom ? 'Ledig ' + formatDate(spot.availableFrom) : '—'}</p>
+                <p class="result-available">${spot.availableFrom ? t('Available from') + ' ' + formatDate(spot.availableFrom) : '—'}</p>
+                <a href="${oboUrl}" target="_blank" rel="noopener" class="result-obo-link"
+                   onclick="event.stopPropagation()">${t('View on ÖBO')} ↗</a>
             </div>
         </div>`;
     }).join('');
 
     if (spots.length > maxShow) {
-        container.innerHTML = html + `<p class="results-truncated">+ ${spots.length - maxShow} till — använd filtren för att smalna av</p>`;
+        container.innerHTML = html + `<p class="results-truncated">+ ${spots.length - maxShow} ${t('More')}</p>`;
     } else if (spots.length === 0) {
-        container.innerHTML = '<p class="results-empty">Inga platser matchar filtren.</p>';
+        container.innerHTML = `<p class="results-empty">${t('No results')}</p>`;
     } else {
         container.innerHTML = html;
     }

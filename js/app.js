@@ -1,34 +1,31 @@
 // app.js — Entry point
 
 document.addEventListener('DOMContentLoaded', async () => {
+    // Set initial UI language
+    document.getElementById('langToggle').textContent = getLang() === 'sv' ? 'EN' : 'SV';
+    document.getElementById('langToggle').addEventListener('click', toggleLanguage);
+
     try {
-        // Init map immediately
         initMap();
 
-        // Fetch data
         const response = await fetch('data/parking-spots.json');
         if (!response.ok) throw new Error(`HTTP ${response.status}`);
         const data = await response.json();
 
-        console.log(`Loaded ${data.total} parking spots (${data.geocoded} geocoded, ${data.notFound} not found)`);
+        console.log(`Loaded ${data.total} parking spots (${data.geocoded} geocoded)`);
 
-        // Check for stale data
         const genDate = new Date(data.generated);
         const daysOld = (Date.now() - genDate) / (1000 * 60 * 60 * 24);
-        if (daysOld > 7) {
-            console.warn(`Data is ${Math.round(daysOld)} days old`);
-        }
+        if (daysOld > 7) console.warn(`Data is ${Math.round(daysOld)} days old`);
 
-        // Add all markers initially
         addMarkers(data.spots);
 
-        // Init filters with callback to update map
         initFilters(data.spots, (filtered) => {
             updateMap(filtered);
         });
 
-        // Hide loading
         document.getElementById('loading').style.display = 'none';
+        updatePageTexts();
 
         // Mobile filter toggle
         const sidebar = document.getElementById('sidebar');
@@ -47,7 +44,6 @@ document.addEventListener('DOMContentLoaded', async () => {
             }
         });
 
-        // Keyboard shortcut: Ctrl+F for filters
         document.addEventListener('keydown', (e) => {
             if (e.key === 'f' && e.ctrlKey) {
                 e.preventDefault();
@@ -60,8 +56,16 @@ document.addEventListener('DOMContentLoaded', async () => {
         console.error('Failed to load parking data:', err);
         document.getElementById('loading').innerHTML = `
             <div class="error-overlay">
-                <p>Kunde inte ladda parkeringsdata.</p>
+                <p>${t('Load error')}</p>
                 <p class="error-hint">${err.message}</p>
             </div>`;
     }
 });
+
+function updatePageTexts() {
+    document.getElementById('mapTitle').textContent = t('Map title');
+    document.getElementById('subtitle').textContent = t('Subtitle');
+    document.getElementById('filterToggle').setAttribute('aria-label', t('Filters'));
+    document.getElementById('filterToggle').setAttribute('title', t('Filters'));
+    document.getElementById('loadingText').textContent = t('Loading');
+}
