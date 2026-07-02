@@ -172,6 +172,7 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
 }
 .toggle-label input:checked + .toggle-switch { background: var(--available); }
 .toggle-label input:checked + .toggle-switch::after { margin-left: 18px; }
+.toggle-label span { line-height: 20px; }
 
 /* --- Multi-select for type filter --- */
 .multi-select { position: relative; }
