@@ -42,7 +42,7 @@ function buildFilterUI(spots) {
             <label>${t('Type')}</label>
             <div class="multi-select" id="typeMultiSelect">
                 <div class="multi-select-trigger" id="typeSelectTrigger">
-                    <span class="multi-select-label">${t('All areas')}</span>
+                    <span class="multi-select-label">${t('All types')}</span>
                     <span class="multi-select-arrow">▼</span>
                 </div>
                 <div class="multi-select-dropdown" id="typeSelectDropdown">
@@ -104,9 +104,15 @@ function buildFilterUI(spots) {
     function updateTypeDisplay() {
         const checked = typeDropdown.querySelectorAll('input:checked');
         if (checked.length === 0) {
-            typeLabel.innerHTML = t('All areas');
+            typeLabel.textContent = t('All types');
+        } else if (checked.length <= 2) {
+            const labels = [...checked].map(cb => {
+                const parent = cb.parentElement;
+                return parent.textContent.trim();
+            });
+            typeLabel.textContent = labels.join(', ');
         } else {
-            typeLabel.innerHTML = checked.length + ' ' + t('Type').toLowerCase();
+            typeLabel.textContent = checked.length + ' ' + t('listings').toLowerCase();
         }
     }
 

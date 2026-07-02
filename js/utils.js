@@ -10,6 +10,7 @@ const STRINGS = {
     'of':              { sv: 'av', en: 'of' },
     All:               { sv: 'Alla', en: 'All' },
     'All areas':       { sv: 'Alla områden', en: 'All areas' },
+    'All types':       { sv: 'Alla typer', en: 'All types' },
     'Area':            { sv: 'Område', en: 'Area' },
     'Type':            { sv: 'Typ', en: 'Type' },
     'Max price':       { sv: 'Maxpris', en: 'Max price' },
