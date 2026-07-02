@@ -137,7 +137,10 @@ function updateResultsList(spots) {
 
         return `
         <div class="result-card ${isAvailable ? 'available' : ''}"
-             data-id="${spot.id}" onclick="flyToSpot('${spot.id}')">
+             data-id="${spot.id}"
+             onmouseenter="highlightMapMarker('${spot.id}')"
+             onmouseleave="unhighlightMapMarker()"
+             onclick="flyToSpot('${spot.id}')">
             <div class="result-image">
                 ${spot.image
                     ? `<img src="https://obo-fastighet.momentum.se/Prod/Obo/PmApi/v2/market/objects/${spot.image}/thumbnail?width=120&height=80&version=f-1560719"

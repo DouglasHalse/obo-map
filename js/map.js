@@ -6,6 +6,7 @@ const MAP_ZOOM = 13;
 let map;
 let markerCluster;
 let allMarkers = [];
+let markerLookup = {};
 
 function initMap() {
     map = L.map('map', {
@@ -91,6 +92,7 @@ function createPopupContent(spot) {
 function addMarkers(spots) {
     markerCluster.clearLayers();
     allMarkers = [];
+    markerLookup = {};
 
     spots.forEach(spot => {
         if (!spot.lat || !spot.lon) return;
@@ -112,6 +114,7 @@ function addMarkers(spots) {
 
         markerCluster.addLayer(marker);
         allMarkers.push({ marker, spot });
+        markerLookup[spot.id] = marker;
     });
 }
 
@@ -134,5 +137,37 @@ function highlightResultCard(spotId) {
     if (card) {
         card.classList.add('active');
         card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+}
+
+let highlightedMarker = null;
+
+function highlightMapMarker(spotId) {
+    unhighlightMapMarker();
+    const marker = markerLookup[spotId];
+    if (!marker) return;
+    highlightedMarker = marker;
+    const el = marker.getElement();
+    if (!el) return;
+    const dot = el.querySelector('div');
+    if (dot) {
+        dot.style.transform = 'scale(1.6)';
+        dot.style.boxShadow = '0 0 10px 3px rgba(207,0,53,0.5)';
+        dot.style.zIndex = '1000';
+    }
+}
+
+function unhighlightMapMarker() {
+    if (highlightedMarker) {
+        const el = highlightedMarker.getElement();
+        if (el) {
+            const dot = el.querySelector('div');
+            if (dot) {
+                dot.style.transform = '';
+                dot.style.boxShadow = '0 1px 4px rgba(0,0,0,0.3)';
+                dot.style.zIndex = '';
+            }
+        }
+        highlightedMarker = null;
     }
 }
