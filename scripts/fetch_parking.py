@@ -13,33 +13,19 @@ from geopy.extra.rate_limiter import RateLimiter
 # --- Config ---
 API_BASE = "https://obo-fastighet.momentum.se/Prod/Obo/PmApi/v2/market/objects"
 API_KEY = "pJnKrR6B3FzRNFsF33xL8LhSs55KPJrm"
+GEOAPIFY_KEY = "b6f995767b844f73871eb632ebee3d12"
 TYPE_IDS = {
-    "QFpVYrKF9r9rBRR4MqqRCFxg": "public",   # Bilplats allman
-    "parking":                    "tenant",   # Bilplats hyresgast
+    "QFpVYrKF9r9rBRR4MqqRCFxg": "public",
+    "parking":                    "tenant",
 }
 LIMIT = 100
 OUTPUT = Path(__file__).parent.parent / "data" / "parking-spots.json"
 GEOCODE_CACHE = Path(__file__).parent.parent / "data" / "geocode-cache.json"
 
-HEADERS = {
-    "X-Api-Key": API_KEY,
-    "Accept": "application/json",
-}
+HEADERS = {"X-Api-Key": API_KEY, "Accept": "application/json"}
 
-# Known Orebro neighborhoods (longest-match-first)
-OREBRO_AREAS = [
-    "Adolfsberg/Mosas", "Bjorkhaga/Karlslund", "Brickebacken",
-    "Baronbackarna", "Centralt Oster", "Centralt", "Garphyttan",
-    "Ladugardsangen", "Lillan", "Markbacken", "Norr", "Rosta",
-    "Sorbyangen", "Tengvallsgatan", "Tybble/Sorby", "Varberga",
-    "Vasastan", "Vintrosa/Latorp", "Vivalla", "Vasthaga",
-    "Almby/Nasby", "Ornsro", "Osternarke",
-]
-
-# Abbreviation fixes for Nominatim (normalize before geocoding)
 ADDRESS_FIXES = {
     "L Wivallius väg":   "Lars Wivallius väg",
-    "Lars Wivallius väg": "Lars Wivallius väg",  # already ok
     "Hj Bergmans Väg":   "Hjalmar Bergmans väg",
     "Hj Bergmans väg":   "Hjalmar Bergmans väg",
     "Ö Vintergatan":     "Östra Vintergatan",
@@ -47,7 +33,6 @@ ADDRESS_FIXES = {
 
 
 def parse_date(ms_str):
-    """Parse /Date(1234567890000)/ to ISO date string."""
     if not ms_str:
         return None
     try:
@@ -59,156 +44,169 @@ def parse_date(ms_str):
 
 
 def fetch_all():
-    """Fetch all parking spots from both public and tenant tabs."""
     items = []
-
     for type_id, source in TYPE_IDS.items():
         print(f"\n--- Fetching type={type_id} ({source}) ---")
         params = {"type": type_id, "limit": LIMIT, "offset": 0}
-        url = f"{API_BASE}?{urlencode(params)}"
-        resp = requests.get(url, headers=HEADERS, timeout=30)
+        resp = requests.get(f"{API_BASE}?{urlencode(params)}", headers=HEADERS, timeout=30)
         resp.raise_for_status()
         data = resp.json()
-
         total = data["count"]
-        batch = data["items"]
-        for item in batch:
+        for item in data["items"]:
             item["_source"] = source
-        items.extend(batch)
-        print(f"  Total: {total}, page 1 ({len(batch)} items)")
-
+        items.extend(data["items"])
+        print(f"  Total: {total}, page 1 ({len(data['items'])} items)")
         for offset in range(LIMIT, total, LIMIT):
             params["offset"] = offset
-            url = f"{API_BASE}?{urlencode(params)}"
-            resp = requests.get(url, headers=HEADERS, timeout=30)
+            resp = requests.get(f"{API_BASE}?{urlencode(params)}", headers=HEADERS, timeout=30)
             resp.raise_for_status()
             page = resp.json()
-            batch = page["items"]
-            for item in batch:
+            for item in page["items"]:
                 item["_source"] = source
-            items.extend(batch)
-            print(f"  offset={offset}, got {len(batch)} (total so far: {len(items)})")
-
+            items.extend(page["items"])
+            print(f"  offset={offset}, got {len(page['items'])} (total: {len(items)})")
     print(f"\nTotal fetched: {len(items)} items from {len(TYPE_IDS)} sources")
     return items
 
 
 def normalize_spot(item):
-    """Extract only the fields we need for the map."""
     loc = item.get("location", {})
     area_info = loc.get("area", {})
-    pricing = item.get("pricing", {})
-    avail = item.get("availability", {})
-    size = item.get("size", {})
-    thumb = item.get("thumbnail", {})
-
-    # Bulk endpoint doesn't include address details — use displayName as street address
     display_name = item.get("displayName", "")
-    area_display = area_info.get("displayName", "")
-
-    # Build geocode query: street address + Orebro, Sweden
-    geocode_query = f"{display_name}, Orebro, Sweden"
-
     return {
         "id": item["id"],
         "number": item.get("number", ""),
         "displayName": display_name,
-        "type": size.get("roomsDisplayName", ""),
-        "area": area_display,
+        "type": item.get("size", {}).get("roomsDisplayName", ""),
+        "area": area_info.get("displayName", ""),
         "areaPath": [a.get("displayName", "") for a in loc.get("areaPath", [])],
         "source": item.get("_source", "unknown"),
         "address": {
             "street": display_name,
-            "number": "",
-            "postcode": "",
             "city": "Örebro",
-            "full": display_name,
-            "geocodeQuery": geocode_query,
+            "geocodeQuery": f"{display_name}, Örebro, Sweden",
         },
-        "price": pricing.get("price"),
-        "priceInclVAT": pricing.get("priceInclVAT"),
-        "availableFrom": parse_date(avail.get("availableFrom")),
-        "signNumber": loc.get("signNumber", "").strip() if loc.get("signNumber") else "",
-        "image": thumb.get("exists") and item["id"] or None,
+        "price": item.get("pricing", {}).get("price"),
+        "priceInclVAT": item.get("pricing", {}).get("priceInclVAT"),
+        "availableFrom": parse_date(item.get("availability", {}).get("availableFrom")),
+        "signNumber": (loc.get("signNumber") or "").strip(),
+        "image": item.get("thumbnail", {}).get("exists") and item["id"] or None,
         "queueType": item.get("queueType", ""),
     }
 
 
+def geocode_geoapify(addr):
+    """Geocode a single address with Geoapify. Returns (lat, lon, precise) or None."""
+    try:
+        r = requests.get("https://api.geoapify.com/v1/geocode/search", params={
+            "text": addr, "format": "json", "apiKey": GEOAPIFY_KEY, "limit": 1
+        }, timeout=10)
+        r.raise_for_status()
+        results = r.json().get("results", [])
+        if results:
+            res = results[0]
+            precise = res.get("result_type") == "building"
+            return (res["lat"], res["lon"], precise)
+        return None
+    except Exception as e:
+        print(f"    Geoapify error: {e}")
+        return None
+
+
+def geocode_nominatim(addr, geocode_fn):
+    """Fallback to Nominatim."""
+    try:
+        loc = geocode_fn(addr, addressdetails=True)
+        if loc:
+            cls = loc.raw.get("class", "")
+            return (loc.latitude, loc.longitude, cls != "highway")
+    except Exception:
+        pass
+    return None
+
+
 def geocode_addresses(spots):
-    """Geocode all unique addresses with caching and abbreviation fixes."""
     cache = {}
     if GEOCODE_CACHE.exists():
         with open(GEOCODE_CACHE) as f:
             cache = json.load(f)
-        print(f"Loaded {len(cache)} cached geocode results")
+        print(f"Loaded {len(cache)} cached results")
 
-    geolocator = Nominatim(user_agent="obo-parking-map")
-    geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1.1)
+    nominatim = Nominatim(user_agent="obo-parking-map")
+    nom_geocode = RateLimiter(nominatim.geocode, min_delay_seconds=1.1)
 
     # Build unique addresses with abbreviation fixes
-    unique_addresses = {}
+    unique = {}
     for spot in spots:
         addr = spot["address"]["geocodeQuery"]
-        # Apply known abbreviation fixes
         for short, full in ADDRESS_FIXES.items():
             if short in addr:
                 addr = addr.replace(short, full)
                 spot["address"]["geocodeQuery"] = addr
-        if addr not in unique_addresses:
-            unique_addresses[addr] = []
+        if addr not in unique:
+            unique[addr] = []
 
-    to_geocode = [a for a in unique_addresses if a not in cache]
-    print(f"Need to geocode {len(to_geocode)} new addresses (~{len(to_geocode) * 1.1:.0f}s)")
+    # Only geocode addresses not in cache, or cached as imprecise (re-try with Geoapify)
+    to_geocode = []
+    to_retry = []
+    for addr in unique:
+        if addr not in cache:
+            to_geocode.append(addr)
+        elif not cache[addr].get("precise", False) and cache[addr].get("lat"):
+            to_retry.append(addr)
 
-    for i, addr in enumerate(to_geocode):
-        try:
-            location = geocode(addr)
-            if location:
-                cache[addr] = {"lat": location.latitude, "lon": location.longitude}
+    print(f"New addresses: {len(to_geocode)}, retrying imprecise: {len(to_retry)}")
+
+    # Geoapify for new + imprecise retries
+    for i, addr in enumerate(to_geocode + to_retry):
+        result = geocode_geoapify(addr)
+        if result:
+            lat, lon, precise = result
+            cache[addr] = {"lat": lat, "lon": lon, "precise": precise}
+        else:
+            # Fallback to Nominatim
+            result = geocode_nominatim(addr, nom_geocode)
+            if result:
+                lat, lon, precise = result
+                cache[addr] = {"lat": lat, "lon": lon, "precise": precise}
             else:
-                cache[addr] = {"lat": None, "lon": None}
-                print(f"  [{i+1}/{len(to_geocode)}] NOT FOUND: {addr}")
-        except Exception as e:
-            cache[addr] = {"lat": None, "lon": None}
-            print(f"  [{i+1}/{len(to_geocode)}] ERROR: {addr} — {e}")
+                cache[addr] = {"lat": None, "lon": None, "precise": False}
+                print(f"  [{i+1}] NOT FOUND: {addr}")
 
-        if (i + 1) % 10 == 0:
+        if (i + 1) % 20 == 0:
             with open(GEOCODE_CACHE, "w") as f:
                 json.dump(cache, f, ensure_ascii=False, indent=2)
             print(f"  Saved cache ({len(cache)} entries)")
-
-        time.sleep(1.1)
+        time.sleep(0.15)  # Geoapify is fast but be polite
 
     with open(GEOCODE_CACHE, "w") as f:
         json.dump(cache, f, ensure_ascii=False, indent=2)
 
-    # Attach coordinates
+    # Attach to spots
     for spot in spots:
         addr = spot["address"]["geocodeQuery"]
         coords = cache.get(addr, {})
         spot["lat"] = coords.get("lat")
         spot["lon"] = coords.get("lon")
+        spot["precise"] = coords.get("precise", False)
 
+    precise = sum(1 for s in spots if s.get("precise"))
+    geocoded = sum(1 for s in spots if s["lat"])
+    print(f"  Results: {geocoded} geocoded, {precise} building-level ({100*precise//len(spots)}%)")
     return spots
 
 
 def main():
     print("=== OBO Parking Map — Data Pipeline ===")
-
     print("\n=== Fetching from API ===")
     items = fetch_all()
-    print(f"Fetched {len(items)} raw items")
-
-    print("\n=== Normalizing data ===")
+    print("\n=== Normalizing ===")
     spots = [normalize_spot(item) for item in items]
-
-    print("\n=== Geocoding addresses ===")
+    print("\n=== Geocoding (Geoapify + Nominatim fallback) ===")
     spots = geocode_addresses(spots)
-
     geocoded = sum(1 for s in spots if s["lat"])
     not_found = sum(1 for s in spots if not s["lat"])
-
-    print(f"\n=== Writing output: {OUTPUT} ===")
+    print(f"\n=== Writing: {OUTPUT} ===")
     output = {
         "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
         "total": len(spots),
@@ -216,12 +214,9 @@ def main():
         "notFound": not_found,
         "spots": spots,
     }
-
     with open(OUTPUT, "w", encoding="utf-8") as f:
         json.dump(output, f, ensure_ascii=False, indent=2)
-
-    print(f"Done! {geocoded} geocoded, {not_found} not found")
-    print(f"Output: {OUTPUT} ({OUTPUT.stat().st_size:,} bytes)")
+    print(f"Done! {geocoded} geocoded, {not_found} not found ({OUTPUT.stat().st_size:,} bytes)")
 
 
 if __name__ == "__main__":
