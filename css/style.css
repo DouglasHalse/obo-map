@@ -144,33 +144,6 @@ select, input[type="range"] {
 select:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(207,0,53,0.15); }
 input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: var(--accent); }
 
-.checkbox-group { display: flex; flex-wrap: wrap; gap: 6px; }
-.checkbox-group .checkbox-label { flex: 1 1 auto; min-width: 45%; }
-
-.checkbox-label {
-    display: flex !important;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.82rem !important;
-    font-weight: 400 !important;
-    text-transform: none !important;
-    color: var(--text) !important;
-    cursor: pointer;
-    padding: 4px 0;
-}
-.checkbox-label input[type="checkbox"] { display: none; }
-.checkmark {
-    width: 16px; height: 16px;
-    border-radius: 4px;
-    border: 2px solid transparent;
-    flex-shrink: 0;
-    transition: all 0.15s;
-}
-.checkbox-label input:checked + .checkmark {
-    border-color: var(--text);
-    box-shadow: inset 0 0 0 2px white;
-}
-
 /* Toggle switch */
 .toggle-label .toggle-switch {
     width: 40px; height: 22px;
@@ -214,16 +187,6 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
 }
 .multi-select-option:hover { background: #fff0f3; }
 .multi-select-option input[type="checkbox"] { margin: 0; accent-color: var(--accent); }
-.multi-select-tags {
-    display: flex; flex-wrap: wrap; gap: 3px; margin-top: 4px; min-height: 0;
-}
-.tag {
-    display: inline-flex; align-items: center; gap: 3px;
-    padding: 1px 7px; border-radius: 10px;
-    color: white; font-size: 0.7rem; font-weight: 600; cursor: pointer;
-    white-space: nowrap;
-}
-.tag:hover { opacity: 0.85; }
 
 /* --- Stats --- */
 #stats {
@@ -242,6 +205,7 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
 }
 .result-card {
     display: flex;
+    align-items: center;
     gap: 8px;
     padding: 6px 8px;
     border-radius: 6px;

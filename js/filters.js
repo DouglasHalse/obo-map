@@ -27,7 +27,6 @@ function buildFilterUI(spots) {
 
     filterState.priceMax = priceMax;
 
-    // Filter out "Övrig" from default — only show known types as checkboxes
     const knownTypes = types.filter(t => MARKER_STYLES[t] && t !== 'default');
 
     container.innerHTML = `
@@ -47,17 +46,15 @@ function buildFilterUI(spots) {
                     <span class="multi-select-arrow">▼</span>
                 </div>
                 <div class="multi-select-dropdown" id="typeSelectDropdown">
-                    ${knownTypes.map(tp => {
+                    ${knownTypes.map((tp, i) => {
                         const style = getMarkerStyle(tp);
                         return `<label class="multi-select-option">
-                            <input type="checkbox" value="${tp}">
-                            <span class="checkmark" style="background:${style.color}"></span>
+                            <input type="checkbox" value="${tp}" data-idx="${i}">
                             ${style.label}
                         </label>`;
                     }).join('')}
                 </div>
             </div>
-            <div class="multi-select-tags" id="typeSelectTags"></div>
         </div>
 
         <div class="filter-group">
@@ -84,7 +81,6 @@ function buildFilterUI(spots) {
     const typeDropdown = document.getElementById('typeSelectDropdown');
     const typeTrigger = document.getElementById('typeSelectTrigger');
     const typeLabel = typeTrigger.querySelector('.multi-select-label');
-    const typeTags = document.getElementById('typeSelectTags');
 
     typeTrigger.addEventListener('click', (e) => {
         e.stopPropagation();
@@ -106,12 +102,12 @@ function buildFilterUI(spots) {
     });
 
     function updateTypeDisplay() {
-        const count = filterState.types.length;
-        typeLabel.textContent = count ? `${t('Type')} (${count})` : t('All areas');
-        typeTags.innerHTML = filterState.types.map(tp => {
-            const style = getMarkerStyle(tp);
-            return '<span class="tag" style="background:' + style.color + '" onclick="event.stopPropagation();removeTypeFilter(\'' + tp.replace(/'/g, "\\\\'") + '\')">' + style.label + ' ✕</span>';
-        }).join('');
+        const checked = typeDropdown.querySelectorAll('input:checked');
+        if (checked.length === 0) {
+            typeLabel.innerHTML = t('All areas');
+        } else {
+            typeLabel.innerHTML = checked.length + ' ' + t('Type').toLowerCase();
+        }
     }
 
     document.getElementById('availableNow').addEventListener('change', (e) => {
@@ -158,16 +154,6 @@ function updateStats(showing) {
     `;
 }
 
-function removeTypeFilter(value) {
-    const cb = document.querySelector('#typeSelectDropdown input[value="' + value + '"]');
-    if (cb) {
-        cb.checked = false;
-        filterState.types = filterState.types.filter(t => t !== value);
-        updateTypeDisplay();
-        applyFilters();
-    }
-}
-
 function updateResultsList(spots) {
     const container = document.getElementById('resultsList');
     const today = new Date().toISOString().split('T')[0];
@@ -192,11 +178,7 @@ function updateResultsList(spots) {
             </div>
             <div class="result-info">
                 <h4>${spot.displayName}</h4>
-                <div class="result-badges">
-                    <span class="badge" style="background:${style.color}">${style.label}</span>
-                    ${isAvailable ? '<span class="badge badge-available">' + t('Ledig nu') + '</span>' : ''}
-                </div>
-                <p class="result-price">${formatPrice(spot.price)}</p>
+                <p class="result-price">${formatPrice(spot.price)} &middot; ${style.label}</p>
                 <p class="result-available">${spot.availableFrom ? t('Available from') + ' ' + formatDate(spot.availableFrom) : '—'}</p>
                 <a href="${oboUrl}" target="_blank" rel="noopener" class="result-obo-link"
                    onclick="event.stopPropagation()">${t('View on ÖBO')} ↗</a>
