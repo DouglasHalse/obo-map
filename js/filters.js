@@ -183,7 +183,7 @@ function updateResultsList(spots) {
             </div>
             <div class="result-info">
                 <h4>${spot.displayName}</h4>
-                <p class="result-price">${formatPrice(spot.price)} &middot; ${style.label}${spot.sqm && (spot.category === 'residential' || spot.category === 'commercial') ? ' &middot; ' + Math.round(spot.sqm) + ' ' + t('sqm') : ''}</p>
+                <p class="result-price">${formatPrice(spot.price)} &middot; ${style.label}${spot.sqm && spot.category !== 'parking' && spot.category !== 'QFpVYrKF9r9rBRR4MqqRCFxg' ? ' &middot; ' + Math.round(spot.sqm) + ' ' + t('sqm') : ''}</p>
                 <p class="result-available">
                     ${spot.availableFrom ? t('Available from') + ' ' + formatDate(spot.availableFrom) : '—'}
                     <a href="${oboUrl}" target="_blank" rel="noopener" class="result-obo-link"

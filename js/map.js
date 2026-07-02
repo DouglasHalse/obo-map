@@ -78,7 +78,7 @@ function createPopupContent(spot) {
             ${imgHtml}
             <h3>${spot.displayName}</h3>
             <p><span class="popup-badge" style="background:${style.color}">${style.label}</span></p>
-            <p><strong>${t('Rent')}:</strong> ${price}${spot.sqm && (spot.category === 'residential' || spot.category === 'commercial') ? ' &middot; ' + Math.round(spot.sqm) + ' ' + t('sqm') : ''}</p>
+            <p><strong>${t('Rent')}:</strong> ${price}${spot.sqm && spot.category !== 'parking' && spot.category !== 'QFpVYrKF9r9rBRR4MqqRCFxg' ? ' &middot; ' + Math.round(spot.sqm) + ' ' + t('sqm') : ''}</p>
             <p><strong>${t('Available from')}:</strong> ${avail}</p>
             <p><strong>${t('Area')}:</strong> ${spot.area || '—'}</p>
             ${spot.signNumber ? `<p><strong>${t('Sign')}:</strong> ${spot.signNumber}</p>` : ''}
