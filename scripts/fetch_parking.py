@@ -15,8 +15,14 @@ API_BASE = "https://obo-fastighet.momentum.se/Prod/Obo/PmApi/v2/market/objects"
 API_KEY = "pJnKrR6B3FzRNFsF33xL8LhSs55KPJrm"
 GEOAPIFY_KEY = "b6f995767b844f73871eb632ebee3d12"
 TYPE_IDS = {
-    "QFpVYrKF9r9rBRR4MqqRCFxg": "public",
-    "parking":                    "tenant",
+    "residential":                  "Bostad",
+    "VJKbFxvkM99GGWCvwXyhWYCX":   "Bostad Snabbvalet",
+    "X7PPpCMvT7FHDfGVJgBtytKc":    "Seniorbostad",
+    "BwCRpdHRgKvKXprdYwptKVKg":    "Studentbostad",
+    "qppm9gc6c96FHHvjWbTQbd8J":    "Ungdomsbostad",
+    "parking":                      "Bilplats hyresgäst",
+    "QFpVYrKF9r9rBRR4MqqRCFxg":    "Bilplats allmän",
+    "commercial":                   "Förråd",
 }
 LIMIT = 100
 OUTPUT = Path(__file__).parent.parent / "data" / "parking-spots.json"
@@ -54,6 +60,7 @@ def fetch_all():
         total = data["count"]
         for item in data["items"]:
             item["_source"] = source
+            item["_type_id"] = type_id
         items.extend(data["items"])
         print(f"  Total: {total}, page 1 ({len(data['items'])} items)")
         for offset in range(LIMIT, total, LIMIT):
@@ -63,6 +70,7 @@ def fetch_all():
             page = resp.json()
             for item in page["items"]:
                 item["_source"] = source
+                item["_type_id"] = type_id
             items.extend(page["items"])
             print(f"  offset={offset}, got {len(page['items'])} (total: {len(items)})")
     print(f"\nTotal fetched: {len(items)} items from {len(TYPE_IDS)} sources")
@@ -80,7 +88,8 @@ def normalize_spot(item):
         "type": item.get("size", {}).get("roomsDisplayName", ""),
         "area": area_info.get("displayName", ""),
         "areaPath": [a.get("displayName", "") for a in loc.get("areaPath", [])],
-        "source": item.get("_source", "unknown"),
+        "source": item.get("_source", ""),
+        "category": item.get("_type_id", ""),
         "address": {
             "street": display_name,
             "city": "Örebro",

@@ -41,15 +41,14 @@ function initMap() {
 
 function createMarkerIcon(spot) {
     const style = getMarkerStyle(spot.type);
-    const size = spot.source === 'tenant' ? 14 : 11;
-    const border = spot.source === 'tenant' ? '3px dashed #e74c3c' : '2px solid white';
+    const size = 11;
 
     return L.divIcon({
         className: 'custom-marker',
         html: `<div style="
             width:${size*2}px;height:${size*2}px;
             background:${style.color};
-            border:${border};
+            border:2px solid white;
             border-radius:50%;
             box-shadow:0 1px 4px rgba(0,0,0,0.3);
             cursor:pointer;
@@ -78,8 +77,7 @@ function createPopupContent(spot) {
         <div class="popup-content">
             ${imgHtml}
             <h3>${spot.displayName}</h3>
-            <p><span class="popup-badge" style="background:${style.color}">${style.label}</span>
-               <span class="popup-source">${sourceLabel}</span></p>
+            <p><span class="popup-badge" style="background:${style.color}">${style.label}</span></p>
             <p><strong>${t('Rent')}:</strong> ${price}</p>
             <p><strong>${t('Available from')}:</strong> ${avail}</p>
             <p><strong>${t('Area')}:</strong> ${spot.area || '—'}</p>

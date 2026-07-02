@@ -5,7 +5,6 @@ let filterState = {
     types: [],
     priceMax: 5000,
     availableNow: false,
-    source: 'all',
 };
 
 let allSpots = [];
@@ -56,15 +55,6 @@ function buildFilterUI(spots) {
         </div>
 
         <div class="filter-group">
-            <label for="sourceFilter">${t('Category')}</label>
-            <select id="sourceFilter">
-                <option value="all">${t('All areas')}</option>
-                <option value="public">${t('Public')}</option>
-                <option value="tenant">${t('Tenant')}</option>
-            </select>
-        </div>
-
-        <div class="filter-group">
             <label>${t('Max price')}: <strong id="priceDisplay">${priceMax} ${t('kr/month')}</strong></label>
             <input type="range" id="priceMaxSlider" min="0" max="${priceMax}"
                    value="${priceMax}" step="100">
@@ -91,19 +81,14 @@ function buildFilterUI(spots) {
         });
     });
 
-    document.getElementById('sourceFilter').addEventListener('change', (e) => {
-        filterState.source = e.target.value;
+    document.getElementById('availableNow').addEventListener('change', (e) => {
+        filterState.availableNow = e.target.checked;
         applyFilters();
     });
 
     document.getElementById('priceMaxSlider').addEventListener('input', (e) => {
         filterState.priceMax = +e.target.value;
         document.getElementById('priceDisplay').textContent = `${e.target.value} ${t('kr/month')}`;
-        applyFilters();
-    });
-
-    document.getElementById('availableNow').addEventListener('change', (e) => {
-        filterState.availableNow = e.target.checked;
         applyFilters();
     });
 }
@@ -114,7 +99,6 @@ function applyFilters() {
     const filtered = allSpots.filter(spot => {
         if (filterState.area && spot.area !== filterState.area) return false;
         if (filterState.types.length > 0 && !filterState.types.includes(spot.type)) return false;
-        if (filterState.source !== 'all' && spot.source !== filterState.source) return false;
         if ((spot.price || 0) > filterState.priceMax) return false;
         if (filterState.availableNow) {
             if (!spot.availableFrom || spot.availableFrom > today) return false;
@@ -164,7 +148,6 @@ function updateResultsList(spots) {
                 <h4>${spot.displayName}</h4>
                 <div class="result-badges">
                     <span class="badge" style="background:${style.color}">${style.label}</span>
-                    ${spot.source === 'tenant' ? '<span class="badge badge-tenant">' + t('Tenant') + '</span>' : ''}
                     ${isAvailable ? '<span class="badge badge-available">' + t('Ledig nu') + '</span>' : ''}
                 </div>
                 <p class="result-price">${formatPrice(spot.price)}</p>
