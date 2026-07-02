@@ -196,6 +196,86 @@ def geocode_addresses(spots):
     return spots
 
 
+def geocode_areas(spots):
+    """Geocode area names to get GeoJSON polygons. Falls back to spot bounding boxes."""
+    import math
+    AREA_CACHE = Path(__file__).parent.parent / "data" / "area-cache.json"
+    AREA_OUTPUT = Path(__file__).parent.parent / "data" / "areas.json"
+
+    cache = {}
+    if AREA_CACHE.exists():
+        with open(AREA_CACHE) as f:
+            cache = json.load(f)
+
+    # Get unique area names and their spots
+    area_spots = {}
+    for s in spots:
+        area = s["area"]
+        if area and s["lat"]:
+            area_spots.setdefault(area, []).append(s)
+
+    geolocator = Nominatim(user_agent="obo-parking-map")
+    geocode = RateLimiter(geolocator.geocode, min_delay_seconds=1.1)
+
+    areas_output = {}
+    new_queries = [a for a in area_spots if a not in cache]
+    print(f"Geocoding {len(new_queries)} area boundaries...")
+
+    for area in new_queries:
+        # Try Nominatim with GeoJSON
+        try:
+            loc = geocode(f"{area}, Örebro", geometry="geojson", addressdetails=True)
+            if loc and "geojson" in loc.raw:
+                geo = loc.raw["geojson"]
+                cls = loc.raw.get("class", "")
+                t = loc.raw.get("type", "")
+                bbox = loc.raw.get("boundingbox", [])
+                cache[area] = {
+                    "type": "geojson",
+                    "geometry": geo,
+                    "source": f"{cls}/{t}",
+                }
+                areas_output[area] = cache[area]
+                continue
+        except Exception:
+            pass
+
+        # Fallback: bounding box of all spots in this area
+        pts = area_spots[area]
+        lats = [s["lat"] for s in pts]
+        lons = [s["lon"] for s in pts]
+        pad = 0.002  # ~200m padding
+        coords = [[
+            [min(lons) - pad, min(lats) - pad],
+            [max(lons) + pad, min(lats) - pad],
+            [max(lons) + pad, max(lats) + pad],
+            [min(lons) - pad, max(lats) + pad],
+            [min(lons) - pad, min(lats) - pad],
+        ]]
+        cache[area] = {
+            "type": "bbox",
+            "geometry": {"type": "Polygon", "coordinates": coords},
+            "source": "spot-bbox",
+        }
+        areas_output[area] = cache[area]
+
+    # Also handle cached entries
+    for area in area_spots:
+        if area in cache and area not in areas_output:
+            areas_output[area] = cache[area]
+
+    with open(AREA_CACHE, "w") as f:
+        json.dump(cache, f, ensure_ascii=False, indent=2)
+
+    with open(AREA_OUTPUT, "w") as f:
+        json.dump(areas_output, f, ensure_ascii=False, indent=2)
+
+    geojson_count = sum(1 for a in areas_output.values() if a["type"] == "geojson")
+    print(f"  Areas: {len(areas_output)} total, {geojson_count} with real boundaries, "
+          f"{len(areas_output) - geojson_count} fallback bboxes → {AREA_OUTPUT}")
+    return areas_output
+
+
 def main():
     print("=== OBO Parking Map — Data Pipeline ===")
     print("\n=== Fetching from API ===")
@@ -206,6 +286,8 @@ def main():
     spots = geocode_addresses(spots)
     geocoded = sum(1 for s in spots if s["lat"])
     not_found = sum(1 for s in spots if not s["lat"])
+    print("\n=== Area boundaries ===")
+    geocode_areas(spots)
     print(f"\n=== Writing: {OUTPUT} ===")
     output = {
         "generated": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),

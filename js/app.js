@@ -20,6 +20,17 @@ document.addEventListener('DOMContentLoaded', async () => {
 
         addMarkers(data.spots);
 
+        // Load area boundaries
+        try {
+            const areaResp = await fetch('data/areas.json');
+            if (areaResp.ok) {
+                const areas = await areaResp.json();
+                loadAreas(areas);
+            }
+        } catch (e) {
+            console.warn('Area boundaries not loaded:', e.message);
+        }
+
         initFilters(data.spots, (filtered) => {
             updateMap(filtered);
         });

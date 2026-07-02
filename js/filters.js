@@ -36,7 +36,7 @@ function buildFilterUI(spots) {
             <label for="areaFilter">${t('Area')}</label>
             <select id="areaFilter">
                 <option value="">${t('All areas')}</option>
-                ${areas.map(a => `<option value="${a}">${a}</option>`).join('')}
+                ${areas.map(a => `<option value="${a}" onmouseover="highlightArea(this.value)" onmouseout="clearAreaHighlight()">${a}</option>`).join('')}
             </select>
         </div>
 
@@ -80,6 +80,7 @@ function buildFilterUI(spots) {
     `;
 
     document.getElementById('areaFilter').addEventListener('change', (e) => {
+        clearAreaHighlight();
         filterState.area = e.target.value;
         applyFilters();
     });

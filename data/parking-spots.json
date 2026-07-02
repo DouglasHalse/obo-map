@@ -1,9 +1,34 @@
 {
-  "generated": "2026-07-02T19:09:57Z",
-  "total": 1269,
-  "geocoded": 1269,
+  "generated": "2026-07-02T19:25:48Z",
+  "total": 1270,
+  "geocoded": 1270,
   "notFound": 0,
   "spots": [
+    {
+      "id": "xY4mKh7rrMCCxYRWYy9bYxrf",
+      "number": "AN-16197",
+      "displayName": "Änggatan 14",
+      "type": "Varmgarage",
+      "area": "Centrum Söder V[om Drg]",
+      "areaPath": [
+        "Centralt"
+      ],
+      "source": "public",
+      "address": {
+        "street": "Änggatan 14",
+        "city": "Örebro",
+        "geocodeQuery": "Änggatan 14, Örebro, Sweden"
+      },
+      "price": 1363.0,
+      "priceInclVAT": 1703.75,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "xY4mKh7rrMCCxYRWYy9bYxrf",
+      "queueType": "parking",
+      "lat": 59.2681447,
+      "lon": 15.2064709,
+      "precise": true
+    },
     {
       "id": "vKvjgrJwqf4XQ9ywbMykcJFf",
       "number": "AN-20538",
