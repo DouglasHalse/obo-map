@@ -157,6 +157,7 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
     border-radius: 10px;
     flex-shrink: 0;
     position: relative;
+    overflow: hidden;
 }
 .toggle-label .toggle-switch::after {
     content: '';
