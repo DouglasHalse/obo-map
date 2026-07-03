@@ -34,4 +34,4 @@ Open http://localhost:8080. The Google Maps geocoding key is optional — set `G
 
 ## About
 
-This project is almost entirely AI-generated (vibe coded). It was built iteratively through conversation with an LLM agent, starting as a parking map and expanding to cover all OBO listing categories. The code works but makes no claims to elegance.
+This project is almost entirely AI-generated (vibe coded).
