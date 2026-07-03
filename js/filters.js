@@ -44,16 +44,17 @@ function buildFilterUI(spots) {
     });
 
     container.innerHTML = `
-        <div class="filter-group">
-            <label for="areaFilter">${t('Area')}</label>
-            <select id="areaFilter">
-                <option value="">${t('All areas')}</option>
-                ${areas.map(a => `<option value="${a}">${a}</option>`).join('')}
-            </select>
-        </div>
+        <div class="filter-row">
+            <div class="filter-group filter-half">
+                <label for="areaFilter">${t('Area')}</label>
+                <select id="areaFilter">
+                    <option value="">${t('All areas')}</option>
+                    ${areas.map(a => `<option value="${a}">${a}</option>`).join('')}
+                </select>
+            </div>
 
-        <div class="filter-group">
-            <label>${t('Type')}</label>
+            <div class="filter-group filter-half">
+                <label>${t('Type')}</label>
             <div class="multi-select" id="typeMultiSelect">
                 <div class="multi-select-trigger" id="typeSelectTrigger">
                     <span class="multi-select-label">${t('All types')}</span>
@@ -67,6 +68,7 @@ function buildFilterUI(spots) {
                         </label>`
                     ).join('')}
                 </div>
+            </div>
             </div>
         </div>
 

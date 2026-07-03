@@ -135,6 +135,7 @@ function flyToSpot(spotId) {
     markerCluster.zoomToShowLayer(marker, () => {
         marker.openPopup();
     });
+    if (window.innerWidth < 768) closeSidebar();
 }
 
 function highlightResultCard(spotId) {

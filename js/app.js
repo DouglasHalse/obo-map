@@ -6,8 +6,8 @@ const CATEGORY_LABELS = {
     'X7PPpCMvT7FHDfGVJgBtytKc':   { sv: 'Senior', en: 'Senior' },
     'BwCRpdHRgKvKXprdYwptKVKg':   { sv: 'Student', en: 'Student' },
     'qppm9gc6c96FHHvjWbTQbd8J':   { sv: 'Ungdom', en: 'Youth' },
-    'parking':                     { sv: 'Hyresgäst', en: 'Tenant' },
-    'QFpVYrKF9r9rBRR4MqqRCFxg':   { sv: 'Allmän', en: 'Public' },
+    'parking':                     { sv: 'P-plats hyr.', en: 'P-Tenant' },
+    'QFpVYrKF9r9rBRR4MqqRCFxg':   { sv: 'P-plats allm.', en: 'P-Public' },
     'commercial':                  { sv: 'Förråd', en: 'Storage' },
 };
 
@@ -65,11 +65,11 @@ document.addEventListener('DOMContentLoaded', async () => {
             toggleBtn.classList.add('active');
             backdrop.style.display = 'block';
         }
-        function closeSidebar() {
+        window.closeSidebar = function() {
             sidebar.classList.remove('open');
             toggleBtn.classList.remove('active');
             backdrop.style.display = 'none';
-        }
+        };
 
         toggleBtn.addEventListener('click', () => {
             sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
@@ -126,6 +126,25 @@ function buildCategoryTabs() {
     });
 
     container.innerHTML = html;
+
+    // Fade indicators for mobile scrollable tabs
+    container.insertAdjacentHTML('afterbegin',
+        '<div class="category-tabs-fade category-tabs-fade-left" id="fadeLeft"></div>');
+    container.insertAdjacentHTML('beforeend',
+        '<div class="category-tabs-fade category-tabs-fade-right" id="fadeRight"></div>');
+
+    const fadeLeft = document.getElementById('fadeLeft');
+    const fadeRight = document.getElementById('fadeRight');
+
+    function updateFades() {
+        const canScroll = container.scrollWidth > container.clientWidth;
+        fadeLeft.classList.toggle('visible', canScroll && container.scrollLeft > 2);
+        fadeRight.classList.toggle('visible', canScroll && container.scrollLeft < container.scrollWidth - container.clientWidth - 2);
+    }
+
+    updateFades();
+    container.addEventListener('scroll', updateFades);
+    window.addEventListener('resize', updateFades);
 }
 
 function switchCategory(catId) {
