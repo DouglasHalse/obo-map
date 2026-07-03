@@ -32,6 +32,17 @@ function buildFilterUI(spots) {
 
     const knownTypes = types.filter(t => MARKER_STYLES[t] && t !== 'default');
 
+    // Deduplicate types by their resolved label
+    const seen = new Set();
+    const uniqueTypes = [];
+    knownTypes.forEach(tp => {
+        const label = getMarkerStyle(tp).label;
+        if (!seen.has(label)) {
+            seen.add(label);
+            uniqueTypes.push({ value: label, color: getMarkerStyle(tp).color });
+        }
+    });
+
     container.innerHTML = `
         <div class="filter-group">
             <label for="areaFilter">${t('Area')}</label>
@@ -49,13 +60,12 @@ function buildFilterUI(spots) {
                     <span class="multi-select-arrow">▼</span>
                 </div>
                 <div class="multi-select-dropdown" id="typeSelectDropdown">
-                    ${knownTypes.map((tp, i) => {
-                        const style = getMarkerStyle(tp);
-                        return `<label class="multi-select-option">
-                            <input type="checkbox" value="${tp}" data-idx="${i}">
-                            ${style.label}
-                        </label>`;
-                    }).join('')}
+                    ${uniqueTypes.map((t, i) =>
+                        `<label class="multi-select-option">
+                            <input type="checkbox" value="${t.value}" data-idx="${i}">
+                            ${t.value}
+                        </label>`
+                    ).join('')}
                 </div>
             </div>
         </div>
@@ -139,7 +149,7 @@ function applyFilters() {
 
     const filtered = allSpots.filter(spot => {
         if (filterState.area && spot.area !== filterState.area) return false;
-        if (filterState.types.length > 0 && !filterState.types.includes(spot.type)) return false;
+        if (filterState.types.length > 0 && !filterState.types.includes(getMarkerStyle(spot.type).label)) return false;
         if ((spot.price || 0) > filterState.priceMax) return false;
         if (filterState.availableNow) {
             if (!spot.availableFrom || spot.availableFrom > today) return false;
