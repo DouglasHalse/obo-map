@@ -26,7 +26,7 @@ const STRINGS = {
     'View on ÖBO':     { sv: 'Visa på ÖBO', en: 'View on ÖBO' },
     'Filters':         { sv: 'Filter', en: 'Filters' },
     'sqm':             { sv: 'kvm', en: 'm²' },
-    'Last updated':    { sv: 'Senast uppdaterad', en: 'Last updated' },
+    'ago':             { sv: 'sedan', en: 'ago' },
 };
 
 let currentLang = localStorage.getItem(LANG_KEY) || 'en';

@@ -171,8 +171,10 @@ function applyFilters() {
 }
 
 function updateStats(showing) {
-    const age = dataGenerated ? Math.round((Date.now() - new Date(dataGenerated)) / (1000 * 60 * 60 * 24)) : null;
-    const ageStr = age != null ? ` · ${t('Last updated')}: ${age}d ago` : '';
+    const hoursAgo = dataGenerated ? Math.round((Date.now() - new Date(dataGenerated)) / (1000 * 60 * 60)) : null;
+    const ageStr = hoursAgo != null
+        ? ` · ${hoursAgo < 24 ? hoursAgo + 'h ' : Math.round(hoursAgo / 24) + 'd '}${t('ago')}`
+        : '';
     document.getElementById('stats').innerHTML = `
         <p class="stats-text">${t('Showing')} <strong>${showing}</strong> ${t('of')} ${allSpots.length} ${t('listings')}${ageStr}</p>
     `;
