@@ -9,10 +9,13 @@ let filterState = {
 
 let allSpots = [];
 let onFilterChange = null;
+let priceDebounce = null;
+let dataGenerated = null;
 
-function initFilters(spots, callback) {
+function initFilters(spots, callback, generated) {
     allSpots = spots;
     onFilterChange = callback;
+    dataGenerated = generated;
     buildFilterUI(spots);
     applyFilters();
 }
@@ -121,9 +124,13 @@ function buildFilterUI(spots) {
     });
 
     document.getElementById('priceMaxSlider').addEventListener('input', (e) => {
-        filterState.priceMax = +e.target.value;
-        document.getElementById('priceDisplay').textContent = `${e.target.value} ${t('kr/month')}`;
-        applyFilters();
+        const val = +e.target.value;
+        document.getElementById('priceDisplay').textContent = `${val} ${t('kr/month')}`;
+        clearTimeout(priceDebounce);
+        priceDebounce = setTimeout(() => {
+            filterState.priceMax = val;
+            applyFilters();
+        }, 80);
     });
 }
 
@@ -154,8 +161,10 @@ function applyFilters() {
 }
 
 function updateStats(showing) {
+    const age = dataGenerated ? Math.round((Date.now() - new Date(dataGenerated)) / (1000 * 60 * 60 * 24)) : null;
+    const ageStr = age != null ? ` · ${t('Last updated')}: ${age}d ago` : '';
     document.getElementById('stats').innerHTML = `
-        <p class="stats-text">${t('Showing')} <strong>${showing}</strong> ${t('of')} ${allSpots.length} ${t('listings')}</p>
+        <p class="stats-text">${t('Showing')} <strong>${showing}</strong> ${t('of')} ${allSpots.length} ${t('listings')}${ageStr}</p>
     `;
 }
 
@@ -172,18 +181,20 @@ function updateResultsList(spots) {
         return `
         <div class="result-card ${isAvailable ? 'available' : ''}"
              data-id="${spot.id}"
+             tabindex="0"
              onmouseenter="highlightMapMarker('${spot.id}')"
              onmouseleave="unhighlightMapMarker()"
-             onclick="flyToSpot('${spot.id}')">
+             onclick="flyToSpot('${spot.id}')"
+             onkeydown="if(event.key==='Enter')flyToSpot('${spot.id}')">
             <div class="result-image">
                 ${spot.image
                     ? `<img src="https://obo-fastighet.momentum.se/Prod/Obo/PmApi/v2/market/objects/${spot.image}/thumbnail?width=120&height=80&version=f-1560719"
                          alt="" loading="lazy">`
-                    : `<div class="no-image">🅿️</div>`}
+                    : `<div class="no-image">${isNonParkingCategory(spot.category) ? '🏠' : '🅿️'}</div>`}
             </div>
             <div class="result-info">
                 <h4>${spot.displayName}</h4>
-                <p class="result-price">${formatPrice(spot.price)} &middot; ${style.label}${spot.sqm && spot.category !== 'parking' && spot.category !== 'QFpVYrKF9r9rBRR4MqqRCFxg' ? ' &middot; ' + Math.round(spot.sqm) + ' ' + t('sqm') : ''}</p>
+                <p class="result-price">${formatPrice(spot.price)} &middot; ${style.label}${spot.sqm && isNonParkingCategory(spot.category) ? ' &middot; ' + Math.round(spot.sqm) + ' ' + t('sqm') : ''}</p>
                 <p class="result-available">
                     ${spot.availableFrom ? t('Available from') + ' ' + formatDate(spot.availableFrom) : '—'}
                     <a href="${oboUrl}" target="_blank" rel="noopener" class="result-obo-link"

@@ -123,7 +123,7 @@ function switchCategory(catId) {
     });
 
     addMarkers(spots);
-    initFilters(spots, (filtered) => updateMap(filtered));
+    initFilters(spots, (filtered) => addMarkers(filtered), allData.generated);
 }
 
 function updatePageTexts() {

@@ -38,6 +38,8 @@ function initMap() {
     });
 
     map.addLayer(markerCluster);
+    L.control.scale({ position: 'bottomleft', imperial: false }).addTo(map);
+    L.control.locate({ position: 'topright', strings: { title: 'Show my location' }, flyTo: true }).addTo(map);
 }
 
 function createMarkerIcon(spot) {
@@ -78,7 +80,7 @@ function createPopupContent(spot) {
             ${imgHtml}
             <h3>${spot.displayName}</h3>
             <p><span class="popup-badge" style="background:${style.color}">${style.label}</span></p>
-            <p><strong>${t('Rent')}:</strong> ${price}${spot.sqm && spot.category !== 'parking' && spot.category !== 'QFpVYrKF9r9rBRR4MqqRCFxg' ? ' &middot; ' + Math.round(spot.sqm) + ' ' + t('sqm') : ''}</p>
+            <p><strong>${t('Rent')}:</strong> ${price}${spot.sqm && isNonParkingCategory(spot.category) ? ' &middot; ' + Math.round(spot.sqm) + ' ' + t('sqm') : ''}</p>
             <p><strong>${t('Available from')}:</strong> ${avail}</p>
             <p><strong>${t('Area')}:</strong> ${spot.area || '—'}</p>
             ${spot.signNumber ? `<p><strong>${t('Sign')}:</strong> ${spot.signNumber}</p>` : ''}
@@ -116,10 +118,6 @@ function addMarkers(spots) {
         allMarkers.push({ marker, spot });
         markerLookup[spot.id] = marker;
     });
-}
-
-function updateMap(spots) {
-    addMarkers(spots);
 }
 
 function flyToSpot(spotId) {

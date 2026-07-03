@@ -24,13 +24,9 @@ const STRINGS = {
     'More':            { sv: 'till — använd filtren', en: 'more — use filters' },
     'No results':      { sv: 'Inga objekt matchar filtren.', en: 'No listings match the filters.' },
     'View on ÖBO':     { sv: 'Visa på ÖBO', en: 'View on ÖBO' },
-    'Map title':       { sv: 'ÖBO Parkeringskarta', en: 'ÖBO Parking Map' },
-    'Subtitle':        { sv: 'Lediga bilplatser i Örebro', en: 'Available parking in Örebro' },
     'Filters':         { sv: 'Filter', en: 'Filters' },
-    'Ledig nu':        { sv: 'Ledig nu', en: 'Available' },
-    'Rooms':           { sv: 'Rum', en: 'Rooms' },
-    'Size':            { sv: 'Yta', en: 'Size' },
     'sqm':             { sv: 'kvm', en: 'm²' },
+    'Last updated':    { sv: 'Senast uppdaterad', en: 'Last updated' },
 };
 
 let currentLang = localStorage.getItem(LANG_KEY) || 'en';
@@ -105,13 +101,7 @@ function getMarkerStyle(type) {
     };
 }
 
-function formatSize(spot) {
-    const parts = [];
-    if (spot.sqm) parts.push(Math.round(spot.sqm) + ' ' + t('sqm'));
-    if (spot.shortType && spot.shortType.match(/^\d/)) {
-        const n = spot.shortType.match(/^\d+/)[0];
-        const roomLabel = currentLang === 'sv' ? n + ':a' : n + ' room' + (n > 1 ? 's' : '');
-        parts.unshift(roomLabel);
-    }
-    return parts.join(' · ');
+// Centralized helpers
+function isNonParkingCategory(cat) {
+    return cat !== 'parking' && cat !== 'QFpVYrKF9r9rBRR4MqqRCFxg';
 }
