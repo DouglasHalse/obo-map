@@ -97,6 +97,10 @@ function buildCategoryTabs() {
     let html = '';
 
     CATEGORY_GROUPS.forEach((group, gi) => {
+        // Skip empty groups
+        const totalInGroup = group.cats.reduce((sum, id) => sum + (catCounts[id] || 0), 0);
+        if (totalInGroup === 0) return;
+
         html += `<div class="category-group">`;
         html += `<div class="category-group-label">${group[lang] || group['sv']}</div>`;
         html += `<div class="category-group-tabs">`;
@@ -104,6 +108,7 @@ function buildCategoryTabs() {
             const labels = CATEGORY_LABELS[id];
             if (!labels) return;
             const count = catCounts[id] || 0;
+            if (count === 0) return; // skip empty tabs within a group
             const label = labels[lang] || labels['sv'];
             const active = id === activeCategory ? ' active' : '';
             html += `<button class="category-tab${active}" data-cat="${id}" onclick="switchCategory('${id}')">${label}<span class="tab-count">${count}</span></button>`;

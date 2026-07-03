@@ -61,7 +61,7 @@ function formatPrice(price) {
 // === ÖBO detail page URL (uses spot's category type ID) ===
 function getOboUrl(spot) {
     const base = 'https://minasidor.obo.se/market';
-    return base + '/' + (spot.category || 'QFpVYrKF9r9rBRR4MqqRCFxg') + '/' + spot.id;
+    return base + '/' + (spot.category || '') + '/' + spot.id;
 }
 
 // === Marker styles (all types from actual data) ===
