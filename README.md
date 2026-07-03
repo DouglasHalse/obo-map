@@ -35,3 +35,7 @@ Open http://localhost:8080. The Google Maps geocoding key is optional — set `G
 ## About
 
 This project is almost entirely AI-generated (vibe coded).
+
+## Support
+
+If you find this useful, [buy me a coffee](https://buymeacoffee.com/fn6yy17gcr).
