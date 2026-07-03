@@ -22,8 +22,8 @@ const CATEGORY_GROUPS = [
 ];
 
 const HEADER_TEXTS = {
-    sv: { title: '🏠 ÖBO Bostäder & Parkering', sub: 'Lediga objekt i Örebro' },
-    en: { title: '🏠 ÖBO Housing & Parking', sub: 'Available listings in Örebro' },
+    sv: { title: '🏠 ÖBO Bostäder & Parkering' },
+    en: { title: '🏠 ÖBO Housing & Parking' },
 };
 
 let activeCategory = 'residential';
@@ -57,25 +57,34 @@ document.addEventListener('DOMContentLoaded', async () => {
         // Mobile filter toggle
         const sidebar = document.getElementById('sidebar');
         const toggleBtn = document.getElementById('filterToggle');
+        const backdrop = document.getElementById('sidebarBackdrop');
         const mapEl = document.getElementById('map');
 
+        function openSidebar() {
+            sidebar.classList.add('open');
+            toggleBtn.classList.add('active');
+            backdrop.style.display = 'block';
+        }
+        function closeSidebar() {
+            sidebar.classList.remove('open');
+            toggleBtn.classList.remove('active');
+            backdrop.style.display = 'none';
+        }
+
         toggleBtn.addEventListener('click', () => {
-            sidebar.classList.toggle('open');
-            toggleBtn.classList.toggle('active');
+            sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
         });
 
+        backdrop.addEventListener('click', closeSidebar);
+
         mapEl.addEventListener('click', () => {
-            if (window.innerWidth < 768) {
-                sidebar.classList.remove('open');
-                toggleBtn.classList.remove('active');
-            }
+            if (window.innerWidth < 768) closeSidebar();
         });
 
         document.addEventListener('keydown', (e) => {
             if (e.key === 'f' && e.ctrlKey) {
                 e.preventDefault();
-                sidebar.classList.toggle('open');
-                toggleBtn.classList.toggle('active');
+                sidebar.classList.contains('open') ? closeSidebar() : openSidebar();
             }
         });
 
@@ -134,7 +143,6 @@ function switchCategory(catId) {
 function updatePageTexts() {
     const ht = HEADER_TEXTS[getLang()] || HEADER_TEXTS['sv'];
     document.getElementById('mapTitle').textContent = ht.title;
-    document.getElementById('subtitle').textContent = ht.sub;
     document.getElementById('filterToggle').setAttribute('aria-label', t('Filters'));
     document.getElementById('filterToggle').setAttribute('title', t('Filters'));
     document.getElementById('loadingText').textContent = t('Loading');
