@@ -72,7 +72,7 @@ function createPopupContent(spot) {
     let imgHtml = '';
     if (spot.image) {
         imgHtml = `<img src="https://obo-fastighet.momentum.se/Prod/Obo/PmApi/v2/market/objects/${spot.image}/thumbnail?width=300&height=200&version=f-1560719"
-             style="width:100%;border-radius:6px;margin-bottom:8px;" alt="${spot.displayName}" loading="lazy">`;
+             style="width:100%;border-radius:6px;" alt="${spot.displayName}" loading="lazy">`;
     }
 
     return `
@@ -110,8 +110,15 @@ function addMarkers(spots) {
 
         marker.on('click', () => {
             highlightResultCard(spot.id);
+            // On mobile: pan marker to bottom 30% so popup fits on screen
             if (window.innerWidth < 768) {
-                map.panTo([spot.lat - 0.001, spot.lon], { animate: true, duration: 0.3 });
+                const size = map.getSize();
+                const px = map.latLngToContainerPoint([spot.lat, spot.lon]);
+                const targetY = size.y * 0.7;
+                const targetX = size.x / 2;
+                const dy = px.y - targetY;
+                const dx = px.x - targetX;
+                map.panBy([dx, dy], { animate: true, duration: 0.3 });
             }
         });
 
