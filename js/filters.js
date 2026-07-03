@@ -173,7 +173,7 @@ function applyFilters() {
 function updateStats(showing) {
     const hoursAgo = dataGenerated ? Math.round((Date.now() - new Date(dataGenerated)) / (1000 * 60 * 60)) : null;
     const ageStr = hoursAgo != null
-        ? ` · ${hoursAgo < 24 ? hoursAgo + 'h ' : Math.round(hoursAgo / 24) + 'd '}${t('ago')}`
+        ? ` · ${t('updated')} ${hoursAgo < 24 ? hoursAgo + 'h ' : Math.round(hoursAgo / 24) + 'd '}${t('ago')}`
         : '';
     document.getElementById('stats').innerHTML = `
         <p class="stats-text">${t('Showing')} <strong>${showing}</strong> ${t('of')} ${allSpots.length} ${t('listings')}${ageStr}</p>

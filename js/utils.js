@@ -27,6 +27,7 @@ const STRINGS = {
     'Filters':         { sv: 'Filter', en: 'Filters' },
     'sqm':             { sv: 'kvm', en: 'm²' },
     'ago':             { sv: 'sedan', en: 'ago' },
+    'updated':         { sv: 'uppdaterad', en: 'updated' },
 };
 
 let currentLang = localStorage.getItem(LANG_KEY) || 'en';
