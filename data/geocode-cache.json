@@ -1808,5 +1808,25 @@
     "lat": 59.26422479999999,
     "lon": 15.2056526,
     "precise": true
+  },
+  "Höglundagatan 32, Örebro, Sweden": {
+    "lat": 59.28686039999999,
+    "lon": 15.2316702,
+    "precise": true
+  },
+  "Adolf Mörners plan 5 , Örebro, Sweden": {
+    "lat": 59.2482108,
+    "lon": 15.1684042,
+    "precise": true
+  },
+  "Varbergagatan 187 , Örebro, Sweden": {
+    "lat": 59.28958300000001,
+    "lon": 15.1724139,
+    "precise": true
+  },
+  "Sigillgatan 69, Örebro, Sweden": {
+    "lat": 59.2865546,
+    "lon": 15.1421049,
+    "precise": true
   }
 }
