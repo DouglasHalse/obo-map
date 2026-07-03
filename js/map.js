@@ -103,8 +103,9 @@ function addMarkers(spots) {
         const marker = L.marker([spot.lat, spot.lon], { icon });
 
         marker.bindPopup(createPopupContent(spot), {
-            maxWidth: 300,
+            maxWidth: 260,
             className: 'obo-popup',
+            autoPanPaddingTopLeft: [10, 70],
         });
 
         marker.on('click', () => {

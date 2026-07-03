@@ -265,30 +265,30 @@ input[type="range"] { padding: 0; border: none; cursor: pointer; accent-color: v
     padding: 0;
     box-shadow: var(--shadow-lg);
 }
-.obo-popup .leaflet-popup-content { margin: 0; min-width: 240px; }
-.popup-content { padding: 12px; }
-.popup-content h3 { font-size: 1rem; margin-bottom: 8px; color: var(--text); }
-.popup-content p { font-size: 0.85rem; margin-bottom: 4px; color: var(--text-secondary); }
+.obo-popup .leaflet-popup-content { margin: 0; min-width: 200px; max-width: 260px; }
+.popup-content { padding: 8px 10px; }
+.popup-content h3 { font-size: 0.85rem; margin-bottom: 4px; color: var(--text); }
+.popup-content p { font-size: 0.75rem; margin-bottom: 2px; color: var(--text-secondary); }
 .popup-content p strong { color: var(--text); }
 .popup-badge {
     display: inline-block;
-    padding: 2px 8px;
-    border-radius: 10px;
-    font-size: 0.7rem;
+    padding: 1px 6px;
+    border-radius: 8px;
+    font-size: 0.65rem;
     font-weight: 600;
     color: white;
-    margin-right: 6px;
+    margin-right: 4px;
 }
-.popup-id { font-size: 0.7rem; color: #adb5bd; margin-top: 8px; }
+.popup-id { font-size: 0.6rem; color: #adb5bd; margin-top: 4px; }
 .popup-obo-link {
     display: inline-block;
-    margin-top: 8px;
-    padding: 6px 12px;
+    margin-top: 6px;
+    padding: 4px 10px;
     background: var(--accent);
     color: white !important;
     text-decoration: none;
     border-radius: 4px;
-    font-size: 0.8rem;
+    font-size: 0.72rem;
     font-weight: 600;
     text-align: center;
     transition: background 0.15s;
