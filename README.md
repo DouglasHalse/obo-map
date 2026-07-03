@@ -1,6 +1,6 @@
 # OBO Listing Map
 
-An interactive map of available listings from Orebrobostader (OBO) — the public housing company in Orebro, Sweden. Shows housing, parking, and storage units on a Leaflet map with filtering by area, type, price, and availability.
+An interactive map of available listings from ÖBO (Örebrobostäder) — the public housing company in Örebro, Sweden. Shows housing, parking, and storage units on a Leaflet map with filtering by area, type, price, and availability.
 
 **Live site:** https://douglashalse.github.io/obo-map/
 
