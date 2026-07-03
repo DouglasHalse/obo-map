@@ -1,7 +1,7 @@
 {
-  "generated": "2026-07-03T05:34:30Z",
-  "total": 1413,
-  "geocoded": 1413,
+  "generated": "2026-07-03T06:53:55Z",
+  "total": 1414,
+  "geocoded": 1414,
   "notFound": 0,
   "spots": [
     {
@@ -33,59 +33,31 @@
       "precise": true
     },
     {
-      "id": "vrdyhHc97gf48KtJVMhTKhH9",
-      "number": "AN-20271",
-      "displayName": "Höglundagatan 32",
-      "type": "3 rum och kök",
-      "shortType": "3RK",
-      "sqm": 81.0,
-      "area": "Norrby",
-      "areaPath": [
-        "Norr"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Höglundagatan 32",
-        "city": "Örebro",
-        "geocodeQuery": "Höglundagatan 32, Örebro, Sweden"
-      },
-      "price": 11160.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-07-31",
-      "signNumber": "",
-      "image": "vrdyhHc97gf48KtJVMhTKhH9",
-      "queueType": "residential",
-      "lat": 59.28686039999999,
-      "lon": 15.2316702,
-      "precise": true
-    },
-    {
-      "id": "jyYppV9RMH6MPwPbbqy4Ym4K",
-      "number": "AN-21119",
-      "displayName": "Adolf Mörners plan 5 ",
+      "id": "vbmkkg8XhRd7rTHYVRvbMXQK",
+      "number": "AN-17998",
+      "displayName": "Örnsköldsgatan 31",
       "type": "2 rum och kök",
       "shortType": "2RK",
-      "sqm": 63.0,
-      "area": "Ånstabacken",
+      "sqm": 58.0,
+      "area": "Markbacken",
       "areaPath": [
-        "Adolfsberg/Mosås"
+        "Markbacken"
       ],
       "source": "Bostad",
       "category": "residential",
       "address": {
-        "street": "Adolf Mörners plan 5 ",
+        "street": "Örnsköldsgatan 31",
         "city": "Örebro",
-        "geocodeQuery": "Adolf Mörners plan 5 , Örebro, Sweden"
+        "geocodeQuery": "Örnsköldsgatan 31, Örebro, Sweden"
       },
-      "price": 10390.0,
+      "price": 6113.55,
       "priceInclVAT": null,
       "availableFrom": "2026-08-31",
       "signNumber": "",
-      "image": "jyYppV9RMH6MPwPbbqy4Ym4K",
+      "image": "vbmkkg8XhRd7rTHYVRvbMXQK",
       "queueType": "residential",
-      "lat": 59.2482108,
-      "lon": 15.1684042,
+      "lat": 59.2826244,
+      "lon": 15.1893897,
       "precise": true
     },
     {
@@ -145,34 +117,6 @@
       "precise": true
     },
     {
-      "id": "vbmkkg8XhRd7rTHYVRvbMXQK",
-      "number": "AN-17998",
-      "displayName": "Örnsköldsgatan 31",
-      "type": "2 rum och kök",
-      "shortType": "2RK",
-      "sqm": 58.0,
-      "area": "Markbacken",
-      "areaPath": [
-        "Markbacken"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Örnsköldsgatan 31",
-        "city": "Örebro",
-        "geocodeQuery": "Örnsköldsgatan 31, Örebro, Sweden"
-      },
-      "price": 6113.55,
-      "priceInclVAT": null,
-      "availableFrom": "2026-08-31",
-      "signNumber": "",
-      "image": "vbmkkg8XhRd7rTHYVRvbMXQK",
-      "queueType": "residential",
-      "lat": 59.2826244,
-      "lon": 15.1893897,
-      "precise": true
-    },
-    {
       "id": "TpjFgBQXJky8tXjydPY8whhc",
       "number": "AN-21164",
       "displayName": "Varbergagatan 188",
@@ -198,6 +142,62 @@
       "queueType": "residential",
       "lat": 59.28943630000001,
       "lon": 15.1723337,
+      "precise": true
+    },
+    {
+      "id": "jyYppV9RMH6MPwPbbqy4Ym4K",
+      "number": "AN-21119",
+      "displayName": "Adolf Mörners plan 5 ",
+      "type": "2 rum och kök",
+      "shortType": "2RK",
+      "sqm": 63.0,
+      "area": "Ånstabacken",
+      "areaPath": [
+        "Adolfsberg/Mosås"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Adolf Mörners plan 5 ",
+        "city": "Örebro",
+        "geocodeQuery": "Adolf Mörners plan 5 , Örebro, Sweden"
+      },
+      "price": 10390.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-08-31",
+      "signNumber": "",
+      "image": "jyYppV9RMH6MPwPbbqy4Ym4K",
+      "queueType": "residential",
+      "lat": 59.2482108,
+      "lon": 15.1684042,
+      "precise": true
+    },
+    {
+      "id": "vrdyhHc97gf48KtJVMhTKhH9",
+      "number": "AN-20271",
+      "displayName": "Höglundagatan 32",
+      "type": "3 rum och kök",
+      "shortType": "3RK",
+      "sqm": 81.0,
+      "area": "Norrby",
+      "areaPath": [
+        "Norr"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Höglundagatan 32",
+        "city": "Örebro",
+        "geocodeQuery": "Höglundagatan 32, Örebro, Sweden"
+      },
+      "price": 11160.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-07-31",
+      "signNumber": "",
+      "image": "vrdyhHc97gf48KtJVMhTKhH9",
+      "queueType": "residential",
+      "lat": 59.28686039999999,
+      "lon": 15.2316702,
       "precise": true
     },
     {
@@ -959,7 +959,7 @@
     {
       "id": "FF8VrqBBHV6mKgcFDdH7Gxph",
       "number": "AN-21126",
-      "displayName": "Landbotorpsallén 7 ",
+      "displayName": "Landbotorpsallén 7",
       "type": "2 rum och kök",
       "shortType": "2RK",
       "sqm": 72.0,
@@ -970,9 +970,9 @@
       "source": "Bostad",
       "category": "residential",
       "address": {
-        "street": "Landbotorpsallén 7 ",
+        "street": "Landbotorpsallén 7",
         "city": "Örebro",
-        "geocodeQuery": "Landbotorpsallén 7 , Örebro, Sweden"
+        "geocodeQuery": "Landbotorpsallén 7, Örebro, Sweden"
       },
       "price": 8844.0,
       "priceInclVAT": null,
@@ -1153,34 +1153,6 @@
       "precise": true
     },
     {
-      "id": "76gCbV4JgX7TKP9d8XKQBvmV",
-      "number": "AN-20345",
-      "displayName": "Varbergagatan 198",
-      "type": "3 rum och kök",
-      "shortType": "3RK",
-      "sqm": 71.9,
-      "area": "Varberga",
-      "areaPath": [
-        "Varberga"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Varbergagatan 198",
-        "city": "Örebro",
-        "geocodeQuery": "Varbergagatan 198, Örebro, Sweden"
-      },
-      "price": 6760.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-08-31",
-      "signNumber": "",
-      "image": "76gCbV4JgX7TKP9d8XKQBvmV",
-      "queueType": "residential",
-      "lat": 59.2888575,
-      "lon": 15.1705506,
-      "precise": true
-    },
-    {
       "id": "mtTVKKJFKXfXfFJhXQxD8wKq",
       "number": "AN-20343",
       "displayName": "Varbergagatan 22",
@@ -1209,31 +1181,31 @@
       "precise": true
     },
     {
-      "id": "4Fm9fQB8g4bGWyCJcQtBdPdb",
-      "number": "AN-20114",
-      "displayName": "Visgatan 17 ",
-      "type": "2 rum och kök",
-      "shortType": "2RK",
-      "sqm": 60.0,
-      "area": "Vivalla",
+      "id": "76gCbV4JgX7TKP9d8XKQBvmV",
+      "number": "AN-20345",
+      "displayName": "Varbergagatan 198",
+      "type": "3 rum och kök",
+      "shortType": "3RK",
+      "sqm": 71.9,
+      "area": "Varberga",
       "areaPath": [
-        "Vivalla"
+        "Varberga"
       ],
       "source": "Bostad",
       "category": "residential",
       "address": {
-        "street": "Visgatan 17 ",
+        "street": "Varbergagatan 198",
         "city": "Örebro",
-        "geocodeQuery": "Visgatan 17 , Örebro, Sweden"
+        "geocodeQuery": "Varbergagatan 198, Örebro, Sweden"
       },
-      "price": 8720.0,
+      "price": 6760.0,
       "priceInclVAT": null,
       "availableFrom": "2026-08-31",
       "signNumber": "",
-      "image": "4Fm9fQB8g4bGWyCJcQtBdPdb",
+      "image": "76gCbV4JgX7TKP9d8XKQBvmV",
       "queueType": "residential",
-      "lat": 59.2966181,
-      "lon": 15.1853984,
+      "lat": 59.2888575,
+      "lon": 15.1705506,
       "precise": true
     },
     {
@@ -1262,6 +1234,34 @@
       "queueType": "residential",
       "lat": 59.2380231,
       "lon": 15.2368387,
+      "precise": true
+    },
+    {
+      "id": "4Fm9fQB8g4bGWyCJcQtBdPdb",
+      "number": "AN-20114",
+      "displayName": "Visgatan 17 ",
+      "type": "2 rum och kök",
+      "shortType": "2RK",
+      "sqm": 60.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Visgatan 17 ",
+        "city": "Örebro",
+        "geocodeQuery": "Visgatan 17 , Örebro, Sweden"
+      },
+      "price": 8720.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-08-31",
+      "signNumber": "",
+      "image": "4Fm9fQB8g4bGWyCJcQtBdPdb",
+      "queueType": "residential",
+      "lat": 59.2966181,
+      "lon": 15.1853984,
       "precise": true
     },
     {
@@ -1741,9 +1741,9 @@
       "precise": true
     },
     {
-      "id": "9gwr47XqWydCCBtTxDVmJfcP",
-      "number": "AN-20484",
-      "displayName": "Krönikegatan 10  B ",
+      "id": "CTGxXvRrvrxxHKd74qYjFFDD",
+      "number": "AN-11585",
+      "displayName": "Krönikegatan 9 A",
       "type": "2 rum och kök",
       "shortType": "2RK",
       "sqm": 65.0,
@@ -1754,130 +1754,18 @@
       "source": "Bostad",
       "category": "residential",
       "address": {
-        "street": "Krönikegatan 10  B ",
+        "street": "Krönikegatan 9 A",
         "city": "Örebro",
-        "geocodeQuery": "Krönikegatan 10  B , Örebro, Sweden"
+        "geocodeQuery": "Krönikegatan 9 A, Örebro, Sweden"
       },
-      "price": 8901.0,
+      "price": 8683.0,
       "priceInclVAT": null,
       "availableFrom": "2026-07-31",
       "signNumber": "",
-      "image": "9gwr47XqWydCCBtTxDVmJfcP",
+      "image": "CTGxXvRrvrxxHKd74qYjFFDD",
       "queueType": "residential",
-      "lat": 59.2995505,
-      "lon": 15.1810829,
-      "precise": true
-    },
-    {
-      "id": "V8Ky6ghqRDPGbpdY7Bvqh8pP",
-      "number": "AN-20479",
-      "displayName": "Tengvallsgatan 28",
-      "type": "3 rum och kök",
-      "shortType": "3RK",
-      "sqm": 75.0,
-      "area": "Tengvallsgatan",
-      "areaPath": [
-        "Tengvallsgatan"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Tengvallsgatan 28",
-        "city": "Örebro",
-        "geocodeQuery": "Tengvallsgatan 28, Örebro, Sweden"
-      },
-      "price": 10888.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-11-14",
-      "signNumber": "",
-      "image": "V8Ky6ghqRDPGbpdY7Bvqh8pP",
-      "queueType": "residential",
-      "lat": 59.277084,
-      "lon": 15.1889061,
-      "precise": true
-    },
-    {
-      "id": "gy8KKXWKt9rpVVBPWJTC4DQ6",
-      "number": "AN-20483",
-      "displayName": "Vivallaringen 4  C ",
-      "type": "2 rum och kök",
-      "shortType": "2RK",
-      "sqm": 65.2,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Vivallaringen 4  C ",
-        "city": "Örebro",
-        "geocodeQuery": "Vivallaringen 4  C , Örebro, Sweden"
-      },
-      "price": 6053.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-08-31",
-      "signNumber": "",
-      "image": "gy8KKXWKt9rpVVBPWJTC4DQ6",
-      "queueType": "residential",
-      "lat": 59.2946751,
-      "lon": 15.1945812,
-      "precise": true
-    },
-    {
-      "id": "7CWvVTHp4vdB8k8XpqJjRhJx",
-      "number": "AN-20245",
-      "displayName": "Författargatan 14  A ",
-      "type": "2 rum och kök",
-      "shortType": "2RK",
-      "sqm": 65.2,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Författargatan 14  A ",
-        "city": "Örebro",
-        "geocodeQuery": "Författargatan 14  A , Örebro, Sweden"
-      },
-      "price": 6757.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-09-30",
-      "signNumber": "",
-      "image": "7CWvVTHp4vdB8k8XpqJjRhJx",
-      "queueType": "residential",
-      "lat": 59.2963995,
-      "lon": 15.1920899,
-      "precise": true
-    },
-    {
-      "id": "XGBCYGr7yt8vGmVhFYtVqBDG",
-      "number": "AN-20099",
-      "displayName": "Krönikegatan 15 B",
-      "type": "3 rum och kök",
-      "shortType": "3RK",
-      "sqm": 82.0,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Krönikegatan 15 B",
-        "city": "Örebro",
-        "geocodeQuery": "Krönikegatan 15 B, Örebro, Sweden"
-      },
-      "price": 10336.64,
-      "priceInclVAT": null,
-      "availableFrom": "2026-07-31",
-      "signNumber": "",
-      "image": "XGBCYGr7yt8vGmVhFYtVqBDG",
-      "queueType": "residential",
-      "lat": 59.3002553,
-      "lon": 15.1818486,
+      "lat": 59.3001228,
+      "lon": 15.1804618,
       "precise": true
     },
     {
@@ -1937,34 +1825,6 @@
       "precise": true
     },
     {
-      "id": "CTGxXvRrvrxxHKd74qYjFFDD",
-      "number": "AN-11585",
-      "displayName": "Krönikegatan 9 A",
-      "type": "2 rum och kök",
-      "shortType": "2RK",
-      "sqm": 65.0,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Krönikegatan 9 A",
-        "city": "Örebro",
-        "geocodeQuery": "Krönikegatan 9 A, Örebro, Sweden"
-      },
-      "price": 8683.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-07-31",
-      "signNumber": "",
-      "image": "CTGxXvRrvrxxHKd74qYjFFDD",
-      "queueType": "residential",
-      "lat": 59.3001228,
-      "lon": 15.1804618,
-      "precise": true
-    },
-    {
       "id": "Dr9DVYT688bMdrCkrbXK96wx",
       "number": "AN-20619",
       "displayName": "Varbergagatan 187",
@@ -1990,6 +1850,146 @@
       "queueType": "residential",
       "lat": 59.28958300000001,
       "lon": 15.1724139,
+      "precise": true
+    },
+    {
+      "id": "9gwr47XqWydCCBtTxDVmJfcP",
+      "number": "AN-20484",
+      "displayName": "Krönikegatan 10  B",
+      "type": "2 rum och kök",
+      "shortType": "2RK",
+      "sqm": 65.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Krönikegatan 10  B",
+        "city": "Örebro",
+        "geocodeQuery": "Krönikegatan 10  B, Örebro, Sweden"
+      },
+      "price": 8901.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-07-31",
+      "signNumber": "",
+      "image": "9gwr47XqWydCCBtTxDVmJfcP",
+      "queueType": "residential",
+      "lat": 59.2995505,
+      "lon": 15.1810829,
+      "precise": true
+    },
+    {
+      "id": "gy8KKXWKt9rpVVBPWJTC4DQ6",
+      "number": "AN-20483",
+      "displayName": "Vivallaringen 4  C ",
+      "type": "2 rum och kök",
+      "shortType": "2RK",
+      "sqm": 65.2,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Vivallaringen 4  C ",
+        "city": "Örebro",
+        "geocodeQuery": "Vivallaringen 4  C , Örebro, Sweden"
+      },
+      "price": 6053.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-08-31",
+      "signNumber": "",
+      "image": "gy8KKXWKt9rpVVBPWJTC4DQ6",
+      "queueType": "residential",
+      "lat": 59.2946751,
+      "lon": 15.1945812,
+      "precise": true
+    },
+    {
+      "id": "V8Ky6ghqRDPGbpdY7Bvqh8pP",
+      "number": "AN-20479",
+      "displayName": "Tengvallsgatan 28",
+      "type": "3 rum och kök",
+      "shortType": "3RK",
+      "sqm": 75.0,
+      "area": "Tengvallsgatan",
+      "areaPath": [
+        "Tengvallsgatan"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Tengvallsgatan 28",
+        "city": "Örebro",
+        "geocodeQuery": "Tengvallsgatan 28, Örebro, Sweden"
+      },
+      "price": 10888.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-11-14",
+      "signNumber": "",
+      "image": "V8Ky6ghqRDPGbpdY7Bvqh8pP",
+      "queueType": "residential",
+      "lat": 59.277084,
+      "lon": 15.1889061,
+      "precise": true
+    },
+    {
+      "id": "7CWvVTHp4vdB8k8XpqJjRhJx",
+      "number": "AN-20245",
+      "displayName": "Författargatan 14  A ",
+      "type": "2 rum och kök",
+      "shortType": "2RK",
+      "sqm": 65.2,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Författargatan 14  A ",
+        "city": "Örebro",
+        "geocodeQuery": "Författargatan 14  A , Örebro, Sweden"
+      },
+      "price": 6757.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-09-30",
+      "signNumber": "",
+      "image": "7CWvVTHp4vdB8k8XpqJjRhJx",
+      "queueType": "residential",
+      "lat": 59.2963995,
+      "lon": 15.1920899,
+      "precise": true
+    },
+    {
+      "id": "XGBCYGr7yt8vGmVhFYtVqBDG",
+      "number": "AN-20099",
+      "displayName": "Krönikegatan 15 B",
+      "type": "3 rum och kök",
+      "shortType": "3RK",
+      "sqm": 82.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Krönikegatan 15 B",
+        "city": "Örebro",
+        "geocodeQuery": "Krönikegatan 15 B, Örebro, Sweden"
+      },
+      "price": 10336.64,
+      "priceInclVAT": null,
+      "availableFrom": "2026-07-31",
+      "signNumber": "",
+      "image": "XGBCYGr7yt8vGmVhFYtVqBDG",
+      "queueType": "residential",
+      "lat": 59.3002553,
+      "lon": 15.1818486,
       "precise": true
     },
     {
@@ -2413,34 +2413,6 @@
       "precise": true
     },
     {
-      "id": "WFMTYPCbT8ctJ4f8BqyxxRdR",
-      "number": "AN-20954",
-      "displayName": "Lertagsgatan 56",
-      "type": "3 rum och kök",
-      "shortType": "3RK",
-      "sqm": 75.0,
-      "area": "Tengvallsgatan",
-      "areaPath": [
-        "Tengvallsgatan"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Lertagsgatan 56",
-        "city": "Örebro",
-        "geocodeQuery": "Lertagsgatan 56, Örebro, Sweden"
-      },
-      "price": 11431.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-09-30",
-      "signNumber": "",
-      "image": "WFMTYPCbT8ctJ4f8BqyxxRdR",
-      "queueType": "residential",
-      "lat": 59.2783342,
-      "lon": 15.1879785,
-      "precise": true
-    },
-    {
       "id": "VXpHbf49bkB7M4dH6gqCP8mb",
       "number": "AN-20995",
       "displayName": "Tengvallsgatan 22",
@@ -2466,6 +2438,34 @@
       "queueType": "residential",
       "lat": 59.27654680000001,
       "lon": 15.1885762,
+      "precise": true
+    },
+    {
+      "id": "WFMTYPCbT8ctJ4f8BqyxxRdR",
+      "number": "AN-20954",
+      "displayName": "Lertagsgatan 56",
+      "type": "3 rum och kök",
+      "shortType": "3RK",
+      "sqm": 75.0,
+      "area": "Tengvallsgatan",
+      "areaPath": [
+        "Tengvallsgatan"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Lertagsgatan 56",
+        "city": "Örebro",
+        "geocodeQuery": "Lertagsgatan 56, Örebro, Sweden"
+      },
+      "price": 11431.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-09-30",
+      "signNumber": "",
+      "image": "WFMTYPCbT8ctJ4f8BqyxxRdR",
+      "queueType": "residential",
+      "lat": 59.2783342,
+      "lon": 15.1879785,
       "precise": true
     },
     {
@@ -2665,31 +2665,59 @@
       "precise": true
     },
     {
-      "id": "k9DQmKGqrxQXXHtVF66RXYfy",
-      "number": "AN-20586",
-      "displayName": "Hjortstorpsvägen 4",
-      "type": "2 rum och kök",
-      "shortType": "2RK",
-      "sqm": 57.7,
-      "area": "Norrby",
+      "id": "44rqMjYycYvhFyggfWpqBCCk",
+      "number": "AN-18811",
+      "displayName": "Ekängsgatan 39",
+      "type": "1 rum kokvrå",
+      "shortType": "1RKV",
+      "sqm": 29.0,
+      "area": "Centrum Söder Ö[om Drg]",
       "areaPath": [
-        "Norr"
+        "Centralt"
       ],
       "source": "Bostad",
       "category": "residential",
       "address": {
-        "street": "Hjortstorpsvägen 4",
+        "street": "Ekängsgatan 39",
         "city": "Örebro",
-        "geocodeQuery": "Hjortstorpsvägen 4, Örebro, Sweden"
+        "geocodeQuery": "Ekängsgatan 39, Örebro, Sweden"
       },
-      "price": 6163.0,
+      "price": 5152.0,
       "priceInclVAT": null,
-      "availableFrom": "2026-08-31",
+      "availableFrom": "2026-11-14",
       "signNumber": "",
-      "image": "k9DQmKGqrxQXXHtVF66RXYfy",
+      "image": "44rqMjYycYvhFyggfWpqBCCk",
       "queueType": "residential",
-      "lat": 59.28284959999999,
-      "lon": 15.2275558,
+      "lat": 59.2629141,
+      "lon": 15.2064685,
+      "precise": true
+    },
+    {
+      "id": "JmP9cjKQg64XQ6kR7mXqc46C",
+      "number": "AN-18813",
+      "displayName": "Ekängsgatan 39",
+      "type": "3 rum och kök",
+      "shortType": "3RK",
+      "sqm": 79.4,
+      "area": "Centrum Söder Ö[om Drg]",
+      "areaPath": [
+        "Centralt"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Ekängsgatan 39",
+        "city": "Örebro",
+        "geocodeQuery": "Ekängsgatan 39, Örebro, Sweden"
+      },
+      "price": 11523.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-11-14",
+      "signNumber": "",
+      "image": "JmP9cjKQg64XQ6kR7mXqc46C",
+      "queueType": "residential",
+      "lat": 59.2629141,
+      "lon": 15.2064685,
       "precise": true
     },
     {
@@ -2718,6 +2746,34 @@
       "queueType": "residential",
       "lat": 59.277084,
       "lon": 15.1889061,
+      "precise": true
+    },
+    {
+      "id": "k9DQmKGqrxQXXHtVF66RXYfy",
+      "number": "AN-20586",
+      "displayName": "Hjortstorpsvägen 4",
+      "type": "2 rum och kök",
+      "shortType": "2RK",
+      "sqm": 57.7,
+      "area": "Norrby",
+      "areaPath": [
+        "Norr"
+      ],
+      "source": "Bostad",
+      "category": "residential",
+      "address": {
+        "street": "Hjortstorpsvägen 4",
+        "city": "Örebro",
+        "geocodeQuery": "Hjortstorpsvägen 4, Örebro, Sweden"
+      },
+      "price": 6163.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-08-31",
+      "signNumber": "",
+      "image": "k9DQmKGqrxQXXHtVF66RXYfy",
+      "queueType": "residential",
+      "lat": 59.28284959999999,
+      "lon": 15.2275558,
       "precise": true
     },
     {
@@ -2830,62 +2886,6 @@
       "queueType": "residential",
       "lat": 59.2981407,
       "lon": 15.18062,
-      "precise": true
-    },
-    {
-      "id": "44rqMjYycYvhFyggfWpqBCCk",
-      "number": "AN-18811",
-      "displayName": "Ekängsgatan 39",
-      "type": "1 rum kokvrå",
-      "shortType": "1RKV",
-      "sqm": 29.0,
-      "area": "Centrum Söder Ö[om Drg]",
-      "areaPath": [
-        "Centralt"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Ekängsgatan 39",
-        "city": "Örebro",
-        "geocodeQuery": "Ekängsgatan 39, Örebro, Sweden"
-      },
-      "price": 5152.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-11-14",
-      "signNumber": "",
-      "image": "44rqMjYycYvhFyggfWpqBCCk",
-      "queueType": "residential",
-      "lat": 59.2629141,
-      "lon": 15.2064685,
-      "precise": true
-    },
-    {
-      "id": "JmP9cjKQg64XQ6kR7mXqc46C",
-      "number": "AN-18813",
-      "displayName": "Ekängsgatan 39",
-      "type": "3 rum och kök",
-      "shortType": "3RK",
-      "sqm": 79.4,
-      "area": "Centrum Söder Ö[om Drg]",
-      "areaPath": [
-        "Centralt"
-      ],
-      "source": "Bostad",
-      "category": "residential",
-      "address": {
-        "street": "Ekängsgatan 39",
-        "city": "Örebro",
-        "geocodeQuery": "Ekängsgatan 39, Örebro, Sweden"
-      },
-      "price": 11523.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-11-14",
-      "signNumber": "",
-      "image": "JmP9cjKQg64XQ6kR7mXqc46C",
-      "queueType": "residential",
-      "lat": 59.2629141,
-      "lon": 15.2064685,
       "precise": true
     },
     {
@@ -3393,6 +3393,34 @@
       "precise": true
     },
     {
+      "id": "QcJF4TBkwDXcHgHtHQ7wT4CH",
+      "number": "AN-21170",
+      "displayName": "L Wivallius väg   1",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Baronbackarna",
+      "areaPath": [
+        "Baronbackarna"
+      ],
+      "source": "Bilplats hyresgäst",
+      "category": "parking",
+      "address": {
+        "street": "L Wivallius väg   1",
+        "city": "Örebro",
+        "geocodeQuery": "Lars Wivallius väg   1, Örebro, Sweden"
+      },
+      "price": 511.0,
+      "priceInclVAT": 638.75,
+      "availableFrom": "2026-10-31",
+      "signNumber": "",
+      "image": "QcJF4TBkwDXcHgHtHQ7wT4CH",
+      "queueType": "parking",
+      "lat": 59.29026019999999,
+      "lon": 15.2031887,
+      "precise": true
+    },
+    {
       "id": "Kg7BmtCMMHVGM8TgMQQP4ghx",
       "number": "AN-21009",
       "displayName": "Västra Vintergatan 176",
@@ -3421,34 +3449,6 @@
       "precise": true
     },
     {
-      "id": "8xKGqk4XYJ8hJ6pmPWFcBf49",
-      "number": "AN-21003",
-      "displayName": "Örnsköldsgatan 149",
-      "type": "P-plats med tidstyrd el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Markbacken",
-      "areaPath": [
-        "Markbacken"
-      ],
-      "source": "Bilplats hyresgäst",
-      "category": "parking",
-      "address": {
-        "street": "Örnsköldsgatan 149",
-        "city": "Örebro",
-        "geocodeQuery": "Örnsköldsgatan 149, Örebro, Sweden"
-      },
-      "price": 391.0,
-      "priceInclVAT": 488.75,
-      "availableFrom": "2026-09-30",
-      "signNumber": "",
-      "image": "8xKGqk4XYJ8hJ6pmPWFcBf49",
-      "queueType": "parking",
-      "lat": 59.2822358,
-      "lon": 15.1835027,
-      "precise": true
-    },
-    {
       "id": "g7DwxXhFm7cWFmxXDHYGrbwY",
       "number": "AN-21004",
       "displayName": "Granrisvägen 27",
@@ -3474,6 +3474,34 @@
       "queueType": "parking",
       "lat": 59.2388393,
       "lon": 15.2445902,
+      "precise": true
+    },
+    {
+      "id": "8xKGqk4XYJ8hJ6pmPWFcBf49",
+      "number": "AN-21003",
+      "displayName": "Örnsköldsgatan 149",
+      "type": "P-plats med tidstyrd el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Markbacken",
+      "areaPath": [
+        "Markbacken"
+      ],
+      "source": "Bilplats hyresgäst",
+      "category": "parking",
+      "address": {
+        "street": "Örnsköldsgatan 149",
+        "city": "Örebro",
+        "geocodeQuery": "Örnsköldsgatan 149, Örebro, Sweden"
+      },
+      "price": 391.0,
+      "priceInclVAT": 488.75,
+      "availableFrom": "2026-09-30",
+      "signNumber": "",
+      "image": "8xKGqk4XYJ8hJ6pmPWFcBf49",
+      "queueType": "parking",
+      "lat": 59.2822358,
+      "lon": 15.1835027,
       "precise": true
     },
     {
@@ -8769,34 +8797,6 @@
       "precise": true
     },
     {
-      "id": "JXCrG8RHhKvgFjkRCqFKyGdf",
-      "number": "AN-20265",
-      "displayName": "Änggatan 14",
-      "type": "Varmgarage",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Centrum Söder V[om Drg]",
-      "areaPath": [
-        "Centralt"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Änggatan 14",
-        "city": "Örebro",
-        "geocodeQuery": "Änggatan 14, Örebro, Sweden"
-      },
-      "price": 1095.0,
-      "priceInclVAT": 1368.75,
-      "availableFrom": "2026-07-31",
-      "signNumber": "",
-      "image": "JXCrG8RHhKvgFjkRCqFKyGdf",
-      "queueType": "parking",
-      "lat": 59.26814340000001,
-      "lon": 15.2059878,
-      "precise": true
-    },
-    {
       "id": "XDmmx8D7Q8DMWqGtTqcBGMk4",
       "number": "AN-20426",
       "displayName": "Enrisvägen 18",
@@ -8822,6 +8822,34 @@
       "queueType": "parking",
       "lat": 59.242664,
       "lon": 15.2419322,
+      "precise": true
+    },
+    {
+      "id": "JXCrG8RHhKvgFjkRCqFKyGdf",
+      "number": "AN-20265",
+      "displayName": "Änggatan 14",
+      "type": "Varmgarage",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Centrum Söder V[om Drg]",
+      "areaPath": [
+        "Centralt"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Änggatan 14",
+        "city": "Örebro",
+        "geocodeQuery": "Änggatan 14, Örebro, Sweden"
+      },
+      "price": 1095.0,
+      "priceInclVAT": 1368.75,
+      "availableFrom": "2026-07-31",
+      "signNumber": "",
+      "image": "JXCrG8RHhKvgFjkRCqFKyGdf",
+      "queueType": "parking",
+      "lat": 59.26814340000001,
+      "lon": 15.2059878,
       "precise": true
     },
     {
@@ -9133,34 +9161,6 @@
       "precise": true
     },
     {
-      "id": "vqkkwFMyjVDBMwt9V7Qh6H6h",
-      "number": "AN-19558",
-      "displayName": "Västra Vintergatan 160",
-      "type": "Garage med motorvärmare",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Rosta",
-      "areaPath": [
-        "Rosta"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Västra Vintergatan 160",
-        "city": "Örebro",
-        "geocodeQuery": "Västra Vintergatan 160, Örebro, Sweden"
-      },
-      "price": 691.0,
-      "priceInclVAT": 863.75,
-      "availableFrom": "2026-06-30",
-      "signNumber": "",
-      "image": "vqkkwFMyjVDBMwt9V7Qh6H6h",
-      "queueType": "parking",
-      "lat": 59.2729387,
-      "lon": 15.1839471,
-      "precise": true
-    },
-    {
       "id": "xtdcF9xBmF4DdCFQKqRgBj8d",
       "number": "AN-19642",
       "displayName": "Varbergagatan 220",
@@ -9186,6 +9186,34 @@
       "queueType": "parking",
       "lat": 59.289494,
       "lon": 15.1689382,
+      "precise": true
+    },
+    {
+      "id": "vqkkwFMyjVDBMwt9V7Qh6H6h",
+      "number": "AN-19558",
+      "displayName": "Västra Vintergatan 160",
+      "type": "Garage med motorvärmare",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Rosta",
+      "areaPath": [
+        "Rosta"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Västra Vintergatan 160",
+        "city": "Örebro",
+        "geocodeQuery": "Västra Vintergatan 160, Örebro, Sweden"
+      },
+      "price": 691.0,
+      "priceInclVAT": 863.75,
+      "availableFrom": "2026-06-30",
+      "signNumber": "",
+      "image": "vqkkwFMyjVDBMwt9V7Qh6H6h",
+      "queueType": "parking",
+      "lat": 59.2729387,
+      "lon": 15.1839471,
       "precise": true
     },
     {
@@ -9917,34 +9945,6 @@
       "precise": true
     },
     {
-      "id": "8qbVkPMVRMxjhHK4HCGRKwXQ",
-      "number": "AN-18692",
-      "displayName": "Södermalmsallén 1",
-      "type": "Garage med motorvärmare",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Centrum Söder Ö[om Drg]",
-      "areaPath": [
-        "Centralt"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Södermalmsallén 1",
-        "city": "Örebro",
-        "geocodeQuery": "Södermalmsallén 1, Örebro, Sweden"
-      },
-      "price": 901.0,
-      "priceInclVAT": 1126.25,
-      "availableFrom": "2026-05-31",
-      "signNumber": "",
-      "image": "8qbVkPMVRMxjhHK4HCGRKwXQ",
-      "queueType": "parking",
-      "lat": 59.26247739999999,
-      "lon": 15.207565,
-      "precise": true
-    },
-    {
       "id": "4fTBDGpTbgjfxQKXr46VRjDw",
       "number": "AN-18779",
       "displayName": "Änggatan 14",
@@ -9970,6 +9970,34 @@
       "queueType": "parking",
       "lat": 59.26814340000001,
       "lon": 15.2059878,
+      "precise": true
+    },
+    {
+      "id": "8qbVkPMVRMxjhHK4HCGRKwXQ",
+      "number": "AN-18692",
+      "displayName": "Södermalmsallén 1",
+      "type": "Garage med motorvärmare",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Centrum Söder Ö[om Drg]",
+      "areaPath": [
+        "Centralt"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Södermalmsallén 1",
+        "city": "Örebro",
+        "geocodeQuery": "Södermalmsallén 1, Örebro, Sweden"
+      },
+      "price": 901.0,
+      "priceInclVAT": 1126.25,
+      "availableFrom": "2026-05-31",
+      "signNumber": "",
+      "image": "8qbVkPMVRMxjhHK4HCGRKwXQ",
+      "queueType": "parking",
+      "lat": 59.26247739999999,
+      "lon": 15.207565,
       "precise": true
     },
     {
@@ -10253,34 +10281,6 @@
       "precise": true
     },
     {
-      "id": "hyrkmxhJcTM9fQwGWV4xrMQR",
-      "number": "AN-18024",
-      "displayName": "Drakenbergsgatan 2",
-      "type": "P-plats med tidstyrd el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Tybble",
-      "areaPath": [
-        "Tybble/Sörby"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Drakenbergsgatan 2",
-        "city": "Örebro",
-        "geocodeQuery": "Drakenbergsgatan 2, Örebro, Sweden"
-      },
-      "price": 391.0,
-      "priceInclVAT": 488.75,
-      "availableFrom": "2026-04-30",
-      "signNumber": "",
-      "image": "hyrkmxhJcTM9fQwGWV4xrMQR",
-      "queueType": "parking",
-      "lat": 59.25963819999999,
-      "lon": 15.2397958,
-      "precise": true
-    },
-    {
       "id": "Y7VyR6YHrptXJkbgWFXCbQWg",
       "number": "AN-18211",
       "displayName": "Krönikegatan 22",
@@ -10306,6 +10306,34 @@
       "queueType": "parking",
       "lat": 59.2992783,
       "lon": 15.1837873,
+      "precise": true
+    },
+    {
+      "id": "hyrkmxhJcTM9fQwGWV4xrMQR",
+      "number": "AN-18024",
+      "displayName": "Drakenbergsgatan 2",
+      "type": "P-plats med tidstyrd el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Tybble",
+      "areaPath": [
+        "Tybble/Sörby"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Drakenbergsgatan 2",
+        "city": "Örebro",
+        "geocodeQuery": "Drakenbergsgatan 2, Örebro, Sweden"
+      },
+      "price": 391.0,
+      "priceInclVAT": 488.75,
+      "availableFrom": "2026-04-30",
+      "signNumber": "",
+      "image": "hyrkmxhJcTM9fQwGWV4xrMQR",
+      "queueType": "parking",
+      "lat": 59.25963819999999,
+      "lon": 15.2397958,
       "precise": true
     },
     {
@@ -11149,34 +11177,6 @@
       "precise": true
     },
     {
-      "id": "qXVwtpwmJrkyq9WMkK86pbxX",
-      "number": "AN-16757",
-      "displayName": "Skaldegatan 1",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Skaldegatan 1",
-        "city": "Örebro",
-        "geocodeQuery": "Skaldegatan 1, Örebro, Sweden"
-      },
-      "price": 421.0,
-      "priceInclVAT": 526.25,
-      "availableFrom": "2026-03-31",
-      "signNumber": "",
-      "image": "qXVwtpwmJrkyq9WMkK86pbxX",
-      "queueType": "parking",
-      "lat": 59.2999296,
-      "lon": 15.1939114,
-      "precise": true
-    },
-    {
       "id": "DYVcTr47rGmRqtCTKp6WC6Pp",
       "number": "AN-16595",
       "displayName": "Västra Vintergatan 13",
@@ -11202,6 +11202,34 @@
       "queueType": "parking",
       "lat": 59.27011830000001,
       "lon": 15.186493,
+      "precise": true
+    },
+    {
+      "id": "qXVwtpwmJrkyq9WMkK86pbxX",
+      "number": "AN-16757",
+      "displayName": "Skaldegatan 1",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Skaldegatan 1",
+        "city": "Örebro",
+        "geocodeQuery": "Skaldegatan 1, Örebro, Sweden"
+      },
+      "price": 421.0,
+      "priceInclVAT": 526.25,
+      "availableFrom": "2026-03-31",
+      "signNumber": "",
+      "image": "qXVwtpwmJrkyq9WMkK86pbxX",
+      "queueType": "parking",
+      "lat": 59.2999296,
+      "lon": 15.1939114,
       "precise": true
     },
     {
@@ -11289,34 +11317,6 @@
       "precise": true
     },
     {
-      "id": "6RWD4C6TyyDJYyDDfp4hb4Pr",
-      "number": "AN-16381",
-      "displayName": "Skaldegatan 1",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Skaldegatan 1",
-        "city": "Örebro",
-        "geocodeQuery": "Skaldegatan 1, Örebro, Sweden"
-      },
-      "price": 404.0,
-      "priceInclVAT": 505.0,
-      "availableFrom": "2026-01-18",
-      "signNumber": "",
-      "image": "6RWD4C6TyyDJYyDDfp4hb4Pr",
-      "queueType": "parking",
-      "lat": 59.2999296,
-      "lon": 15.1939114,
-      "precise": true
-    },
-    {
       "id": "h8p7KB788xBhjfXJBWvQ6H4M",
       "number": "AN-16393",
       "displayName": "Örnsköldsgatan 149",
@@ -11342,6 +11342,34 @@
       "queueType": "parking",
       "lat": 59.2822358,
       "lon": 15.1835027,
+      "precise": true
+    },
+    {
+      "id": "6RWD4C6TyyDJYyDDfp4hb4Pr",
+      "number": "AN-16381",
+      "displayName": "Skaldegatan 1",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Skaldegatan 1",
+        "city": "Örebro",
+        "geocodeQuery": "Skaldegatan 1, Örebro, Sweden"
+      },
+      "price": 404.0,
+      "priceInclVAT": 505.0,
+      "availableFrom": "2026-01-18",
+      "signNumber": "",
+      "image": "6RWD4C6TyyDJYyDDfp4hb4Pr",
+      "queueType": "parking",
+      "lat": 59.2999296,
+      "lon": 15.1939114,
       "precise": true
     },
     {
@@ -12967,34 +12995,6 @@
       "precise": true
     },
     {
-      "id": "MTrX4gpMJ8jvb9fM7x4VyjYy",
-      "number": "AN-14371",
-      "displayName": "Spannlandsg 21",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Västhaga",
-      "areaPath": [
-        "Västhaga"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Spannlandsg 21",
-        "city": "Örebro",
-        "geocodeQuery": "Spannlandsg 21, Örebro, Sweden"
-      },
-      "price": 421.0,
-      "priceInclVAT": 526.25,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "MTrX4gpMJ8jvb9fM7x4VyjYy",
-      "queueType": "parking",
-      "lat": 59.2716505,
-      "lon": 15.1661597,
-      "precise": true
-    },
-    {
       "id": "ypwVFwW4bt8bF4vCx7bthFHX",
       "number": "AN-14249",
       "displayName": "Hj Bergmans väg 128",
@@ -13020,6 +13020,34 @@
       "queueType": "parking",
       "lat": 59.2888084,
       "lon": 15.1947831,
+      "precise": true
+    },
+    {
+      "id": "MTrX4gpMJ8jvb9fM7x4VyjYy",
+      "number": "AN-14371",
+      "displayName": "Spannlandsg 21",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Västhaga",
+      "areaPath": [
+        "Västhaga"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Spannlandsg 21",
+        "city": "Örebro",
+        "geocodeQuery": "Spannlandsg 21, Örebro, Sweden"
+      },
+      "price": 421.0,
+      "priceInclVAT": 526.25,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "MTrX4gpMJ8jvb9fM7x4VyjYy",
+      "queueType": "parking",
+      "lat": 59.2716505,
+      "lon": 15.1661597,
       "precise": true
     },
     {
@@ -14787,34 +14815,6 @@
       "precise": true
     },
     {
-      "id": "qCk67wQVhwP4DyJY4WfbfJwC",
-      "number": "AN-10134",
-      "displayName": "Spannlandsg 21",
-      "type": "Garage med motorvärmare",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Västhaga",
-      "areaPath": [
-        "Västhaga"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Spannlandsg 21",
-        "city": "Örebro",
-        "geocodeQuery": "Spannlandsg 21, Örebro, Sweden"
-      },
-      "price": 541.0,
-      "priceInclVAT": 676.25,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "qCk67wQVhwP4DyJY4WfbfJwC",
-      "queueType": "parking",
-      "lat": 59.2716505,
-      "lon": 15.1661597,
-      "precise": true
-    },
-    {
       "id": "QfFgwwkdBWWDVQVvCyrQhX4D",
       "number": "AN-10197",
       "displayName": "V Vintergatan 210",
@@ -14840,6 +14840,34 @@
       "queueType": "parking",
       "lat": 59.27083039999999,
       "lon": 15.1825387,
+      "precise": true
+    },
+    {
+      "id": "qCk67wQVhwP4DyJY4WfbfJwC",
+      "number": "AN-10134",
+      "displayName": "Spannlandsg 21",
+      "type": "Garage med motorvärmare",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Västhaga",
+      "areaPath": [
+        "Västhaga"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Spannlandsg 21",
+        "city": "Örebro",
+        "geocodeQuery": "Spannlandsg 21, Örebro, Sweden"
+      },
+      "price": 541.0,
+      "priceInclVAT": 676.25,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "qCk67wQVhwP4DyJY4WfbfJwC",
+      "queueType": "parking",
+      "lat": 59.2716505,
+      "lon": 15.1661597,
       "precise": true
     },
     {
@@ -15627,34 +15655,6 @@
       "precise": true
     },
     {
-      "id": "mDx7t7pj4RMYB9yCxjqpmdj4",
-      "number": "AN-6407",
-      "displayName": "Örnsköldsgatan 123",
-      "type": "P-plats med tidstyrd el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Markbacken",
-      "areaPath": [
-        "Markbacken"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Örnsköldsgatan 123",
-        "city": "Örebro",
-        "geocodeQuery": "Örnsköldsgatan 123, Örebro, Sweden"
-      },
-      "price": 391.0,
-      "priceInclVAT": 488.75,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "mDx7t7pj4RMYB9yCxjqpmdj4",
-      "queueType": "parking",
-      "lat": 59.2838291,
-      "lon": 15.1842653,
-      "precise": true
-    },
-    {
       "id": "vx4PHJbvfpW9RbyyHP4D46H4",
       "number": "AN-6413",
       "displayName": "Västra Vintergatan 212",
@@ -15680,6 +15680,34 @@
       "queueType": "parking",
       "lat": 59.27070309999999,
       "lon": 15.1822221,
+      "precise": true
+    },
+    {
+      "id": "mDx7t7pj4RMYB9yCxjqpmdj4",
+      "number": "AN-6407",
+      "displayName": "Örnsköldsgatan 123",
+      "type": "P-plats med tidstyrd el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Markbacken",
+      "areaPath": [
+        "Markbacken"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Örnsköldsgatan 123",
+        "city": "Örebro",
+        "geocodeQuery": "Örnsköldsgatan 123, Örebro, Sweden"
+      },
+      "price": 391.0,
+      "priceInclVAT": 488.75,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "mDx7t7pj4RMYB9yCxjqpmdj4",
+      "queueType": "parking",
+      "lat": 59.2838291,
+      "lon": 15.1842653,
       "precise": true
     },
     {
@@ -16187,34 +16215,6 @@
       "precise": true
     },
     {
-      "id": "xc6Wxg7RBHYcXwm8kP6JQYTp",
-      "number": "AN-4629",
-      "displayName": "Västra Vintergatan 13",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Rosta",
-      "areaPath": [
-        "Rosta"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Västra Vintergatan 13",
-        "city": "Örebro",
-        "geocodeQuery": "Västra Vintergatan 13, Örebro, Sweden"
-      },
-      "price": 511.0,
-      "priceInclVAT": 638.75,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "xc6Wxg7RBHYcXwm8kP6JQYTp",
-      "queueType": "parking",
-      "lat": 59.27011830000001,
-      "lon": 15.186493,
-      "precise": true
-    },
-    {
       "id": "vXvXDPyWPBHRPjXk9pyJQH6D",
       "number": "AN-4809",
       "displayName": "Örnsköldsgatan 51",
@@ -16240,6 +16240,34 @@
       "queueType": "parking",
       "lat": 59.2827494,
       "lon": 15.1880267,
+      "precise": true
+    },
+    {
+      "id": "xc6Wxg7RBHYcXwm8kP6JQYTp",
+      "number": "AN-4629",
+      "displayName": "Västra Vintergatan 13",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Rosta",
+      "areaPath": [
+        "Rosta"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Västra Vintergatan 13",
+        "city": "Örebro",
+        "geocodeQuery": "Västra Vintergatan 13, Örebro, Sweden"
+      },
+      "price": 511.0,
+      "priceInclVAT": 638.75,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "xc6Wxg7RBHYcXwm8kP6JQYTp",
+      "queueType": "parking",
+      "lat": 59.27011830000001,
+      "lon": 15.186493,
       "precise": true
     },
     {
@@ -17027,34 +17055,6 @@
       "precise": true
     },
     {
-      "id": "JddgHBRWGHhdkrv7dQvfYyHh",
-      "number": "AN-20656",
-      "displayName": "Skaldegatan 1",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Skaldegatan 1",
-        "city": "Örebro",
-        "geocodeQuery": "Skaldegatan 1, Örebro, Sweden"
-      },
-      "price": 421.0,
-      "priceInclVAT": 526.25,
-      "availableFrom": "2026-07-31",
-      "signNumber": "",
-      "image": "JddgHBRWGHhdkrv7dQvfYyHh",
-      "queueType": "parking",
-      "lat": 59.2999296,
-      "lon": 15.1939114,
-      "precise": true
-    },
-    {
       "id": "jcPcWffQhWTrrkBk7r9JYpwx",
       "number": "AN-20655",
       "displayName": "Stånggatan 19",
@@ -17080,6 +17080,34 @@
       "queueType": "parking",
       "lat": 59.2740321,
       "lon": 15.1647712,
+      "precise": true
+    },
+    {
+      "id": "JddgHBRWGHhdkrv7dQvfYyHh",
+      "number": "AN-20656",
+      "displayName": "Skaldegatan 1",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Skaldegatan 1",
+        "city": "Örebro",
+        "geocodeQuery": "Skaldegatan 1, Örebro, Sweden"
+      },
+      "price": 421.0,
+      "priceInclVAT": 526.25,
+      "availableFrom": "2026-07-31",
+      "signNumber": "",
+      "image": "JddgHBRWGHhdkrv7dQvfYyHh",
+      "queueType": "parking",
+      "lat": 59.2999296,
+      "lon": 15.1939114,
       "precise": true
     },
     {
@@ -17501,34 +17529,6 @@
       "precise": true
     },
     {
-      "id": "4CdJQmvgwPJdv9M7Rtf8wKXf",
-      "number": "AN-20410",
-      "displayName": "Västra Vintergatan 23",
-      "type": "Husvagnsparkering",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Rosta",
-      "areaPath": [
-        "Rosta"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Västra Vintergatan 23",
-        "city": "Örebro",
-        "geocodeQuery": "Västra Vintergatan 23, Örebro, Sweden"
-      },
-      "price": 421.0,
-      "priceInclVAT": 526.25,
-      "availableFrom": "2026-07-31",
-      "signNumber": "",
-      "image": "4CdJQmvgwPJdv9M7Rtf8wKXf",
-      "queueType": "parking",
-      "lat": 59.2702648,
-      "lon": 15.1852453,
-      "precise": true
-    },
-    {
       "id": "xPF9kwHtdfbWr8mqKJ8gDGqv",
       "number": "AN-20409",
       "displayName": "Wallinvägen 3",
@@ -17554,6 +17554,34 @@
       "queueType": "parking",
       "lat": 59.21256529999999,
       "lon": 15.496011,
+      "precise": true
+    },
+    {
+      "id": "4CdJQmvgwPJdv9M7Rtf8wKXf",
+      "number": "AN-20410",
+      "displayName": "Västra Vintergatan 23",
+      "type": "Husvagnsparkering",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Rosta",
+      "areaPath": [
+        "Rosta"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Västra Vintergatan 23",
+        "city": "Örebro",
+        "geocodeQuery": "Västra Vintergatan 23, Örebro, Sweden"
+      },
+      "price": 421.0,
+      "priceInclVAT": 526.25,
+      "availableFrom": "2026-07-31",
+      "signNumber": "",
+      "image": "4CdJQmvgwPJdv9M7Rtf8wKXf",
+      "queueType": "parking",
+      "lat": 59.2702648,
+      "lon": 15.1852453,
       "precise": true
     },
     {
@@ -18341,34 +18369,6 @@
       "precise": true
     },
     {
-      "id": "MYQYHg6VBjWyXHHvDxGbQHXK",
-      "number": "AN-18769",
-      "displayName": "Visgatan 16",
-      "type": "Garage med motorvärmare",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Visgatan 16",
-        "city": "Örebro",
-        "geocodeQuery": "Visgatan 16, Örebro, Sweden"
-      },
-      "price": 541.0,
-      "priceInclVAT": 676.25,
-      "availableFrom": "2026-04-30",
-      "signNumber": "",
-      "image": "MYQYHg6VBjWyXHHvDxGbQHXK",
-      "queueType": "parking",
-      "lat": 59.2959974,
-      "lon": 15.1839255,
-      "precise": true
-    },
-    {
       "id": "DjkyYRppcJtMPMWVggtcBcXG",
       "number": "AN-18568",
       "displayName": "Västra Vintergatan 13",
@@ -18394,6 +18394,34 @@
       "queueType": "parking",
       "lat": 59.27011830000001,
       "lon": 15.186493,
+      "precise": true
+    },
+    {
+      "id": "MYQYHg6VBjWyXHHvDxGbQHXK",
+      "number": "AN-18769",
+      "displayName": "Visgatan 16",
+      "type": "Garage med motorvärmare",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Visgatan 16",
+        "city": "Örebro",
+        "geocodeQuery": "Visgatan 16, Örebro, Sweden"
+      },
+      "price": 541.0,
+      "priceInclVAT": 676.25,
+      "availableFrom": "2026-04-30",
+      "signNumber": "",
+      "image": "MYQYHg6VBjWyXHHvDxGbQHXK",
+      "queueType": "parking",
+      "lat": 59.2959974,
+      "lon": 15.1839255,
       "precise": true
     },
     {
@@ -20103,34 +20131,6 @@
       "precise": true
     },
     {
-      "id": "MYgC4YJh7thQbT8RpyPcHhqx",
-      "number": "AN-16990",
-      "displayName": "Askers Byväg 5",
-      "type": "P-plats med tidstyrd el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Askersby",
-      "areaPath": [
-        "Östernärke"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Askers Byväg 5",
-        "city": "Örebro",
-        "geocodeQuery": "Askers Byväg 5, Örebro, Sweden"
-      },
-      "price": 301.0,
-      "priceInclVAT": 376.25,
-      "availableFrom": "2026-03-31",
-      "signNumber": "",
-      "image": "MYgC4YJh7thQbT8RpyPcHhqx",
-      "queueType": "parking",
-      "lat": 59.1523085,
-      "lon": 15.4705477,
-      "precise": true
-    },
-    {
       "id": "6dpqVpmtTC7CwTrbHy48JTWb",
       "number": "AN-16953",
       "displayName": "Ö Vintergatan 56",
@@ -20156,6 +20156,34 @@
       "queueType": "parking",
       "lat": 59.27337370000001,
       "lon": 15.188741,
+      "precise": true
+    },
+    {
+      "id": "MYgC4YJh7thQbT8RpyPcHhqx",
+      "number": "AN-16990",
+      "displayName": "Askers Byväg 5",
+      "type": "P-plats med tidstyrd el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Askersby",
+      "areaPath": [
+        "Östernärke"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Askers Byväg 5",
+        "city": "Örebro",
+        "geocodeQuery": "Askers Byväg 5, Örebro, Sweden"
+      },
+      "price": 301.0,
+      "priceInclVAT": 376.25,
+      "availableFrom": "2026-03-31",
+      "signNumber": "",
+      "image": "MYgC4YJh7thQbT8RpyPcHhqx",
+      "queueType": "parking",
+      "lat": 59.1523085,
+      "lon": 15.4705477,
       "precise": true
     },
     {
@@ -20999,34 +21027,6 @@
       "precise": true
     },
     {
-      "id": "VdVtJy66mcDdDMd4t9dVR4wP",
-      "number": "AN-15994",
-      "displayName": "Tornfalkgatan 102",
-      "type": "MC-plats",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Oxhagen",
-      "areaPath": [
-        "Oxhagen"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Tornfalkgatan 102",
-        "city": "Örebro",
-        "geocodeQuery": "Tornfalkgatan 102, Örebro, Sweden"
-      },
-      "price": 180.0,
-      "priceInclVAT": 225.0,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "VdVtJy66mcDdDMd4t9dVR4wP",
-      "queueType": "parking",
-      "lat": 59.28019870000001,
-      "lon": 15.1767002,
-      "precise": true
-    },
-    {
       "id": "GyT94jWvFmP7pPpmfM9ChJrh",
       "number": "AN-15989",
       "displayName": "Björkrisvägen 33",
@@ -21052,6 +21052,34 @@
       "queueType": "parking",
       "lat": 59.2414962,
       "lon": 15.2432714,
+      "precise": true
+    },
+    {
+      "id": "VdVtJy66mcDdDMd4t9dVR4wP",
+      "number": "AN-15994",
+      "displayName": "Tornfalkgatan 102",
+      "type": "MC-plats",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Oxhagen",
+      "areaPath": [
+        "Oxhagen"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Tornfalkgatan 102",
+        "city": "Örebro",
+        "geocodeQuery": "Tornfalkgatan 102, Örebro, Sweden"
+      },
+      "price": 180.0,
+      "priceInclVAT": 225.0,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "VdVtJy66mcDdDMd4t9dVR4wP",
+      "queueType": "parking",
+      "lat": 59.28019870000001,
+      "lon": 15.1767002,
       "precise": true
     },
     {
@@ -21335,34 +21363,6 @@
       "precise": true
     },
     {
-      "id": "6Rwj6tmyDMvPjPVtDB6JdBGY",
-      "number": "AN-15383",
-      "displayName": "Skäpplandsg 13",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Västhaga",
-      "areaPath": [
-        "Västhaga"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Skäpplandsg 13",
-        "city": "Örebro",
-        "geocodeQuery": "Skäpplandsg 13, Örebro, Sweden"
-      },
-      "price": 421.0,
-      "priceInclVAT": 526.25,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "6Rwj6tmyDMvPjPVtDB6JdBGY",
-      "queueType": "parking",
-      "lat": 59.27418710000001,
-      "lon": 15.1698947,
-      "precise": true
-    },
-    {
       "id": "7F4k6dbHf9rR6tYw7DGgtyw8",
       "number": "AN-15294",
       "displayName": "Lars Wivallius väg 4 Panncentralen",
@@ -21388,6 +21388,34 @@
       "queueType": "parking",
       "lat": 59.29252940000001,
       "lon": 15.2003424,
+      "precise": true
+    },
+    {
+      "id": "6Rwj6tmyDMvPjPVtDB6JdBGY",
+      "number": "AN-15383",
+      "displayName": "Skäpplandsg 13",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Västhaga",
+      "areaPath": [
+        "Västhaga"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Skäpplandsg 13",
+        "city": "Örebro",
+        "geocodeQuery": "Skäpplandsg 13, Örebro, Sweden"
+      },
+      "price": 421.0,
+      "priceInclVAT": 526.25,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "6Rwj6tmyDMvPjPVtDB6JdBGY",
+      "queueType": "parking",
+      "lat": 59.27418710000001,
+      "lon": 15.1698947,
       "precise": true
     },
     {
@@ -23211,34 +23239,6 @@
       "precise": true
     },
     {
-      "id": "Cp8WKGTchQ9PpGwpH9Fbcxw8",
-      "number": "AN-9768",
-      "displayName": "Stånggatan 1",
-      "type": "Garage med motorvärmare",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Västhaga",
-      "areaPath": [
-        "Västhaga"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Stånggatan 1",
-        "city": "Örebro",
-        "geocodeQuery": "Stånggatan 1, Örebro, Sweden"
-      },
-      "price": 541.0,
-      "priceInclVAT": 676.25,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "Cp8WKGTchQ9PpGwpH9Fbcxw8",
-      "queueType": "parking",
-      "lat": 59.2733824,
-      "lon": 15.1658965,
-      "precise": true
-    },
-    {
       "id": "kJ8Vm6CvR4JQtkJ4pCGrHVCr",
       "number": "AN-9392",
       "displayName": "Skäpplandsg 13",
@@ -23264,6 +23264,34 @@
       "queueType": "parking",
       "lat": 59.27418710000001,
       "lon": 15.1698947,
+      "precise": true
+    },
+    {
+      "id": "Cp8WKGTchQ9PpGwpH9Fbcxw8",
+      "number": "AN-9768",
+      "displayName": "Stånggatan 1",
+      "type": "Garage med motorvärmare",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Västhaga",
+      "areaPath": [
+        "Västhaga"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Stånggatan 1",
+        "city": "Örebro",
+        "geocodeQuery": "Stånggatan 1, Örebro, Sweden"
+      },
+      "price": 541.0,
+      "priceInclVAT": 676.25,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "Cp8WKGTchQ9PpGwpH9Fbcxw8",
+      "queueType": "parking",
+      "lat": 59.2733824,
+      "lon": 15.1658965,
       "precise": true
     },
     {
@@ -25199,34 +25227,6 @@
       "precise": true
     },
     {
-      "id": "Y9kdcbqPTggQMMVBybPBCgDj",
-      "number": "AN-2031",
-      "displayName": "Balladgatan 2",
-      "type": "Garage med motorvärmare",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Balladgatan 2",
-        "city": "Örebro",
-        "geocodeQuery": "Balladgatan 2, Örebro, Sweden"
-      },
-      "price": 541.0,
-      "priceInclVAT": 676.25,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "Y9kdcbqPTggQMMVBybPBCgDj",
-      "queueType": "parking",
-      "lat": 59.3015688,
-      "lon": 15.1788862,
-      "precise": true
-    },
-    {
       "id": "H8QwQRMGcRbk6crpybgTD4Wx",
       "number": "AN-2029",
       "displayName": "Balladgatan 2",
@@ -25249,6 +25249,34 @@
       "availableFrom": "2026-01-31",
       "signNumber": "",
       "image": "H8QwQRMGcRbk6crpybgTD4Wx",
+      "queueType": "parking",
+      "lat": 59.3015688,
+      "lon": 15.1788862,
+      "precise": true
+    },
+    {
+      "id": "Y9kdcbqPTggQMMVBybPBCgDj",
+      "number": "AN-2031",
+      "displayName": "Balladgatan 2",
+      "type": "Garage med motorvärmare",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Balladgatan 2",
+        "city": "Örebro",
+        "geocodeQuery": "Balladgatan 2, Örebro, Sweden"
+      },
+      "price": 541.0,
+      "priceInclVAT": 676.25,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "Y9kdcbqPTggQMMVBybPBCgDj",
       "queueType": "parking",
       "lat": 59.3015688,
       "lon": 15.1788862,
@@ -25563,34 +25591,6 @@
       "precise": true
     },
     {
-      "id": "gRKDQHgVrMhhqJqjrmbk6CMF",
-      "number": "AN-1998",
-      "displayName": "Tengvallsgatan 74",
-      "type": "Parkeringsplats",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Tengvallsgatan",
-      "areaPath": [
-        "Tengvallsgatan"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Tengvallsgatan 74",
-        "city": "Örebro",
-        "geocodeQuery": "Tengvallsgatan 74, Örebro, Sweden"
-      },
-      "price": 331.0,
-      "priceInclVAT": 413.75,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "gRKDQHgVrMhhqJqjrmbk6CMF",
-      "queueType": "parking",
-      "lat": 59.2765242,
-      "lon": 15.1826725,
-      "precise": true
-    },
-    {
       "id": "rt48GMJDkc7PWh7DHJhJ7Fkp",
       "number": "AN-1811",
       "displayName": "Spannlandsgatan 1",
@@ -25616,6 +25616,34 @@
       "queueType": "parking",
       "lat": 57.672311,
       "lon": 11.9344608,
+      "precise": true
+    },
+    {
+      "id": "gRKDQHgVrMhhqJqjrmbk6CMF",
+      "number": "AN-1998",
+      "displayName": "Tengvallsgatan 74",
+      "type": "Parkeringsplats",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Tengvallsgatan",
+      "areaPath": [
+        "Tengvallsgatan"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Tengvallsgatan 74",
+        "city": "Örebro",
+        "geocodeQuery": "Tengvallsgatan 74, Örebro, Sweden"
+      },
+      "price": 331.0,
+      "priceInclVAT": 413.75,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "gRKDQHgVrMhhqJqjrmbk6CMF",
+      "queueType": "parking",
+      "lat": 59.2765242,
+      "lon": 15.1826725,
       "precise": true
     },
     {
@@ -29371,34 +29399,6 @@
       "precise": true
     },
     {
-      "id": "x6gx6h88f6pRjP4kXJpDWBpr",
-      "number": "AN-19031",
-      "displayName": "Diktargatan 16",
-      "type": "P-plats med tidstyrd el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Vivalla",
-      "areaPath": [
-        "Vivalla"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Diktargatan 16",
-        "city": "Örebro",
-        "geocodeQuery": "Diktargatan 16, Örebro, Sweden"
-      },
-      "price": 301.0,
-      "priceInclVAT": 376.25,
-      "availableFrom": "2026-06-30",
-      "signNumber": "",
-      "image": "x6gx6h88f6pRjP4kXJpDWBpr",
-      "queueType": "parking",
-      "lat": 59.29824,
-      "lon": 15.1909735,
-      "precise": true
-    },
-    {
       "id": "gvxQp46GD8kHQCc7J8kWQjHT",
       "number": "AN-19029",
       "displayName": "Poesigatan 18",
@@ -29424,6 +29424,34 @@
       "queueType": "parking",
       "lat": 59.29939830000001,
       "lon": 15.1899263,
+      "precise": true
+    },
+    {
+      "id": "x6gx6h88f6pRjP4kXJpDWBpr",
+      "number": "AN-19031",
+      "displayName": "Diktargatan 16",
+      "type": "P-plats med tidstyrd el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Vivalla",
+      "areaPath": [
+        "Vivalla"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Diktargatan 16",
+        "city": "Örebro",
+        "geocodeQuery": "Diktargatan 16, Örebro, Sweden"
+      },
+      "price": 301.0,
+      "priceInclVAT": 376.25,
+      "availableFrom": "2026-06-30",
+      "signNumber": "",
+      "image": "x6gx6h88f6pRjP4kXJpDWBpr",
+      "queueType": "parking",
+      "lat": 59.29824,
+      "lon": 15.1909735,
       "precise": true
     },
     {
@@ -30127,34 +30155,6 @@
       "precise": true
     },
     {
-      "id": "rYMFqWdTVgPKrCymgMKKpDrV",
-      "number": "AN-18686",
-      "displayName": "Lertagsgatan 1B",
-      "type": "Varmgarage",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Markbacken",
-      "areaPath": [
-        "Markbacken"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Lertagsgatan 1B",
-        "city": "Örebro",
-        "geocodeQuery": "Lertagsgatan 1B, Örebro, Sweden"
-      },
-      "price": 736.0,
-      "priceInclVAT": 920.0,
-      "availableFrom": "2026-06-30",
-      "signNumber": "",
-      "image": "rYMFqWdTVgPKrCymgMKKpDrV",
-      "queueType": "parking",
-      "lat": 59.28079549999999,
-      "lon": 15.191586,
-      "precise": true
-    },
-    {
       "id": "TKQBX4hk7qR4qCD9GxbDQCXH",
       "number": "AN-18025",
       "displayName": "Enrisvägen 18",
@@ -30180,6 +30180,34 @@
       "queueType": "parking",
       "lat": 59.242664,
       "lon": 15.2419322,
+      "precise": true
+    },
+    {
+      "id": "rYMFqWdTVgPKrCymgMKKpDrV",
+      "number": "AN-18686",
+      "displayName": "Lertagsgatan 1B",
+      "type": "Varmgarage",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Markbacken",
+      "areaPath": [
+        "Markbacken"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Lertagsgatan 1B",
+        "city": "Örebro",
+        "geocodeQuery": "Lertagsgatan 1B, Örebro, Sweden"
+      },
+      "price": 736.0,
+      "priceInclVAT": 920.0,
+      "availableFrom": "2026-06-30",
+      "signNumber": "",
+      "image": "rYMFqWdTVgPKrCymgMKKpDrV",
+      "queueType": "parking",
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
       "precise": true
     },
     {
@@ -31387,34 +31415,6 @@
       "precise": true
     },
     {
-      "id": "QhD8QHpyKDpyxW9pMh8ygvGc",
-      "number": "AN-16993",
-      "displayName": "Södermalmsallén 1",
-      "type": "Garage med motorvärmare",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Centrum Söder Ö[om Drg]",
-      "areaPath": [
-        "Centralt"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Södermalmsallén 1",
-        "city": "Örebro",
-        "geocodeQuery": "Södermalmsallén 1, Örebro, Sweden"
-      },
-      "price": 901.0,
-      "priceInclVAT": 1126.25,
-      "availableFrom": "2026-02-28",
-      "signNumber": "",
-      "image": "QhD8QHpyKDpyxW9pMh8ygvGc",
-      "queueType": "parking",
-      "lat": 59.26247739999999,
-      "lon": 15.207565,
-      "precise": true
-    },
-    {
       "id": "GMrM4WW97YY9PYh4prBFRPPC",
       "number": "AN-16823",
       "displayName": "Örnsköldsgatan 149",
@@ -31440,6 +31440,34 @@
       "queueType": "parking",
       "lat": 59.2822358,
       "lon": 15.1835027,
+      "precise": true
+    },
+    {
+      "id": "QhD8QHpyKDpyxW9pMh8ygvGc",
+      "number": "AN-16993",
+      "displayName": "Södermalmsallén 1",
+      "type": "Garage med motorvärmare",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Centrum Söder Ö[om Drg]",
+      "areaPath": [
+        "Centralt"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Södermalmsallén 1",
+        "city": "Örebro",
+        "geocodeQuery": "Södermalmsallén 1, Örebro, Sweden"
+      },
+      "price": 901.0,
+      "priceInclVAT": 1126.25,
+      "availableFrom": "2026-02-28",
+      "signNumber": "",
+      "image": "QhD8QHpyKDpyxW9pMh8ygvGc",
+      "queueType": "parking",
+      "lat": 59.26247739999999,
+      "lon": 15.207565,
       "precise": true
     },
     {
@@ -31499,34 +31527,6 @@
       "precise": true
     },
     {
-      "id": "GThFYXTyyp7qwrF7qxyMCjgt",
-      "number": "AN-16954",
-      "displayName": "Lertagsgatan 1B",
-      "type": "Varmgarage",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Markbacken",
-      "areaPath": [
-        "Markbacken"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Lertagsgatan 1B",
-        "city": "Örebro",
-        "geocodeQuery": "Lertagsgatan 1B, Örebro, Sweden"
-      },
-      "price": 736.0,
-      "priceInclVAT": 920.0,
-      "availableFrom": "2026-06-30",
-      "signNumber": "",
-      "image": "GThFYXTyyp7qwrF7qxyMCjgt",
-      "queueType": "parking",
-      "lat": 59.28079549999999,
-      "lon": 15.191586,
-      "precise": true
-    },
-    {
       "id": "TRmjfm7j8pRfP67xBYqKwbmD",
       "number": "AN-16821",
       "displayName": "Varbergagatan 79",
@@ -31552,6 +31552,34 @@
       "queueType": "parking",
       "lat": 59.286295,
       "lon": 15.1808281,
+      "precise": true
+    },
+    {
+      "id": "GThFYXTyyp7qwrF7qxyMCjgt",
+      "number": "AN-16954",
+      "displayName": "Lertagsgatan 1B",
+      "type": "Varmgarage",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Markbacken",
+      "areaPath": [
+        "Markbacken"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Lertagsgatan 1B",
+        "city": "Örebro",
+        "geocodeQuery": "Lertagsgatan 1B, Örebro, Sweden"
+      },
+      "price": 736.0,
+      "priceInclVAT": 920.0,
+      "availableFrom": "2026-06-30",
+      "signNumber": "",
+      "image": "GThFYXTyyp7qwrF7qxyMCjgt",
+      "queueType": "parking",
+      "lat": 59.28079549999999,
+      "lon": 15.191586,
       "precise": true
     },
     {
@@ -32087,34 +32115,6 @@
       "precise": true
     },
     {
-      "id": "P84PWkxx6rC7Bq8yPtp6ywty",
-      "number": "AN-16377",
-      "displayName": "Västra Vintergatan 13",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Rosta",
-      "areaPath": [
-        "Rosta"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Västra Vintergatan 13",
-        "city": "Örebro",
-        "geocodeQuery": "Västra Vintergatan 13, Örebro, Sweden"
-      },
-      "price": 511.0,
-      "priceInclVAT": 638.75,
-      "availableFrom": "2026-02-28",
-      "signNumber": "",
-      "image": "P84PWkxx6rC7Bq8yPtp6ywty",
-      "queueType": "parking",
-      "lat": 59.27011830000001,
-      "lon": 15.186493,
-      "precise": true
-    },
-    {
       "id": "VTmBBMqQf4cfbVGrRQc6KtmG",
       "number": "AN-16376",
       "displayName": "Wallinvägen 3",
@@ -32140,6 +32140,34 @@
       "queueType": "parking",
       "lat": 59.21256529999999,
       "lon": 15.496011,
+      "precise": true
+    },
+    {
+      "id": "P84PWkxx6rC7Bq8yPtp6ywty",
+      "number": "AN-16377",
+      "displayName": "Västra Vintergatan 13",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Rosta",
+      "areaPath": [
+        "Rosta"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Västra Vintergatan 13",
+        "city": "Örebro",
+        "geocodeQuery": "Västra Vintergatan 13, Örebro, Sweden"
+      },
+      "price": 511.0,
+      "priceInclVAT": 638.75,
+      "availableFrom": "2026-02-28",
+      "signNumber": "",
+      "image": "P84PWkxx6rC7Bq8yPtp6ywty",
+      "queueType": "parking",
+      "lat": 59.27011830000001,
+      "lon": 15.186493,
       "precise": true
     },
     {
@@ -33823,34 +33851,6 @@
       "precise": true
     },
     {
-      "id": "GRRhyWGW4RhrYphjWyfXqf4m",
-      "number": "AN-11042",
-      "displayName": "Lertagsgatan 20",
-      "type": "Garage med motorvärmare",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Markbacken",
-      "areaPath": [
-        "Markbacken"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Lertagsgatan 20",
-        "city": "Örebro",
-        "geocodeQuery": "Lertagsgatan 20, Örebro, Sweden"
-      },
-      "price": 691.0,
-      "priceInclVAT": 863.75,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "GRRhyWGW4RhrYphjWyfXqf4m",
-      "queueType": "parking",
-      "lat": 59.2804956,
-      "lon": 15.1884585,
-      "precise": true
-    },
-    {
       "id": "xxjCCqpwDycm9dMrDM6XXD6G",
       "number": "AN-10525",
       "displayName": "Skaldegatan 1",
@@ -33876,6 +33876,34 @@
       "queueType": "parking",
       "lat": 59.2999296,
       "lon": 15.1939114,
+      "precise": true
+    },
+    {
+      "id": "GRRhyWGW4RhrYphjWyfXqf4m",
+      "number": "AN-11042",
+      "displayName": "Lertagsgatan 20",
+      "type": "Garage med motorvärmare",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Markbacken",
+      "areaPath": [
+        "Markbacken"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Lertagsgatan 20",
+        "city": "Örebro",
+        "geocodeQuery": "Lertagsgatan 20, Örebro, Sweden"
+      },
+      "price": 691.0,
+      "priceInclVAT": 863.75,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "GRRhyWGW4RhrYphjWyfXqf4m",
+      "queueType": "parking",
+      "lat": 59.2804956,
+      "lon": 15.1884585,
       "precise": true
     },
     {
@@ -37211,34 +37239,6 @@
       "precise": true
     },
     {
-      "id": "j4VPDKVDTBtVMc7Yk7cdYF9p",
-      "number": "AN-1976",
-      "displayName": "Tengvallsgatan 74",
-      "type": "P-plats med tidstyrd el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Tengvallsgatan",
-      "areaPath": [
-        "Tengvallsgatan"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Tengvallsgatan 74",
-        "city": "Örebro",
-        "geocodeQuery": "Tengvallsgatan 74, Örebro, Sweden"
-      },
-      "price": 391.0,
-      "priceInclVAT": 488.75,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "j4VPDKVDTBtVMc7Yk7cdYF9p",
-      "queueType": "parking",
-      "lat": 59.2765242,
-      "lon": 15.1826725,
-      "precise": true
-    },
-    {
       "id": "Tw9VkDVtGjcy9jgpMyYfxc7P",
       "number": "AN-1975",
       "displayName": "Tengvallsg 30",
@@ -37264,6 +37264,34 @@
       "queueType": "parking",
       "lat": 59.27605250000001,
       "lon": 15.1873637,
+      "precise": true
+    },
+    {
+      "id": "j4VPDKVDTBtVMc7Yk7cdYF9p",
+      "number": "AN-1976",
+      "displayName": "Tengvallsgatan 74",
+      "type": "P-plats med tidstyrd el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Tengvallsgatan",
+      "areaPath": [
+        "Tengvallsgatan"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Tengvallsgatan 74",
+        "city": "Örebro",
+        "geocodeQuery": "Tengvallsgatan 74, Örebro, Sweden"
+      },
+      "price": 391.0,
+      "priceInclVAT": 488.75,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "j4VPDKVDTBtVMc7Yk7cdYF9p",
+      "queueType": "parking",
+      "lat": 59.2765242,
+      "lon": 15.1826725,
       "precise": true
     },
     {
@@ -37883,34 +37911,6 @@
       "precise": true
     },
     {
-      "id": "mG7vJThycmcfjgc9h6cpyW4F",
-      "number": "AN-1817",
-      "displayName": "Västra Vintergatan 186",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Rosta",
-      "areaPath": [
-        "Rosta"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Västra Vintergatan 186",
-        "city": "Örebro",
-        "geocodeQuery": "Västra Vintergatan 186, Örebro, Sweden"
-      },
-      "price": 511.0,
-      "priceInclVAT": 638.75,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "mG7vJThycmcfjgc9h6cpyW4F",
-      "queueType": "parking",
-      "lat": 59.27214120000001,
-      "lon": 15.1806851,
-      "precise": true
-    },
-    {
       "id": "mmqdMtCF4QpPtDCVWQBgJHhP",
       "number": "AN-1744",
       "displayName": "Skaldegatan 18",
@@ -37936,6 +37936,34 @@
       "queueType": "parking",
       "lat": 59.3008994,
       "lon": 15.190469,
+      "precise": true
+    },
+    {
+      "id": "mG7vJThycmcfjgc9h6cpyW4F",
+      "number": "AN-1817",
+      "displayName": "Västra Vintergatan 186",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Rosta",
+      "areaPath": [
+        "Rosta"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Västra Vintergatan 186",
+        "city": "Örebro",
+        "geocodeQuery": "Västra Vintergatan 186, Örebro, Sweden"
+      },
+      "price": 511.0,
+      "priceInclVAT": 638.75,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "mG7vJThycmcfjgc9h6cpyW4F",
+      "queueType": "parking",
+      "lat": 59.27214120000001,
+      "lon": 15.1806851,
       "precise": true
     },
     {
@@ -38723,6 +38751,32 @@
       "precise": true
     },
     {
+      "id": "GR9XXHKrJvrTTVQBvtwWmmmk",
+      "number": "AN-21015",
+      "displayName": "Poesigatan 20",
+      "type": "Varmgarage",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Vivalla",
+      "areaPath": [],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Poesigatan 20",
+        "city": "Örebro",
+        "geocodeQuery": "Poesigatan 20, Örebro, Sweden"
+      },
+      "price": 544.62,
+      "priceInclVAT": 680.78,
+      "availableFrom": "2026-08-31",
+      "signNumber": "",
+      "image": null,
+      "queueType": "parking",
+      "lat": 59.29906630000001,
+      "lon": 15.187231,
+      "precise": true
+    },
+    {
       "id": "qRGJ6pPm7kHVbT7q4bjH6KR6",
       "number": "AN-21013",
       "displayName": "Författargatan 1",
@@ -38748,32 +38802,6 @@
       "queueType": "parking",
       "lat": 59.29560949999999,
       "lon": 15.1953253,
-      "precise": true
-    },
-    {
-      "id": "GR9XXHKrJvrTTVQBvtwWmmmk",
-      "number": "AN-21015",
-      "displayName": "Poesigatan 20",
-      "type": "Varmgarage",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Vivalla",
-      "areaPath": [],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Poesigatan 20",
-        "city": "Örebro",
-        "geocodeQuery": "Poesigatan 20, Örebro, Sweden"
-      },
-      "price": 544.62,
-      "priceInclVAT": 680.78,
-      "availableFrom": "2026-08-31",
-      "signNumber": "",
-      "image": null,
-      "queueType": "parking",
-      "lat": 59.29906630000001,
-      "lon": 15.187231,
       "precise": true
     },
     {
@@ -38833,34 +38861,6 @@
       "precise": true
     },
     {
-      "id": "DCvDdBKxcpYxRy8QMTWhH8rg",
-      "number": "AN-20979",
-      "displayName": "Skäpplandsg 13",
-      "type": "P-plats med tak och el",
-      "shortType": "",
-      "sqm": 0.0,
-      "area": "Västhaga",
-      "areaPath": [
-        "Västhaga"
-      ],
-      "source": "Bilplats allmän",
-      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
-      "address": {
-        "street": "Skäpplandsg 13",
-        "city": "Örebro",
-        "geocodeQuery": "Skäpplandsg 13, Örebro, Sweden"
-      },
-      "price": 421.0,
-      "priceInclVAT": 526.25,
-      "availableFrom": "2026-08-31",
-      "signNumber": "",
-      "image": "DCvDdBKxcpYxRy8QMTWhH8rg",
-      "queueType": "parking",
-      "lat": 59.27418710000001,
-      "lon": 15.1698947,
-      "precise": true
-    },
-    {
       "id": "dq9GRwyDjJ7tBTxHJtvQ6BtX",
       "number": "AN-20982",
       "displayName": "Vivallaringen 22",
@@ -38886,6 +38886,34 @@
       "queueType": "parking",
       "lat": 59.295086,
       "lon": 15.1902654,
+      "precise": true
+    },
+    {
+      "id": "DCvDdBKxcpYxRy8QMTWhH8rg",
+      "number": "AN-20979",
+      "displayName": "Skäpplandsg 13",
+      "type": "P-plats med tak och el",
+      "shortType": "",
+      "sqm": 0.0,
+      "area": "Västhaga",
+      "areaPath": [
+        "Västhaga"
+      ],
+      "source": "Bilplats allmän",
+      "category": "QFpVYrKF9r9rBRR4MqqRCFxg",
+      "address": {
+        "street": "Skäpplandsg 13",
+        "city": "Örebro",
+        "geocodeQuery": "Skäpplandsg 13, Örebro, Sweden"
+      },
+      "price": 421.0,
+      "priceInclVAT": 526.25,
+      "availableFrom": "2026-08-31",
+      "signNumber": "",
+      "image": "DCvDdBKxcpYxRy8QMTWhH8rg",
+      "queueType": "parking",
+      "lat": 59.27418710000001,
+      "lon": 15.1698947,
       "precise": true
     },
     {
@@ -39029,34 +39057,6 @@
       "precise": true
     },
     {
-      "id": "vpTX688rBGkckBDgwGtQqx9p",
-      "number": "",
-      "displayName": "Höglundagatan 26",
-      "type": "",
-      "shortType": "",
-      "sqm": 11.6,
-      "area": "Norrby",
-      "areaPath": [
-        "Norr"
-      ],
-      "source": "Förråd",
-      "category": "commercial",
-      "address": {
-        "street": "Höglundagatan 26",
-        "city": "Örebro",
-        "geocodeQuery": "Höglundagatan 26, Örebro, Sweden"
-      },
-      "price": 1145.0,
-      "priceInclVAT": null,
-      "availableFrom": "2026-01-31",
-      "signNumber": "",
-      "image": "vpTX688rBGkckBDgwGtQqx9p",
-      "queueType": "storage",
-      "lat": 59.2863995,
-      "lon": 15.232111,
-      "precise": true
-    },
-    {
       "id": "xPPbKmt8gPXW4cRXvqBYPKph",
       "number": "",
       "displayName": "Höglundagatan 24",
@@ -39082,6 +39082,34 @@
       "queueType": "storage",
       "lat": 59.28624900000001,
       "lon": 15.231862,
+      "precise": true
+    },
+    {
+      "id": "vpTX688rBGkckBDgwGtQqx9p",
+      "number": "",
+      "displayName": "Höglundagatan 26",
+      "type": "",
+      "shortType": "",
+      "sqm": 11.6,
+      "area": "Norrby",
+      "areaPath": [
+        "Norr"
+      ],
+      "source": "Förråd",
+      "category": "commercial",
+      "address": {
+        "street": "Höglundagatan 26",
+        "city": "Örebro",
+        "geocodeQuery": "Höglundagatan 26, Örebro, Sweden"
+      },
+      "price": 1145.0,
+      "priceInclVAT": null,
+      "availableFrom": "2026-01-31",
+      "signNumber": "",
+      "image": "vpTX688rBGkckBDgwGtQqx9p",
+      "queueType": "storage",
+      "lat": 59.2863995,
+      "lon": 15.232111,
       "precise": true
     },
     {

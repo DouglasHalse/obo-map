@@ -1828,5 +1828,10 @@
     "lat": 59.2865546,
     "lon": 15.1421049,
     "precise": true
+  },
+  "Landbotorpsallén 7, Örebro, Sweden": {
+    "lat": 59.2566794,
+    "lon": 15.1986822,
+    "precise": true
   }
 }
