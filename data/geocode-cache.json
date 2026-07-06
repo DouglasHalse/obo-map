@@ -2103,5 +2103,45 @@
     "lat": 59.25145089999999,
     "lon": 15.2455576,
     "precise": true
+  },
+  "Spannlandsgatan 21 D, Örebro, Sweden": {
+    "lat": 59.2752626,
+    "lon": 15.2134105,
+    "precise": false
+  },
+  "Varbergagatan 69 , Örebro, Sweden": {
+    "lat": 59.2856148,
+    "lon": 15.1782468,
+    "precise": true
+  },
+  "Varbergagatan 64 , Örebro, Sweden": {
+    "lat": 59.2862136,
+    "lon": 15.1787215,
+    "precise": true
+  },
+  "Krönikegatan 3  B , Örebro, Sweden": {
+    "lat": 59.3002936,
+    "lon": 15.1787148,
+    "precise": true
+  },
+  "Tunnlandsgatan 9  D, Örebro, Sweden": {
+    "lat": 59.272905,
+    "lon": 15.1722179,
+    "precise": true
+  },
+  "Lyrikgatan 11  B , Örebro, Sweden": {
+    "lat": 59.2985751,
+    "lon": 15.1820524,
+    "precise": true
+  },
+  "Spannlandsgatan 48  C, Örebro, Sweden": {
+    "lat": 59.2752626,
+    "lon": 15.2134105,
+    "precise": false
+  },
+  "Norrbygatan 27, Örebro, Sweden": {
+    "lat": 59.2866379,
+    "lon": 15.2324425,
+    "precise": true
   }
 }
