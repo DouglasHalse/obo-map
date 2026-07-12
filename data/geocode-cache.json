@@ -3073,5 +3073,15 @@
     "lat": 59.2382089,
     "lon": 15.1618387,
     "precise": true
+  },
+  "Spannlandsgatan 35 C, Örebro, Sweden": {
+    "lat": 59.2720582,
+    "lon": 15.1651076,
+    "precise": true
+  },
+  "Granrisvägen 25  A , Örebro, Sweden": {
+    "lat": 59.2384417,
+    "lon": 15.2437717,
+    "precise": true
   }
 }
