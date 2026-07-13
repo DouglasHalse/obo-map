@@ -3083,5 +3083,45 @@
     "lat": 59.2384417,
     "lon": 15.2437717,
     "precise": true
+  },
+  "Versgatan 4 B, Örebro, Sweden": {
+    "lat": 59.3034066,
+    "lon": 15.1874049,
+    "precise": true
+  },
+  "Lyrikgatan 8  B , Örebro, Sweden": {
+    "lat": 59.2978572,
+    "lon": 15.1815617,
+    "precise": true
+  },
+  "Varbergagatan 88, Örebro, Sweden": {
+    "lat": 59.2875871,
+    "lon": 15.1776303,
+    "precise": true
+  },
+  "Granrisvägen 25 A , Örebro, Sweden": {
+    "lat": 59.2384417,
+    "lon": 15.2437717,
+    "precise": true
+  },
+  "Granrisvägen 27  A, Örebro, Sweden": {
+    "lat": 59.23851509999999,
+    "lon": 15.2445971,
+    "precise": true
+  },
+  "Sörbyängsvägen 2 D, Örebro, Sweden": {
+    "lat": 59.254668,
+    "lon": 15.2383441,
+    "precise": true
+  },
+  "Granrisvägen 27  B, Örebro, Sweden": {
+    "lat": 59.2388393,
+    "lon": 15.2445902,
+    "precise": true
+  },
+  "Åstadalsvägen 7    0101 , Örebro, Sweden": {
+    "lat": 59.25145089999999,
+    "lon": 15.2455576,
+    "precise": true
   }
 }
