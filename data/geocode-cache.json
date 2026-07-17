@@ -3443,5 +3443,90 @@
     "lat": 59.28776749999999,
     "lon": 15.1750696,
     "precise": true
+  },
+  "Höglundagatan 54, Örebro, Sweden": {
+    "lat": 59.2882549,
+    "lon": 15.232513,
+    "precise": true
+  },
+  "Höglundagatan 52, Örebro, Sweden": {
+    "lat": 59.28812389999999,
+    "lon": 15.2325591,
+    "precise": true
+  },
+  "Varbergagatan 98, Örebro, Sweden": {
+    "lat": 59.28703909999999,
+    "lon": 15.1782351,
+    "precise": true
+  },
+  "Hemmansvägen 46 , Örebro, Sweden": {
+    "lat": 59.25750439999999,
+    "lon": 15.2321603,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 104 , Örebro, Sweden": {
+    "lat": 59.2894715,
+    "lon": 15.1970263,
+    "precise": true
+  },
+  "Krönikegatan 12  C, Örebro, Sweden": {
+    "lat": 59.299674,
+    "lon": 15.1815997,
+    "precise": true
+  },
+  "Strofgatan 17  B , Örebro, Sweden": {
+    "lat": 59.3029297,
+    "lon": 15.1821335,
+    "precise": true
+  },
+  "Versgatan 12  C , Örebro, Sweden": {
+    "lat": 59.303667,
+    "lon": 15.1892945,
+    "precise": true
+  },
+  "Författargatan 13  C, Örebro, Sweden": {
+    "lat": 59.2957994,
+    "lon": 15.1927892,
+    "precise": true
+  },
+  "Studentgatan 14, Örebro, Sweden": {
+    "lat": 59.25235179999999,
+    "lon": 15.2445118,
+    "precise": true
+  },
+  "Sörbyängsvägen 2 B, Örebro, Sweden": {
+    "lat": 59.25487740000001,
+    "lon": 15.2395908,
+    "precise": true
+  },
+  "Åstadalsvägen 3  F    0203 , Örebro, Sweden": {
+    "lat": 59.25378689999999,
+    "lon": 15.2447135,
+    "precise": true
+  },
+  "Åstadalsvägen 9    0304, Örebro, Sweden": {
+    "lat": 59.25148699999999,
+    "lon": 15.246189,
+    "precise": true
+  },
+  "Studentgatan 2, Örebro, Sweden": {
+    "lat": 59.253463,
+    "lon": 15.244422,
+    "precise": true
+  },
+  "Studentgatan 8, Örebro, Sweden": {
+    "lat": 59.2528056,
+    "lon": 15.2438757,
+    "precise": true
+  },
+  "Köpmangatan 49, Örebro, Sweden": {
+    "lat": 59.2667737,
+    "lon": 15.2083657,
+    "precise": true
+  },
+  "Drakenbergsgatan 41, Örebro, Sweden": {
+    "lat": 59.25863999999999,
+    "lon": 15.2358521,
+    "precise": true
   }
 }
