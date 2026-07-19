@@ -3588,5 +3588,15 @@
     "lat": 59.2679282,
     "lon": 15.2155971,
     "precise": true
+  },
+  "Lyrikgatan 15  A , Örebro, Sweden": {
+    "lat": 59.298368,
+    "lon": 15.183019,
+    "precise": true
+  },
+  "Poesigatan 17  D, Örebro, Sweden": {
+    "lat": 59.2987367,
+    "lon": 15.1905816,
+    "precise": true
   }
 }
