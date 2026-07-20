@@ -3598,5 +3598,20 @@
     "lat": 59.2987367,
     "lon": 15.1905816,
     "precise": true
+  },
+  "Prosagatan 21 C, Örebro, Sweden": {
+    "lat": 59.30181609999999,
+    "lon": 15.1879441,
+    "precise": true
+  },
+  "Krönikegatan 12 A, Örebro, Sweden": {
+    "lat": 59.2994642,
+    "lon": 15.1815886,
+    "precise": true
+  },
+  "Lars Wivallius Väg 43 , Örebro, Sweden": {
+    "lat": 59.29137249999999,
+    "lon": 15.2009514,
+    "precise": true
   }
 }
