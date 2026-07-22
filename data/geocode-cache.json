@@ -3678,5 +3678,65 @@
     "lat": 59.25224600000001,
     "lon": 15.2451093,
     "precise": true
+  },
+  "Lyrikgatan 12  B , Örebro, Sweden": {
+    "lat": 59.2978688,
+    "lon": 15.182767,
+    "precise": true
+  },
+  "Storgatan 52  A, Örebro, Sweden": {
+    "lat": 59.2823445,
+    "lon": 15.2204725,
+    "precise": true
+  },
+  "Norrbygatan 26 , Örebro, Sweden": {
+    "lat": 59.2861722,
+    "lon": 15.2344972,
+    "precise": true
+  },
+  "Varbergagatan 194 , Örebro, Sweden": {
+    "lat": 59.288954,
+    "lon": 15.1693945,
+    "precise": true
+  },
+  "Trädgårdsgatan 6 D, Örebro, Sweden": {
+    "lat": 59.2716097,
+    "lon": 15.2179711,
+    "precise": true
+  },
+  "Salsmästaregatan 10 , Örebro, Sweden": {
+    "lat": 59.2653145,
+    "lon": 15.2517746,
+    "precise": true
+  },
+  "Studentgatan 24    0203 , Örebro, Sweden": {
+    "lat": 59.25197480000001,
+    "lon": 15.2459622,
+    "precise": true
+  },
+  "Studentgatan 32 , Örebro, Sweden": {
+    "lat": 59.252133,
+    "lon": 15.2473433,
+    "precise": true
+  },
+  "Studentgatan 18 , Örebro, Sweden": {
+    "lat": 59.25249040000001,
+    "lon": 15.2455801,
+    "precise": true
+  },
+  "Studentgatan 18, Örebro, Sweden": {
+    "lat": 59.25249040000001,
+    "lon": 15.2455801,
+    "precise": true
+  },
+  "Peppargatan 8, Örebro, Sweden": {
+    "lat": 59.255287,
+    "lon": 15.2169181,
+    "precise": true
+  },
+  "Krukmakaregatan 19, Örebro, Sweden": {
+    "lat": 59.28751229999999,
+    "lon": 15.228865,
+    "precise": true
   }
 }
