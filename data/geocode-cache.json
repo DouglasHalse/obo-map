@@ -4058,5 +4058,40 @@
     "lat": 59.298327,
     "lon": 15.183544,
     "precise": true
+  },
+  "Varbergagatan 18 , Örebro, Sweden": {
+    "lat": 59.2830118,
+    "lon": 15.1782449,
+    "precise": true
+  },
+  "Krönikegatan 22  C , Örebro, Sweden": {
+    "lat": 59.2994182,
+    "lon": 15.1839716,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 94, Örebro, Sweden": {
+    "lat": 59.28870930000001,
+    "lon": 15.1969901,
+    "precise": true
+  },
+  "Höglundagatan 22 , Örebro, Sweden": {
+    "lat": 59.28609,
+    "lon": 15.231946,
+    "precise": true
+  },
+  "Peppargatan 12 , Örebro, Sweden": {
+    "lat": 59.254892,
+    "lon": 15.216789,
+    "precise": true
+  },
+  "Lyrikgatan 12  A , Örebro, Sweden": {
+    "lat": 59.29771170000001,
+    "lon": 15.1825467,
+    "precise": true
+  },
+  "Tulegatan 12 , Örebro, Sweden": {
+    "lat": 59.27719769999999,
+    "lon": 15.2071659,
+    "precise": true
   }
 }
