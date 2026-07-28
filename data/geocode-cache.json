@@ -4093,5 +4093,85 @@
     "lat": 59.27719769999999,
     "lon": 15.2071659,
     "precise": true
+  },
+  "Krönikegatan 19 A, Örebro, Sweden": {
+    "lat": 59.3001291,
+    "lon": 15.1829815,
+    "precise": true
+  },
+  "Krönikegatan 19 C, Örebro, Sweden": {
+    "lat": 59.3004304,
+    "lon": 15.1829974,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 36 , Örebro, Sweden": {
+    "lat": 59.2886403,
+    "lon": 15.2021463,
+    "precise": true
+  },
+  "Gäddestavägen 4 E, Örebro, Sweden": {
+    "lat": 59.27519230000001,
+    "lon": 15.1500798,
+    "precise": true
+  },
+  "Varbergagatan 50 , Örebro, Sweden": {
+    "lat": 59.2849872,
+    "lon": 15.1809058,
+    "precise": true
+  },
+  "Författargatan 8  C, Örebro, Sweden": {
+    "lat": 59.29648100000001,
+    "lon": 15.1936814,
+    "precise": true
+  },
+  "Krönikegatan 26  B , Örebro, Sweden": {
+    "lat": 59.2992646,
+    "lon": 15.1848072,
+    "precise": true
+  },
+  "Tornfalkgatan 156, Örebro, Sweden": {
+    "lat": 59.28147279999999,
+    "lon": 15.1767886,
+    "precise": true
+  },
+  "Änggatan 16  A , Örebro, Sweden": {
+    "lat": 59.2680038,
+    "lon": 15.2062569,
+    "precise": true
+  },
+  "Köpmangatan 33, Örebro, Sweden": {
+    "lat": 59.2682355,
+    "lon": 15.2102453,
+    "precise": true
+  },
+  "Hertig Karls Allé 44 , Örebro, Sweden": {
+    "lat": 59.2799278,
+    "lon": 15.2016235,
+    "precise": true
+  },
+  "Poesigatan 12  B , Örebro, Sweden": {
+    "lat": 59.2995336,
+    "lon": 15.1915392,
+    "precise": true
+  },
+  "Varbergagatan 202, Örebro, Sweden": {
+    "lat": 59.2884502,
+    "lon": 15.1706143,
+    "precise": true
+  },
+  "Torgvägen 12  B, Örebro, Sweden": {
+    "lat": 59.27973799999999,
+    "lon": 15.2376124,
+    "precise": true
+  },
+  "Tornfalkgatan 34, Örebro, Sweden": {
+    "lat": 59.278329,
+    "lon": 15.1767081,
+    "precise": true
+  },
+  "Lindhultsvägen 5, Örebro, Sweden": {
+    "lat": 59.2381786,
+    "lon": 15.1628439,
+    "precise": true
   }
 }
