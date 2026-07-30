@@ -4233,5 +4233,60 @@
     "lat": 59.2675362,
     "lon": 15.2042347,
     "precise": true
+  },
+  "Ekängsgatan 39 , Örebro, Sweden": {
+    "lat": 59.2629141,
+    "lon": 15.2064685,
+    "precise": true
+  },
+  "Lars Wivallius Väg 53 , Örebro, Sweden": {
+    "lat": 59.2918269,
+    "lon": 15.200472,
+    "precise": true
+  },
+  "Örnsköldsgatan 77 , Örebro, Sweden": {
+    "lat": 59.28292440000001,
+    "lon": 15.1869379,
+    "precise": true
+  },
+  "Hertig Karls Allé 44, Örebro, Sweden": {
+    "lat": 59.2799278,
+    "lon": 15.2016235,
+    "precise": true
+  },
+  "Skomakaregatan 8, Örebro, Sweden": {
+    "lat": 59.265643,
+    "lon": 15.21001,
+    "precise": true
+  },
+  "Gamla Arbogavägen 11  E, Örebro, Sweden": {
+    "lat": 59.3185752,
+    "lon": 15.3981558,
+    "precise": true
+  },
+  "Peppargatan 16, Örebro, Sweden": {
+    "lat": 59.25444640000001,
+    "lon": 15.2165063,
+    "precise": true
+  },
+  "Grubbensgatan 20, Örebro, Sweden": {
+    "lat": 59.2625903,
+    "lon": 15.2021117,
+    "precise": true
+  },
+  "Toringsgatan 28, Örebro, Sweden": {
+    "lat": 59.2836817,
+    "lon": 15.2277217,
+    "precise": true
+  },
+  "Granrisvägen 32, Örebro, Sweden": {
+    "lat": 59.23686720000001,
+    "lon": 15.243874,
+    "precise": true
+  },
+  "Granrisvägen     6, Örebro, Sweden": {
+    "lat": 59.2368827,
+    "lon": 15.2361569,
+    "precise": true
   }
 }
