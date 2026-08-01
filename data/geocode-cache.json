@@ -4393,5 +4393,105 @@
     "lat": 59.235246,
     "lon": 15.244855,
     "precise": true
+  },
+  "Örnsköldsgatan 149 , Örebro, Sweden": {
+    "lat": 59.2822358,
+    "lon": 15.1835027,
+    "precise": true
+  },
+  "Poesigatan 14  C , Örebro, Sweden": {
+    "lat": 59.2996874,
+    "lon": 15.1911275,
+    "precise": true
+  },
+  "Drakenbergsgatan 35 , Örebro, Sweden": {
+    "lat": 59.2586622,
+    "lon": 15.2367478,
+    "precise": true
+  },
+  "Tybblegatan 86 , Örebro, Sweden": {
+    "lat": 59.2561776,
+    "lon": 15.2404167,
+    "precise": true
+  },
+  "Krönikegatan 7  B , Örebro, Sweden": {
+    "lat": 59.30027219999999,
+    "lon": 15.179706,
+    "precise": true
+  },
+  "Tornfalkgatan 160 , Örebro, Sweden": {
+    "lat": 59.2812912,
+    "lon": 15.1771804,
+    "precise": true
+  },
+  "Tallrisvägen 24  D, Örebro, Sweden": {
+    "lat": 59.23500900000001,
+    "lon": 15.2432462,
+    "precise": true
+  },
+  "Västra Nobelgatan 23 , Örebro, Sweden": {
+    "lat": 59.2804252,
+    "lon": 15.2039617,
+    "precise": true
+  },
+  "Lyrikgatan 4  B, Örebro, Sweden": {
+    "lat": 59.29793679999999,
+    "lon": 15.1805563,
+    "precise": true
+  },
+  "Tornfalkgatan 30 , Örebro, Sweden": {
+    "lat": 59.27849260000001,
+    "lon": 15.1770469,
+    "precise": true
+  },
+  "Krönikegatan 20  C , Örebro, Sweden": {
+    "lat": 59.2994296,
+    "lon": 15.1834642,
+    "precise": true
+  },
+  "Höglundagatan 10, Örebro, Sweden": {
+    "lat": 59.2850261,
+    "lon": 15.2323195,
+    "precise": true
+  },
+  "Lars Wivallius Väg 53, Örebro, Sweden": {
+    "lat": 59.2918269,
+    "lon": 15.200472,
+    "precise": true
+  },
+  "Fredsgatan 20 B, Örebro, Sweden": {
+    "lat": 59.2757354,
+    "lon": 15.2183107,
+    "precise": true
+  },
+  "Härdvägen 3 , Örebro, Sweden": {
+    "lat": 59.30458549999999,
+    "lon": 14.9474238,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 710 , Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 709 , Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 704 , Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
+  },
+  "Honolulugatan 4, Örebro, Sweden": {
+    "lat": 59.2786681,
+    "lon": 15.2237629,
+    "precise": true
+  },
+  "Tunnlandsgatan 29 , Örebro, Sweden": {
+    "lat": 59.271961,
+    "lon": 15.1722125,
+    "precise": true
   }
 }
