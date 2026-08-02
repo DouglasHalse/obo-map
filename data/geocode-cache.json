@@ -4493,5 +4493,15 @@
     "lat": 59.271961,
     "lon": 15.1722125,
     "precise": true
+  },
+  "Lyrikgatan 13  C, Örebro, Sweden": {
+    "lat": 59.2986948,
+    "lon": 15.1827744,
+    "precise": true
+  },
+  "Midgårdsvägen 57, Örebro, Sweden": {
+    "lat": 59.1561457,
+    "lon": 15.5280958,
+    "precise": true
   }
 }
