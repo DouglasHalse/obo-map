@@ -4503,5 +4503,20 @@
     "lat": 59.1561457,
     "lon": 15.5280958,
     "precise": true
+  },
+  "Slottsgatan 42 , Örebro, Sweden": {
+    "lat": 59.2812636,
+    "lon": 15.2216103,
+    "precise": true
+  },
+  "Åstadalsvägen 3  A    0419 , Örebro, Sweden": {
+    "lat": 59.2537579,
+    "lon": 15.2436255,
+    "precise": true
+  },
+  "Åstadalsvägen 3  A    0417 , Örebro, Sweden": {
+    "lat": 59.2537579,
+    "lon": 15.2436255,
+    "precise": true
   }
 }
