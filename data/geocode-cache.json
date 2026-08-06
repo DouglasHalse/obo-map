@@ -4753,5 +4753,95 @@
     "lat": 59.25224600000001,
     "lon": 15.2451093,
     "precise": true
+  },
+  "Generalsgatan 14, Örebro, Sweden": {
+    "lat": 59.2894229,
+    "lon": 15.2369629,
+    "precise": true
+  },
+  "Restalundsvägen 48 , Örebro, Sweden": {
+    "lat": 59.2649689,
+    "lon": 15.2183208,
+    "precise": true
+  },
+  "Stallgatan 8 , Örebro, Sweden": {
+    "lat": 59.2560414,
+    "lon": 15.2077253,
+    "precise": true
+  },
+  "Östra Vintergatan 46 , Örebro, Sweden": {
+    "lat": 59.27328780000001,
+    "lon": 15.1909714,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 8 , Örebro, Sweden": {
+    "lat": 59.28980679999999,
+    "lon": 15.2029273,
+    "precise": true
+  },
+  "Krönikegatan 15 C, Örebro, Sweden": {
+    "lat": 59.3003842,
+    "lon": 15.1819738,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 108 , Örebro, Sweden": {
+    "lat": 59.28955810000001,
+    "lon": 15.1964521,
+    "precise": true
+  },
+  "Höglundagatan 20 , Örebro, Sweden": {
+    "lat": 59.285943,
+    "lon": 15.232007,
+    "precise": true
+  },
+  "Tunnlandsgatan 18  D, Örebro, Sweden": {
+    "lat": 59.27346600000001,
+    "lon": 15.1730384,
+    "precise": true
+  },
+  "Norrbygatan 30, Örebro, Sweden": {
+    "lat": 59.2860762,
+    "lon": 15.233991,
+    "precise": true
+  },
+  "Norrbygatan 46, Örebro, Sweden": {
+    "lat": 59.28652069999999,
+    "lon": 15.2335304,
+    "precise": true
+  },
+  "Honolulugatan 10, Örebro, Sweden": {
+    "lat": 59.2788305,
+    "lon": 15.2230962,
+    "precise": true
+  },
+  "Rosenhillsgatan 3, Örebro, Sweden": {
+    "lat": 59.28301620000001,
+    "lon": 15.2227743,
+    "precise": true
+  },
+  "Tornfalkgatan 19 , Örebro, Sweden": {
+    "lat": 59.27819109999999,
+    "lon": 15.1731291,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A  505 , Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 809 , Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
+  },
+  "Sockengatan 3, Örebro, Sweden": {
+    "lat": 59.2640712,
+    "lon": 15.2341698,
+    "precise": true
+  },
+  "Granrisvägen 18, Örebro, Sweden": {
+    "lat": 59.237523,
+    "lon": 15.2379379,
+    "precise": true
   }
 }
