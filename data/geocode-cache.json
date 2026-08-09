@@ -5078,5 +5078,15 @@
     "lat": 59.2857454,
     "lon": 15.2302457,
     "precise": true
+  },
+  "Varbergagatan 131 , Örebro, Sweden": {
+    "lat": 59.28792179999999,
+    "lon": 15.1760064,
+    "precise": true
+  },
+  "Varbergagatan 24 , Örebro, Sweden": {
+    "lat": 59.2840654,
+    "lon": 15.1782647,
+    "precise": true
   }
 }
