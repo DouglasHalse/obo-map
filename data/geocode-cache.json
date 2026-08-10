@@ -5088,5 +5088,10 @@
     "lat": 59.2840654,
     "lon": 15.1782647,
     "precise": true
+  },
+  "Krönikegatan 3 C, Örebro, Sweden": {
+    "lat": 59.3004051,
+    "lon": 15.1788119,
+    "precise": true
   }
 }
