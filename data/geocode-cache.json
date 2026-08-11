@@ -5093,5 +5093,90 @@
     "lat": 59.3004051,
     "lon": 15.1788119,
     "precise": true
+  },
+  "Örnsköldsgatan 11, Örebro, Sweden": {
+    "lat": 59.28199129999999,
+    "lon": 15.190456,
+    "precise": true
+  },
+  "Varbergagatan 35 , Örebro, Sweden": {
+    "lat": 59.2852081,
+    "lon": 15.178497,
+    "precise": true
+  },
+  "Varbergagatan 53 , Örebro, Sweden": {
+    "lat": 59.28498510000001,
+    "lon": 15.1803062,
+    "precise": true
+  },
+  "Tunnlandsgatan 12  A, Örebro, Sweden": {
+    "lat": 59.27338709999999,
+    "lon": 15.1726433,
+    "precise": true
+  },
+  "Krönikegatan 9 C, Örebro, Sweden": {
+    "lat": 59.3003908,
+    "lon": 15.1804828,
+    "precise": true
+  },
+  "Lyrikgatan 19  B , Örebro, Sweden": {
+    "lat": 59.2984318,
+    "lon": 15.184066,
+    "precise": true
+  },
+  "Östra Vintergatan 92 , Örebro, Sweden": {
+    "lat": 59.27146399999999,
+    "lon": 15.1880939,
+    "precise": true
+  },
+  "Tunnelgatan 5 , Örebro, Sweden": {
+    "lat": 59.28502479999999,
+    "lon": 15.2197477,
+    "precise": true
+  },
+  "Hertig Karls Allé 97, Örebro, Sweden": {
+    "lat": 59.28461189999999,
+    "lon": 15.2026804,
+    "precise": true
+  },
+  "Norra Lillåstrand 29  B, Örebro, Sweden": {
+    "lat": 59.2812198,
+    "lon": 15.2261634,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 126, Örebro, Sweden": {
+    "lat": 59.2887208,
+    "lon": 15.1950775,
+    "precise": true
+  },
+  "Författargatan 23  C, Örebro, Sweden": {
+    "lat": 59.29616139999999,
+    "lon": 15.1893993,
+    "precise": true
+  },
+  "Örnsrogatan 3  B, Örebro, Sweden": {
+    "lat": 59.26792469999999,
+    "lon": 15.1915544,
+    "precise": true
+  },
+  "Idrottsvägen 20, Örebro, Sweden": {
+    "lat": 59.267118,
+    "lon": 15.1918036,
+    "precise": true
+  },
+  "Tallbacksvägen 9, Örebro, Sweden": {
+    "lat": 59.2857454,
+    "lon": 15.2302457,
+    "precise": true
+  },
+  "Adolf Mörners plan 3, Örebro, Sweden": {
+    "lat": 59.24819129999999,
+    "lon": 15.1684594,
+    "precise": true
+  },
+  "Lillågatan 2, Örebro, Sweden": {
+    "lat": 59.28077059999999,
+    "lon": 15.2198635,
+    "precise": true
   }
 }
