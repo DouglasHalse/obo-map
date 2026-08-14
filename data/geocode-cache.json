@@ -5318,5 +5318,70 @@
     "lat": 59.2672944,
     "lon": 15.2111232,
     "precise": true
+  },
+  "Kristinagatan 27  B , Örebro, Sweden": {
+    "lat": 59.2676872,
+    "lon": 15.2293741,
+    "precise": true
+  },
+  "Köpmangatan 35 , Örebro, Sweden": {
+    "lat": 59.2681009,
+    "lon": 15.2101371,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 84 , Örebro, Sweden": {
+    "lat": 59.288599,
+    "lon": 15.1980096,
+    "precise": true
+  },
+  "Metallvägen 16 , Örebro, Sweden": {
+    "lat": 59.1975639,
+    "lon": 15.1563538,
+    "precise": true
+  },
+  "Ladugatan 14 , Örebro, Sweden": {
+    "lat": 59.255536,
+    "lon": 15.203793,
+    "precise": true
+  },
+  "Lertagsgatan 39 , Örebro, Sweden": {
+    "lat": 59.2800036,
+    "lon": 15.1919366,
+    "precise": true
+  },
+  "Fatbursgatan 3 , Örebro, Sweden": {
+    "lat": 59.25658469999999,
+    "lon": 15.2061572,
+    "precise": true
+  },
+  "Lertagsgatan 49 , Örebro, Sweden": {
+    "lat": 59.2804837,
+    "lon": 15.1914104,
+    "precise": true
+  },
+  "Västra Nobelgatan 17  B, Örebro, Sweden": {
+    "lat": 59.2804337,
+    "lon": 15.2059893,
+    "precise": true
+  },
+  "Studentgatan 22    0308, Örebro, Sweden": {
+    "lat": 59.2519803,
+    "lon": 15.2452815,
+    "precise": true
+  },
+  "Varbergagatan 8, Örebro, Sweden": {
+    "lat": 59.2832569,
+    "lon": 15.1798947,
+    "precise": true
+  },
+  "Näsbyvägen 15, Örebro, Sweden": {
+    "lat": 59.264337,
+    "lon": 15.2505408,
+    "precise": true
+  },
+  "Restalundsvägen 46, Örebro, Sweden": {
+    "lat": 59.26499099999999,
+    "lon": 15.2188116,
+    "precise": true
   }
 }
