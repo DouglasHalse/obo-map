@@ -5488,5 +5488,20 @@
     "lat": 59.2384417,
     "lon": 15.2437717,
     "precise": true
+  },
+  "Lyrikgatan 2  C, Örebro, Sweden": {
+    "lat": 59.29821200000001,
+    "lon": 15.180122,
+    "precise": true
+  },
+  "Lyrikgatan 5  C, Örebro, Sweden": {
+    "lat": 59.2988225,
+    "lon": 15.1805851,
+    "precise": true
+  },
+  "Skäpplandsg 5 , Örebro, Sweden": {
+    "lat": 59.2740149,
+    "lon": 15.1714089,
+    "precise": true
   }
 }
