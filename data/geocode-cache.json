@@ -5503,5 +5503,10 @@
     "lat": 59.2740149,
     "lon": 15.1714089,
     "precise": true
+  },
+  "Jakobsgatan 16, Örebro, Sweden": {
+    "lat": 59.2781672,
+    "lon": 15.2075381,
+    "precise": false
   }
 }
