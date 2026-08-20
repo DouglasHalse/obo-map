@@ -5788,5 +5788,80 @@
     "lat": 59.2704233,
     "lon": 15.1849436,
     "precise": true
+  },
+  "Bonstorpsvägen 29 A, Örebro, Sweden": {
+    "lat": 59.2342407,
+    "lon": 15.1620992,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 40 , Örebro, Sweden": {
+    "lat": 59.28893949999999,
+    "lon": 15.2020704,
+    "precise": true
+  },
+  "Varbergagatan 184, Örebro, Sweden": {
+    "lat": 59.2898172,
+    "lon": 15.1721337,
+    "precise": true
+  },
+  "Lars Wivallius Väg 37, Örebro, Sweden": {
+    "lat": 59.29122169999999,
+    "lon": 15.2017401,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 14 , Örebro, Sweden": {
+    "lat": 59.2895087,
+    "lon": 15.2023513,
+    "precise": true
+  },
+  "Poesigatan 6  A , Örebro, Sweden": {
+    "lat": 59.2993346,
+    "lon": 15.1931006,
+    "precise": true
+  },
+  "Varbergagatan 38 , Örebro, Sweden": {
+    "lat": 59.28493539999999,
+    "lon": 15.1779391,
+    "precise": true
+  },
+  "Hindergårdsgatan 12 C, Örebro, Sweden": {
+    "lat": 59.28547580000001,
+    "lon": 15.2436095,
+    "precise": true
+  },
+  "Restalundsvägen 28, Örebro, Sweden": {
+    "lat": 59.2651213,
+    "lon": 15.2217078,
+    "precise": true
+  },
+  "Krukmakaregatan 2 , Örebro, Sweden": {
+    "lat": 59.2863221,
+    "lon": 15.2294215,
+    "precise": true
+  },
+  "Tornfalkgatan 13, Örebro, Sweden": {
+    "lat": 59.2780052,
+    "lon": 15.1727148,
+    "precise": true
+  },
+  "Köpmangatan 51, Örebro, Sweden": {
+    "lat": 59.2666029,
+    "lon": 15.2079413,
+    "precise": true
+  },
+  "Studentgatan 22    0202 , Örebro, Sweden": {
+    "lat": 59.2519803,
+    "lon": 15.2452815,
+    "precise": true
+  },
+  "Björkrisvägen 20, Örebro, Sweden": {
+    "lat": 59.2400816,
+    "lon": 15.2433191,
+    "precise": true
+  },
+  "Tallrisvägen 26, Örebro, Sweden": {
+    "lat": 59.235159,
+    "lon": 15.2438779,
+    "precise": true
   }
 }
