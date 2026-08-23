@@ -5983,5 +5983,15 @@
     "lat": 59.2738091,
     "lon": 15.1733134,
     "precise": true
+  },
+  "Varbergagatan 146 , Örebro, Sweden": {
+    "lat": 59.2885958,
+    "lon": 15.1752645,
+    "precise": true
+  },
+  "Lyrikgatan 4  A, Örebro, Sweden": {
+    "lat": 59.2978598,
+    "lon": 15.1805324,
+    "precise": true
   }
 }
