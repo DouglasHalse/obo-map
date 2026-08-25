@@ -5993,5 +5993,95 @@
     "lat": 59.2978598,
     "lon": 15.1805324,
     "precise": true
+  },
+  "Poesigatan 3 A, Örebro, Sweden": {
+    "lat": 59.29812889999999,
+    "lon": 15.1944886,
+    "precise": true
+  },
+  "Versgatan 16  H, Örebro, Sweden": {
+    "lat": 59.30331320000001,
+    "lon": 15.1896975,
+    "precise": true
+  },
+  "Varbergagatan 223 , Örebro, Sweden": {
+    "lat": 59.289144,
+    "lon": 15.1675918,
+    "precise": true
+  },
+  "Lars Wivallius Väg 43, Örebro, Sweden": {
+    "lat": 59.29137249999999,
+    "lon": 15.2009514,
+    "precise": true
+  },
+  "Lertagsgatan 41 , Örebro, Sweden": {
+    "lat": 59.2802155,
+    "lon": 15.1920328,
+    "precise": true
+  },
+  "Balladgatan 8  C , Örebro, Sweden": {
+    "lat": 59.3013683,
+    "lon": 15.1805907,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 70 , Örebro, Sweden": {
+    "lat": 59.28953929999999,
+    "lon": 15.1980191,
+    "precise": true
+  },
+  "Varbergagatan 129, Örebro, Sweden": {
+    "lat": 59.28781720000001,
+    "lon": 15.1765082,
+    "precise": true
+  },
+  "Strömersgatan 3  A, Örebro, Sweden": {
+    "lat": 59.2793205,
+    "lon": 15.2192846,
+    "precise": true
+  },
+  "Berggatan 22, Örebro, Sweden": {
+    "lat": 59.2804849,
+    "lon": 15.2217223,
+    "precise": true
+  },
+  "Änggatan 26  A, Örebro, Sweden": {
+    "lat": 59.2668255,
+    "lon": 15.2086229,
+    "precise": true
+  },
+  "Aspnäsgatan 13, Örebro, Sweden": {
+    "lat": 59.27209149999999,
+    "lon": 15.2405612,
+    "precise": true
+  },
+  "Lyrikgatan 21  B, Örebro, Sweden": {
+    "lat": 59.2983939,
+    "lon": 15.1845723,
+    "precise": true
+  },
+  "Majorsgatan 6, Örebro, Sweden": {
+    "lat": 59.28699909999999,
+    "lon": 15.2369503,
+    "precise": true
+  },
+  "Hemmansvägen 94, Örebro, Sweden": {
+    "lat": 59.2564094,
+    "lon": 15.2313994,
+    "precise": true
+  },
+  "Tallrisvägen 33, Örebro, Sweden": {
+    "lat": 59.23589,
+    "lon": 15.244055,
+    "precise": true
+  },
+  "Landbotorpsallén 5, Örebro, Sweden": {
+    "lat": 59.2564484,
+    "lon": 15.1977558,
+    "precise": true
+  },
+  "Tallrisvägen 41, Örebro, Sweden": {
+    "lat": 59.2360352,
+    "lon": 15.2455749,
+    "precise": true
   }
 }
