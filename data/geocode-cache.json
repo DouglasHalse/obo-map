@@ -6083,5 +6083,45 @@
     "lat": 59.2360352,
     "lon": 15.2455749,
     "precise": true
+  },
+  "Lertagsgatan 35, Örebro, Sweden": {
+    "lat": 59.280153,
+    "lon": 15.1926029,
+    "precise": true
+  },
+  "Bromsgatan 10 , Örebro, Sweden": {
+    "lat": 59.2826743,
+    "lon": 15.2231388,
+    "precise": true
+  },
+  "Varbergagatan 144, Örebro, Sweden": {
+    "lat": 59.2874585,
+    "lon": 15.1740209,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 611, Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
+  },
+  "Studentgatan 32, Örebro, Sweden": {
+    "lat": 59.252133,
+    "lon": 15.2473433,
+    "precise": true
+  },
+  "Drottninggatan 35 , Örebro, Sweden": {
+    "lat": 59.2678129,
+    "lon": 15.2083759,
+    "precise": true
+  },
+  "Varbergagatan 194, Örebro, Sweden": {
+    "lat": 59.288954,
+    "lon": 15.1693945,
+    "precise": true
+  },
+  "Engelbrektsgatan 48, Örebro, Sweden": {
+    "lat": 59.2704621,
+    "lon": 15.2234719,
+    "precise": true
   }
 }
