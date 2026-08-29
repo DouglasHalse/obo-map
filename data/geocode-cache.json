@@ -1405,8 +1405,8 @@
     "precise": true
   },
   "Fabriksvägen 33, Örebro, Sweden": {
-    "lat": 59.2685905,
-    "lon": 15.2050031,
+    "lat": 59.2685971,
+    "lon": 15.205017,
     "precise": false
   },
   "Apelvägen 119, Örebro, Sweden": {
@@ -6237,6 +6237,16 @@
   "Örnsköldsgatan 147, Örebro, Sweden": {
     "lat": 59.282512,
     "lon": 15.1837112,
+    "precise": true
+  },
+  "Tornfalkgatan 148, Örebro, Sweden": {
+    "lat": 59.28177590000001,
+    "lon": 15.1773642,
+    "precise": true
+  },
+  "Versgatan 24  D, Örebro, Sweden": {
+    "lat": 59.30380209999999,
+    "lon": 15.1913441,
     "precise": true
   }
 }
