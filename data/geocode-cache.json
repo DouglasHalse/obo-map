@@ -6293,5 +6293,45 @@
     "lat": 59.288223,
     "lon": 15.2296858,
     "precise": true
+  },
+  "Västra Vintergatan 204 , Örebro, Sweden": {
+    "lat": 59.27130689999999,
+    "lon": 15.1825824,
+    "precise": true
+  },
+  "Krönikegatan 4  B, Örebro, Sweden": {
+    "lat": 59.2995956,
+    "lon": 15.179538,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A  205 , Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
+  },
+  "Åstadalsvägen 9    0304 , Örebro, Sweden": {
+    "lat": 59.25148699999999,
+    "lon": 15.246189,
+    "precise": true
+  },
+  "Björkallén 58, Örebro, Sweden": {
+    "lat": 59.268263,
+    "lon": 15.1818255,
+    "precise": true
+  },
+  "Tornfalkgatan 110, Örebro, Sweden": {
+    "lat": 59.2807105,
+    "lon": 15.1767792,
+    "precise": true
+  },
+  "Restalundsvägen 26, Örebro, Sweden": {
+    "lat": 59.2649545,
+    "lon": 15.2218225,
+    "precise": true
+  },
+  "Tornfalkgatan 124, Örebro, Sweden": {
+    "lat": 59.2811261,
+    "lon": 15.1773767,
+    "precise": true
   }
 }
