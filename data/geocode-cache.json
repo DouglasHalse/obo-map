@@ -6333,5 +6333,50 @@
     "lat": 59.2811261,
     "lon": 15.1773767,
     "precise": true
+  },
+  "Lyrikgatan 12  B, Örebro, Sweden": {
+    "lat": 59.2978688,
+    "lon": 15.182767,
+    "precise": true
+  },
+  "Varbergagatan 177 , Örebro, Sweden": {
+    "lat": 59.2893164,
+    "lon": 15.1712582,
+    "precise": true
+  },
+  "Varbergagatan 135 , Örebro, Sweden": {
+    "lat": 59.2879143,
+    "lon": 15.1743297,
+    "precise": true
+  },
+  "Västra Vintergatan 19, Örebro, Sweden": {
+    "lat": 59.270176,
+    "lon": 15.1857782,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 128, Örebro, Sweden": {
+    "lat": 59.2888084,
+    "lon": 15.1947831,
+    "precise": true
+  },
+  "Varbergagatan 113, Örebro, Sweden": {
+    "lat": 59.28665609999999,
+    "lon": 15.1760683,
+    "precise": true
+  },
+  "Skäpplandsgatan 23 , Örebro, Sweden": {
+    "lat": 59.2747539,
+    "lon": 15.1676529,
+    "precise": true
+  },
+  "Kristinagatan 27  A , Örebro, Sweden": {
+    "lat": 59.2677825,
+    "lon": 15.2294001,
+    "precise": true
+  },
+  "Rostastrand 51, Örebro, Sweden": {
+    "lat": 59.2684606,
+    "lon": 15.1822881,
+    "precise": true
   }
 }
