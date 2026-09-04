@@ -6378,5 +6378,95 @@
     "lat": 59.2684606,
     "lon": 15.1822881,
     "precise": true
+  },
+  "Storgatan 52  B , Örebro, Sweden": {
+    "lat": 59.28246719999999,
+    "lon": 15.2205804,
+    "precise": true
+  },
+  "Västra Nobelgatan 27  B , Örebro, Sweden": {
+    "lat": 59.28046810000001,
+    "lon": 15.2026193,
+    "precise": true
+  },
+  "Norra Grev Rosengatan 17  F 17 F, Örebro, Sweden": {
+    "lat": 59.2779495,
+    "lon": 15.2220805,
+    "precise": true
+  },
+  "Restalundsvägen 45 , Örebro, Sweden": {
+    "lat": 59.2647298,
+    "lon": 15.2226592,
+    "precise": true
+  },
+  "Landbotorpsallén 5  G, Örebro, Sweden": {
+    "lat": 59.2566602,
+    "lon": 15.1981774,
+    "precise": true
+  },
+  "Längbrogatan 2  A , Örebro, Sweden": {
+    "lat": 59.2833722,
+    "lon": 15.226176,
+    "precise": true
+  },
+  "Lyrikgatan 4  B , Örebro, Sweden": {
+    "lat": 59.29793679999999,
+    "lon": 15.1805563,
+    "precise": true
+  },
+  "Ekängsgatan 11 , Örebro, Sweden": {
+    "lat": 59.2644982,
+    "lon": 15.2055864,
+    "precise": true
+  },
+  "Fabriksgatan 44 , Örebro, Sweden": {
+    "lat": 59.26802559999999,
+    "lon": 15.2028972,
+    "precise": true
+  },
+  "Rickardsbergsgatan 6 , Örebro, Sweden": {
+    "lat": 59.2881703,
+    "lon": 15.2291593,
+    "precise": true
+  },
+  "Norrbygatan 32 , Örebro, Sweden": {
+    "lat": 59.28594349999999,
+    "lon": 15.2340486,
+    "precise": true
+  },
+  "Granrisvägen 46  E, Örebro, Sweden": {
+    "lat": 59.2377963,
+    "lon": 15.2464093,
+    "precise": true
+  },
+  "Tallrisvägen 37  B, Örebro, Sweden": {
+    "lat": 59.23596730000001,
+    "lon": 15.2447034,
+    "precise": true
+  },
+  "Berggatan 44 , Örebro, Sweden": {
+    "lat": 59.280375,
+    "lon": 15.222979,
+    "precise": true
+  },
+  "Varbergagatan 135, Örebro, Sweden": {
+    "lat": 59.2879143,
+    "lon": 15.1743297,
+    "precise": true
+  },
+  "Höglundagatan 33, Örebro, Sweden": {
+    "lat": 59.287506,
+    "lon": 15.2303262,
+    "precise": true
+  },
+  "Höglundagatan 21  A , Örebro, Sweden": {
+    "lat": 59.28664129999999,
+    "lon": 15.2311104,
+    "precise": true
+  },
+  "Skäpplandsgatan 23, Örebro, Sweden": {
+    "lat": 59.2747539,
+    "lon": 15.1676529,
+    "precise": true
   }
 }
