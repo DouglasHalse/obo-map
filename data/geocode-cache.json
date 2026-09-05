@@ -6468,5 +6468,75 @@
     "lat": 59.2747539,
     "lon": 15.1676529,
     "precise": true
+  },
+  "Varbergagatan 97 , Örebro, Sweden": {
+    "lat": 59.28699830000001,
+    "lon": 15.1788593,
+    "precise": true
+  },
+  "Varbergagatan 210 , Örebro, Sweden": {
+    "lat": 59.2901639,
+    "lon": 15.1693188,
+    "precise": true
+  },
+  "Ekängsgatan 15 , Örebro, Sweden": {
+    "lat": 59.26475780000001,
+    "lon": 15.2059541,
+    "precise": true
+  },
+  "Västra Vintergatan 21 , Örebro, Sweden": {
+    "lat": 59.27027510000001,
+    "lon": 15.1854439,
+    "precise": true
+  },
+  "Kabingatan 5 , Örebro, Sweden": {
+    "lat": 59.2541519,
+    "lon": 15.2067661,
+    "precise": true
+  },
+  "Peppargatan 8 , Örebro, Sweden": {
+    "lat": 59.255287,
+    "lon": 15.2169181,
+    "precise": true
+  },
+  "Västra Vintergatan 144 , Örebro, Sweden": {
+    "lat": 59.2721484,
+    "lon": 15.1858233,
+    "precise": true
+  },
+  "Östra Vintergatan 90 , Örebro, Sweden": {
+    "lat": 59.27152109999999,
+    "lon": 15.187905,
+    "precise": true
+  },
+  "Polhemsgatan 18  A , Örebro, Sweden": {
+    "lat": 59.2830853,
+    "lon": 15.2190269,
+    "precise": true
+  },
+  "Granrisvägen 30  B, Örebro, Sweden": {
+    "lat": 59.23762679999999,
+    "lon": 15.2430992,
+    "precise": true
+  },
+  "Tengvallsgatan 42 , Örebro, Sweden": {
+    "lat": 59.27638580000001,
+    "lon": 15.1859524,
+    "precise": true
+  },
+  "Norrbygatan 31, Örebro, Sweden": {
+    "lat": 59.2869093,
+    "lon": 15.2324009,
+    "precise": true
+  },
+  "Norrbygatan 23, Örebro, Sweden": {
+    "lat": 59.28627479999999,
+    "lon": 15.2329948,
+    "precise": true
+  },
+  "Åstadalsvägen 3  A    0414 , Örebro, Sweden": {
+    "lat": 59.2537579,
+    "lon": 15.2436255,
+    "precise": true
   }
 }
