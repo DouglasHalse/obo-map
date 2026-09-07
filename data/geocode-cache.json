@@ -6538,5 +6538,45 @@
     "lat": 59.2537579,
     "lon": 15.2436255,
     "precise": true
+  },
+  "Diktargatan 11  A , Örebro, Sweden": {
+    "lat": 59.297114,
+    "lon": 15.1929239,
+    "precise": true
+  },
+  "Varbergagatan 210, Örebro, Sweden": {
+    "lat": 59.2901639,
+    "lon": 15.1693188,
+    "precise": true
+  },
+  "Ekängsgatan 15, Örebro, Sweden": {
+    "lat": 59.26475780000001,
+    "lon": 15.2059541,
+    "precise": true
+  },
+  "Kabingatan 5, Örebro, Sweden": {
+    "lat": 59.2541519,
+    "lon": 15.2067661,
+    "precise": true
+  },
+  "Restalundsvägen 45, Örebro, Sweden": {
+    "lat": 59.2647298,
+    "lon": 15.2226592,
+    "precise": true
+  },
+  "Ekängsgatan 11, Örebro, Sweden": {
+    "lat": 59.2644982,
+    "lon": 15.2055864,
+    "precise": true
+  },
+  "Höglundagatan 21  C, Örebro, Sweden": {
+    "lat": 59.2863832,
+    "lon": 15.2300836,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 1102 , Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
   }
 }
