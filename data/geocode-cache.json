@@ -6578,5 +6578,80 @@
     "lat": 59.2679282,
     "lon": 15.2155971,
     "precise": true
+  },
+  "Ruddammsvägen 3 A , Örebro, Sweden": {
+    "lat": 59.1385764,
+    "lon": 15.6706193,
+    "precise": true
+  },
+  "Norra Bangatan 5, Örebro, Sweden": {
+    "lat": 59.2802252,
+    "lon": 15.2113132,
+    "precise": true
+  },
+  "Lyrikgatan 8  C , Örebro, Sweden": {
+    "lat": 59.29805870000001,
+    "lon": 15.1816246,
+    "precise": true
+  },
+  "Lyrikgatan 5  A , Örebro, Sweden": {
+    "lat": 59.298618,
+    "lon": 15.1805215,
+    "precise": true
+  },
+  "Lars Wivallius Väg 13 , Örebro, Sweden": {
+    "lat": 59.2908847,
+    "lon": 15.2022071,
+    "precise": true
+  },
+  "Östra Vintergatan 90, Örebro, Sweden": {
+    "lat": 59.27152109999999,
+    "lon": 15.187905,
+    "precise": true
+  },
+  "Polhemsgatan 18  A, Örebro, Sweden": {
+    "lat": 59.2830853,
+    "lon": 15.2190269,
+    "precise": true
+  },
+  "Tengvallsgatan 42, Örebro, Sweden": {
+    "lat": 59.27638580000001,
+    "lon": 15.1859524,
+    "precise": true
+  },
+  "Storgatan 52  B, Örebro, Sweden": {
+    "lat": 59.28246719999999,
+    "lon": 15.2205804,
+    "precise": true
+  },
+  "Västra Nobelgatan 27  B, Örebro, Sweden": {
+    "lat": 59.28046810000001,
+    "lon": 15.2026193,
+    "precise": true
+  },
+  "Längbrogatan 2  A, Örebro, Sweden": {
+    "lat": 59.2833722,
+    "lon": 15.226176,
+    "precise": true
+  },
+  "Varbergagatan 109, Örebro, Sweden": {
+    "lat": 59.2867814,
+    "lon": 15.1767605,
+    "precise": true
+  },
+  "Varbergagatan 99, Örebro, Sweden": {
+    "lat": 59.28708140000001,
+    "lon": 15.1780324,
+    "precise": true
+  },
+  "Skolvägen 2, Örebro, Sweden": {
+    "lat": 59.1268407,
+    "lon": 15.1389553,
+    "precise": true
+  },
+  "Krönikegatan 16, Örebro, Sweden": {
+    "lat": 59.29921299999999,
+    "lon": 15.1820814,
+    "precise": true
   }
 }
