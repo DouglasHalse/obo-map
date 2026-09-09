@@ -6653,5 +6653,55 @@
     "lat": 59.29921299999999,
     "lon": 15.1820814,
     "precise": true
+  },
+  "Östra Vintergatan 66, Örebro, Sweden": {
+    "lat": 59.2730858,
+    "lon": 15.1874287,
+    "precise": true
+  },
+  "Trädgårdsgatan 16 , Örebro, Sweden": {
+    "lat": 59.27000929999999,
+    "lon": 15.2165012,
+    "precise": true
+  },
+  "Köpmangatan 62 , Örebro, Sweden": {
+    "lat": 59.2664558,
+    "lon": 15.2067387,
+    "precise": true
+  },
+  "Björkrisvägen 23  F, Örebro, Sweden": {
+    "lat": 59.2410582,
+    "lon": 15.2415036,
+    "precise": true
+  },
+  "Varbergagatan 241 , Örebro, Sweden": {
+    "lat": 59.2898253,
+    "lon": 15.1657876,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 154 , Örebro, Sweden": {
+    "lat": 59.2899634,
+    "lon": 15.1954334,
+    "precise": true
+  },
+  "Hertig Karls Allé 95 , Örebro, Sweden": {
+    "lat": 59.2844516,
+    "lon": 15.2026121,
+    "precise": true
+  },
+  "Östra Vintergatan 72, Örebro, Sweden": {
+    "lat": 59.2727304,
+    "lon": 15.1871774,
+    "precise": true
+  },
+  "Östra Vintergatan 94, Örebro, Sweden": {
+    "lat": 59.27120710000001,
+    "lon": 15.188322,
+    "precise": true
+  },
+  "Örnsrogatan 3  C, Örebro, Sweden": {
+    "lat": 59.2677942,
+    "lon": 15.1916275,
+    "precise": true
   }
 }
