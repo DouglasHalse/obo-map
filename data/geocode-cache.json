@@ -6783,5 +6783,40 @@
     "lat": 59.25238220000001,
     "lon": 15.2470314,
     "precise": true
+  },
+  "Gustavsgatan 22 , Örebro, Sweden": {
+    "lat": 59.28020699999999,
+    "lon": 15.2105747,
+    "precise": true
+  },
+  "Skolgatan 30  B , Örebro, Sweden": {
+    "lat": 59.278285,
+    "lon": 15.2220638,
+    "precise": true
+  },
+  "Apelvägen 47, Örebro, Sweden": {
+    "lat": 59.282172,
+    "lon": 15.1931994,
+    "precise": true
+  },
+  "Östra Vintergatan 64, Örebro, Sweden": {
+    "lat": 59.2732318,
+    "lon": 15.187688,
+    "precise": true
+  },
+  "Krönikegatan 14  A, Örebro, Sweden": {
+    "lat": 59.29939169999999,
+    "lon": 15.1820895,
+    "precise": true
+  },
+  "Tornfalkgatan 55 , Örebro, Sweden": {
+    "lat": 59.2792281,
+    "lon": 15.1741289,
+    "precise": true
+  },
+  "Södra Allén 22  A, Örebro, Sweden": {
+    "lat": 59.264669,
+    "lon": 15.2073351,
+    "precise": true
   }
 }
