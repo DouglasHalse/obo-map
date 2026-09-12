@@ -6818,5 +6818,60 @@
     "lat": 59.264669,
     "lon": 15.2073351,
     "precise": true
+  },
+  "Rudbecksgatan 18 , Örebro, Sweden": {
+    "lat": 59.2695675,
+    "lon": 15.2086894,
+    "precise": true
+  },
+  "Karlslundsgatan 3 , Örebro, Sweden": {
+    "lat": 59.27400069999999,
+    "lon": 15.2049925,
+    "precise": true
+  },
+  "Lertagsgatan 61 , Örebro, Sweden": {
+    "lat": 59.2798889,
+    "lon": 15.1907979,
+    "precise": true
+  },
+  "Tallbacksvägen 21 , Örebro, Sweden": {
+    "lat": 59.285655,
+    "lon": 15.2334384,
+    "precise": true
+  },
+  "Norrgatan 27  C, Örebro, Sweden": {
+    "lat": 59.28015380000001,
+    "lon": 15.2063392,
+    "precise": true
+  },
+  "Trädgårdsgatan 16, Örebro, Sweden": {
+    "lat": 59.27000929999999,
+    "lon": 15.2165012,
+    "precise": true
+  },
+  "Köpmangatan 62, Örebro, Sweden": {
+    "lat": 59.2664558,
+    "lon": 15.2067387,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 154, Örebro, Sweden": {
+    "lat": 59.2899634,
+    "lon": 15.1954334,
+    "precise": true
+  },
+  "Hertig Karls Allé 95, Örebro, Sweden": {
+    "lat": 59.2844516,
+    "lon": 15.2026121,
+    "precise": true
+  },
+  "Studentgatan 12, Örebro, Sweden": {
+    "lat": 59.2524653,
+    "lon": 15.2438762,
+    "precise": true
+  },
+  "Studentgatan 20    0202, Örebro, Sweden": {
+    "lat": 59.25224600000001,
+    "lon": 15.2451093,
+    "precise": true
   }
 }
