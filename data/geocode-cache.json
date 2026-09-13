@@ -6873,5 +6873,10 @@
     "lat": 59.25224600000001,
     "lon": 15.2451093,
     "precise": true
+  },
+  "Lyrikgatan 10  B, Örebro, Sweden": {
+    "lat": 59.29788699999999,
+    "lon": 15.1820864,
+    "precise": true
   }
 }
