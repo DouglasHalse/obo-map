@@ -6878,5 +6878,35 @@
     "lat": 59.29788699999999,
     "lon": 15.1820864,
     "precise": true
+  },
+  "Prosagatan 20  B , Örebro, Sweden": {
+    "lat": 59.3026557,
+    "lon": 15.1872966,
+    "precise": true
+  },
+  "Lars Wivallius Väg 57 , Örebro, Sweden": {
+    "lat": 59.29165099999999,
+    "lon": 15.2000025,
+    "precise": true
+  },
+  "Ekenäsvägen 36, Örebro, Sweden": {
+    "lat": 59.1637467,
+    "lon": 15.5222347,
+    "precise": true
+  },
+  "Toringsgatan 21 , Örebro, Sweden": {
+    "lat": 59.2839086,
+    "lon": 15.2274794,
+    "precise": true
+  },
+  "Höglundagatan 53 , Örebro, Sweden": {
+    "lat": 59.2889707,
+    "lon": 15.2288578,
+    "precise": true
+  },
+  "Björkrisvägen 28  K, Örebro, Sweden": {
+    "lat": 59.2400888,
+    "lon": 15.2447077,
+    "precise": true
   }
 }
