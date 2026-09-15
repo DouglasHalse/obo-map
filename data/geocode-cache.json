@@ -6908,5 +6908,85 @@
     "lat": 59.2400888,
     "lon": 15.2447077,
     "precise": true
+  },
+  "Krönikegatan 26  A , Örebro, Sweden": {
+    "lat": 59.29910279999999,
+    "lon": 15.1847986,
+    "precise": true
+  },
+  "Krönikegatan 17 A, Örebro, Sweden": {
+    "lat": 59.30007789999999,
+    "lon": 15.1826343,
+    "precise": true
+  },
+  "Ekängsgatan 27 , Örebro, Sweden": {
+    "lat": 59.26404969999999,
+    "lon": 15.2071178,
+    "precise": true
+  },
+  "Västra Vintergatan 216, Örebro, Sweden": {
+    "lat": 59.27035919999999,
+    "lon": 15.1819627,
+    "precise": true
+  },
+  "Tornfalkgatan 4 , Örebro, Sweden": {
+    "lat": 59.27776269999999,
+    "lon": 15.1757466,
+    "precise": true
+  },
+  "Tornfalkgatan 6 , Örebro, Sweden": {
+    "lat": 59.2777056,
+    "lon": 15.1758025,
+    "precise": true
+  },
+  "Tornfalkgatan 16 , Örebro, Sweden": {
+    "lat": 59.2776814,
+    "lon": 15.1771035,
+    "precise": true
+  },
+  "Drakenbergsgatan 63 , Örebro, Sweden": {
+    "lat": 59.2576519,
+    "lon": 15.2353925,
+    "precise": true
+  },
+  "Aspnäsgatan 11 , Örebro, Sweden": {
+    "lat": 59.2716199,
+    "lon": 15.2411221,
+    "precise": true
+  },
+  "Oskarsvägen 1  A , Örebro, Sweden": {
+    "lat": 59.2692774,
+    "lon": 15.2284175,
+    "precise": true
+  },
+  "Krönikegatan 6  A, Örebro, Sweden": {
+    "lat": 59.2994614,
+    "lon": 15.179933,
+    "precise": true
+  },
+  "Lertagsgatan 61, Örebro, Sweden": {
+    "lat": 59.2798889,
+    "lon": 15.1907979,
+    "precise": true
+  },
+  "Ringvägsplan 22, Örebro, Sweden": {
+    "lat": 59.3180457,
+    "lon": 15.398121,
+    "precise": true
+  },
+  "Höglundagatan 27 , Örebro, Sweden": {
+    "lat": 59.2871043,
+    "lon": 15.2304691,
+    "precise": true
+  },
+  "Rudbecksgatan 18, Örebro, Sweden": {
+    "lat": 59.2695675,
+    "lon": 15.2086894,
+    "precise": true
+  },
+  "Längbrogatan 2  B, Örebro, Sweden": {
+    "lat": 59.28344349999999,
+    "lon": 15.226349,
+    "precise": true
   }
 }
