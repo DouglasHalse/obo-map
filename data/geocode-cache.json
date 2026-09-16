@@ -6988,5 +6988,35 @@
     "lat": 59.28344349999999,
     "lon": 15.226349,
     "precise": true
+  },
+  "Askers Kyrkväg 3 , Örebro, Sweden": {
+    "lat": 59.1511501,
+    "lon": 15.4718155,
+    "precise": true
+  },
+  "Midgårdsvägen 95, Örebro, Sweden": {
+    "lat": 59.1563574,
+    "lon": 15.5275437,
+    "precise": true
+  },
+  "Lyrikgatan 13  C , Örebro, Sweden": {
+    "lat": 59.2986948,
+    "lon": 15.1827744,
+    "precise": true
+  },
+  "Lertagsgatan 25 , Örebro, Sweden": {
+    "lat": 59.2804306,
+    "lon": 15.1934873,
+    "precise": true
+  },
+  "Lyrikgatan 11  A , Örebro, Sweden": {
+    "lat": 59.298442,
+    "lon": 15.182021,
+    "precise": true
+  },
+  "Fogdegatan 4 , Örebro, Sweden": {
+    "lat": 59.2801347,
+    "lon": 15.2034101,
+    "precise": true
   }
 }
