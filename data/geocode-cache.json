@@ -7018,5 +7018,30 @@
     "lat": 59.2801347,
     "lon": 15.2034101,
     "precise": true
+  },
+  "Krönikegatan 7  A , Örebro, Sweden": {
+    "lat": 59.3001387,
+    "lon": 15.1796953,
+    "precise": true
+  },
+  "Varbergagatan 124, Örebro, Sweden": {
+    "lat": 59.2884492,
+    "lon": 15.176717,
+    "precise": true
+  },
+  "Åstadalsvägen 3  A    0411 , Örebro, Sweden": {
+    "lat": 59.2537579,
+    "lon": 15.2436255,
+    "precise": true
+  },
+  "Bergavägen 14, Örebro, Sweden": {
+    "lat": 59.2756462,
+    "lon": 14.988113,
+    "precise": true
+  },
+  "Engelbrektsgatan 48 , Örebro, Sweden": {
+    "lat": 59.2704621,
+    "lon": 15.2234719,
+    "precise": true
   }
 }
