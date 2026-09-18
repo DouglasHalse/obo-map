@@ -7043,5 +7043,90 @@
     "lat": 59.2704621,
     "lon": 15.2234719,
     "precise": true
+  },
+  "Rosenhillsgatan 1 , Örebro, Sweden": {
+    "lat": 59.28292020000001,
+    "lon": 15.2228931,
+    "precise": true
+  },
+  "Rönnvägen 28, Örebro, Sweden": {
+    "lat": 59.264219,
+    "lon": 15.2418269,
+    "precise": false
+  },
+  "Västra Vintergatan 182 , Örebro, Sweden": {
+    "lat": 59.27231109999999,
+    "lon": 15.1809905,
+    "precise": true
+  },
+  "Rönnvägen 38, Örebro, Sweden": {
+    "lat": 59.3918475,
+    "lon": 15.2440546,
+    "precise": true
+  },
+  "Lertagsgatan 16 , Örebro, Sweden": {
+    "lat": 59.2807785,
+    "lon": 15.1883166,
+    "precise": true
+  },
+  "Lyrikgatan 1  C, Örebro, Sweden": {
+    "lat": 59.29889230000001,
+    "lon": 15.1795749,
+    "precise": true
+  },
+  "Västra Vintergatan 27, Örebro, Sweden": {
+    "lat": 59.27062340000001,
+    "lon": 15.1848995,
+    "precise": true
+  },
+  "Hovstavägen 29, Örebro, Sweden": {
+    "lat": 59.2859861,
+    "lon": 15.220669,
+    "precise": true
+  },
+  "Västra Vintergatan 204, Örebro, Sweden": {
+    "lat": 59.27130689999999,
+    "lon": 15.1825824,
+    "precise": true
+  },
+  "Fogdegatan 4, Örebro, Sweden": {
+    "lat": 59.2801347,
+    "lon": 15.2034101,
+    "precise": true
+  },
+  "Varbergagatan 126, Örebro, Sweden": {
+    "lat": 59.28823680000001,
+    "lon": 15.17678,
+    "precise": true
+  },
+  "Tornfalkgatan 6, Örebro, Sweden": {
+    "lat": 59.2777056,
+    "lon": 15.1758025,
+    "precise": true
+  },
+  "Drakenbergsgatan 63, Örebro, Sweden": {
+    "lat": 59.2576519,
+    "lon": 15.2353925,
+    "precise": true
+  },
+  "Ekängsgatan 27, Örebro, Sweden": {
+    "lat": 59.26404969999999,
+    "lon": 15.2071178,
+    "precise": true
+  },
+  "Oskarsvägen 1  A, Örebro, Sweden": {
+    "lat": 59.2692774,
+    "lon": 15.2284175,
+    "precise": true
+  },
+  "Höglundagatan 27, Örebro, Sweden": {
+    "lat": 59.2871043,
+    "lon": 15.2304691,
+    "precise": true
+  },
+  "Höglundagatan 53, Örebro, Sweden": {
+    "lat": 59.2889707,
+    "lon": 15.2288578,
+    "precise": true
   }
 }
