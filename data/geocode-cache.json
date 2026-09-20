@@ -7163,5 +7163,15 @@
     "lat": 59.2537706,
     "lon": 15.2205391,
     "precise": true
+  },
+  "Varbergagatan 250 , Örebro, Sweden": {
+    "lat": 59.28957550000001,
+    "lon": 15.1670922,
+    "precise": true
+  },
+  "Tornfalkgatan 2 , Örebro, Sweden": {
+    "lat": 59.27787699999999,
+    "lon": 15.1757934,
+    "precise": true
   }
 }
