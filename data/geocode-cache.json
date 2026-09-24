@@ -7358,5 +7358,25 @@
     "lat": 59.28957550000001,
     "lon": 15.1670922,
     "precise": true
+  },
+  "Majorsgatan 1 , Örebro, Sweden": {
+    "lat": 59.2863992,
+    "lon": 15.2359726,
+    "precise": true
+  },
+  "Kungsgatan 54  B , Örebro, Sweden": {
+    "lat": 59.26580069999999,
+    "lon": 15.2079277,
+    "precise": true
+  },
+  "Åstadalsvägen 3  C    0203 , Örebro, Sweden": {
+    "lat": 59.2537186,
+    "lon": 15.2440663,
+    "precise": true
+  },
+  "Studentgatan 20    0315 , Örebro, Sweden": {
+    "lat": 59.25224600000001,
+    "lon": 15.2451093,
+    "precise": true
   }
 }
