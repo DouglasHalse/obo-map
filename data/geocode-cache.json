@@ -7378,5 +7378,55 @@
     "lat": 59.25224600000001,
     "lon": 15.2451093,
     "precise": true
+  },
+  "Fredsgatan 28 , Örebro, Sweden": {
+    "lat": 59.2754132,
+    "lon": 15.220499,
+    "precise": true
+  },
+  "Diktargatan 3  M, Örebro, Sweden": {
+    "lat": 59.2972342,
+    "lon": 15.1947858,
+    "precise": true
+  },
+  "Författargatan 7  D, Örebro, Sweden": {
+    "lat": 59.29552649999999,
+    "lon": 15.1942401,
+    "precise": true
+  },
+  "Tornfalkgatan 12, Örebro, Sweden": {
+    "lat": 59.27763840000001,
+    "lon": 15.1761367,
+    "precise": true
+  },
+  "Lyrikgatan 1  B , Örebro, Sweden": {
+    "lat": 59.2988284,
+    "lon": 15.1795549,
+    "precise": true
+  },
+  "Aspnäsgatan 9 , Örebro, Sweden": {
+    "lat": 59.27176559999999,
+    "lon": 15.2410714,
+    "precise": true
+  },
+  "Varbergagatan 182 , Örebro, Sweden": {
+    "lat": 59.2899117,
+    "lon": 15.1716836,
+    "precise": true
+  },
+  "Varbergagatan 134 , Örebro, Sweden": {
+    "lat": 59.2879592,
+    "lon": 15.1741117,
+    "precise": true
+  },
+  "Köpmangatan 49  A , Örebro, Sweden": {
+    "lat": 59.2668622,
+    "lon": 15.2084191,
+    "precise": true
+  },
+  "Västra Vintergatan 164 , Örebro, Sweden": {
+    "lat": 59.27290240000001,
+    "lon": 15.1832451,
+    "precise": true
   }
 }
