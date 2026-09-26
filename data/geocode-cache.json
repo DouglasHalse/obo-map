@@ -7428,5 +7428,75 @@
     "lat": 59.27290240000001,
     "lon": 15.1832451,
     "precise": true
+  },
+  "Oskarsvägen 7  B , Örebro, Sweden": {
+    "lat": 59.2691259,
+    "lon": 15.2306091,
+    "precise": true
+  },
+  "Drakenbergsgatan 20 , Örebro, Sweden": {
+    "lat": 59.26027120000001,
+    "lon": 15.2388861,
+    "precise": true
+  },
+  "Drakenbergsgatan 33 , Örebro, Sweden": {
+    "lat": 59.2585592,
+    "lon": 15.2368629,
+    "precise": true
+  },
+  "Drakenbergsgatan 69 , Örebro, Sweden": {
+    "lat": 59.25796449999999,
+    "lon": 15.2350619,
+    "precise": true
+  },
+  "Hagagatan 18 , Örebro, Sweden": {
+    "lat": 59.2730855,
+    "lon": 15.2023387,
+    "precise": true
+  },
+  "Örnsköldsgatan 9 , Örebro, Sweden": {
+    "lat": 59.2818726,
+    "lon": 15.1902568,
+    "precise": true
+  },
+  "Aspnäsgatan 9, Örebro, Sweden": {
+    "lat": 59.27176559999999,
+    "lon": 15.2410714,
+    "precise": true
+  },
+  "Köpmangatan 49  A, Örebro, Sweden": {
+    "lat": 59.2668622,
+    "lon": 15.2084191,
+    "precise": true
+  },
+  "Kungsgatan 54  B, Örebro, Sweden": {
+    "lat": 59.26580069999999,
+    "lon": 15.2079277,
+    "precise": true
+  },
+  "Åstadalsvägen 3  A    0422 , Örebro, Sweden": {
+    "lat": 59.2537579,
+    "lon": 15.2436255,
+    "precise": true
+  },
+  "Östra Vintergatan 56 , Örebro, Sweden": {
+    "lat": 59.27337370000001,
+    "lon": 15.188741,
+    "precise": true
+  },
+  "Pålsbodagatan 15, Örebro, Sweden": {
+    "lat": 59.25718369999999,
+    "lon": 15.2154911,
+    "precise": true
+  },
+  "Posthornsgatan 56, Örebro, Sweden": {
+    "lat": 59.28381599999999,
+    "lon": 15.1447108,
+    "precise": true
+  },
+  "Midgårdsvägen 15, Örebro, Sweden": {
+    "lat": 59.1554061,
+    "lon": 15.5278576,
+    "precise": true
   }
 }
