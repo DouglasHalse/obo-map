@@ -7593,5 +7593,65 @@
     "lat": 59.26744600000001,
     "lon": 15.1909899,
     "precise": true
+  },
+  "Visgatan 13  B , Örebro, Sweden": {
+    "lat": 59.2972321,
+    "lon": 15.1848067,
+    "precise": true
+  },
+  "Författargatan 15  C , Örebro, Sweden": {
+    "lat": 59.2958158,
+    "lon": 15.1924472,
+    "precise": true
+  },
+  "Visgatan 2  B, Örebro, Sweden": {
+    "lat": 59.2967981,
+    "lon": 15.1815084,
+    "precise": true
+  },
+  "Wallinvägen 3  B, Örebro, Sweden": {
+    "lat": 59.21256529999999,
+    "lon": 15.496011,
+    "precise": true
+  },
+  "Gustav Clasons Gata 18, Örebro, Sweden": {
+    "lat": 59.25840269999999,
+    "lon": 15.2395144,
+    "precise": true
+  },
+  "Höglundagatan 100, Örebro, Sweden": {
+    "lat": 59.2894838,
+    "lon": 15.2328218,
+    "precise": true
+  },
+  "Åstadalsvägen 3  C    0203, Örebro, Sweden": {
+    "lat": 59.2537186,
+    "lon": 15.2440663,
+    "precise": true
+  },
+  "Åstadalsvägen 3  F    0301, Örebro, Sweden": {
+    "lat": 59.25378689999999,
+    "lon": 15.2447135,
+    "precise": true
+  },
+  "Studentgatan 20    0304 , Örebro, Sweden": {
+    "lat": 59.25224600000001,
+    "lon": 15.2451093,
+    "precise": true
+  },
+  "Studentgatan 20    0107 , Örebro, Sweden": {
+    "lat": 59.25224600000001,
+    "lon": 15.2451093,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A  205, Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 1102, Örebro, Sweden": {
+    "lat": 59.2679282,
+    "lon": 15.2155971,
+    "precise": true
   }
 }
