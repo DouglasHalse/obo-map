@@ -7653,5 +7653,70 @@
     "lat": 59.2679282,
     "lon": 15.2155971,
     "precise": true
+  },
+  "Södermalmsallén 10 A, Örebro, Sweden": {
+    "lat": 59.2630722,
+    "lon": 15.2070576,
+    "precise": true
+  },
+  "Lars Wivallius Väg 67, Örebro, Sweden": {
+    "lat": 59.29102580000001,
+    "lon": 15.1998881,
+    "precise": true
+  },
+  "Drakenbergsgatan 45, Örebro, Sweden": {
+    "lat": 59.2583089,
+    "lon": 15.2357443,
+    "precise": true
+  },
+  "Askers Kyrkväg 7, Örebro, Sweden": {
+    "lat": 59.15094500000001,
+    "lon": 15.4719054,
+    "precise": true
+  },
+  "Tallrisvägen 37  C, Örebro, Sweden": {
+    "lat": 59.2360303,
+    "lon": 15.244683,
+    "precise": true
+  },
+  "Prosagatan 8  B , Örebro, Sweden": {
+    "lat": 59.30261110000001,
+    "lon": 15.1904463,
+    "precise": true
+  },
+  "Enrisvägen 2 , Örebro, Sweden": {
+    "lat": 59.2425429,
+    "lon": 15.2411354,
+    "precise": true
+  },
+  "Varbergagatan 5, Örebro, Sweden": {
+    "lat": 59.2833662,
+    "lon": 15.1793474,
+    "precise": true
+  },
+  "Skolvägen 2 , Örebro, Sweden": {
+    "lat": 59.1268407,
+    "lon": 15.1389553,
+    "precise": true
+  },
+  "Halltorpsvägen 130, Örebro, Sweden": {
+    "lat": 59.2414345,
+    "lon": 15.1841876,
+    "precise": true
+  },
+  "Gamla Arbogavägen 13, Örebro, Sweden": {
+    "lat": 59.3185035,
+    "lon": 15.3988892,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 138, Örebro, Sweden": {
+    "lat": 59.2893669,
+    "lon": 15.1953531,
+    "precise": true
+  },
+  "Versgatan 8, Örebro, Sweden": {
+    "lat": 59.30379920000001,
+    "lon": 15.1882781,
+    "precise": true
   }
 }
