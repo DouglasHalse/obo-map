@@ -7748,5 +7748,35 @@
     "lat": 59.2736017,
     "lon": 15.2021985,
     "precise": true
+  },
+  "Lertagsgatan 35 , Örebro, Sweden": {
+    "lat": 59.279842,
+    "lon": 15.1888545,
+    "precise": true
+  },
+  "Lertagsgatan 21 , Örebro, Sweden": {
+    "lat": 59.2801896,
+    "lon": 15.1892445,
+    "precise": true
+  },
+  "Berggatan 25 , Örebro, Sweden": {
+    "lat": 59.2802259,
+    "lon": 15.2254599,
+    "precise": true
+  },
+  "Restalundsvägen 42 , Örebro, Sweden": {
+    "lat": 59.2652721,
+    "lon": 15.2245518,
+    "precise": true
+  },
+  "Tunnlandsgatan 20  C, Örebro, Sweden": {
+    "lat": 59.2725147,
+    "lon": 15.1736296,
+    "precise": true
+  },
+  "Studentgatan 22    0306, Örebro, Sweden": {
+    "lat": 59.2519864,
+    "lon": 15.2453272,
+    "precise": true
   }
 }
