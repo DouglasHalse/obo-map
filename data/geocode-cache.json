@@ -7788,5 +7788,45 @@
     "lat": 59.2999396,
     "lon": 15.1796818,
     "precise": true
+  },
+  "Tengvallsgatan 6 , Örebro, Sweden": {
+    "lat": 59.2762508,
+    "lon": 15.1900271,
+    "precise": true
+  },
+  "Skolgatan 19  B , Örebro, Sweden": {
+    "lat": 59.2765834,
+    "lon": 15.2202686,
+    "precise": true
+  },
+  "Wallinvägen 3  G, Örebro, Sweden": {
+    "lat": 59.213072,
+    "lon": 15.494875,
+    "precise": true
+  },
+  "Ekenäsvägen 32, Örebro, Sweden": {
+    "lat": 59.1630734,
+    "lon": 15.5233606,
+    "precise": true
+  },
+  "Storgatan 21 , Örebro, Sweden": {
+    "lat": 59.2771859,
+    "lon": 15.2157516,
+    "precise": true
+  },
+  "Höglundagatan 24 , Örebro, Sweden": {
+    "lat": 59.2860095,
+    "lon": 15.2319895,
+    "precise": true
+  },
+  "Restalundsvägen 42, Örebro, Sweden": {
+    "lat": 59.2652721,
+    "lon": 15.2245518,
+    "precise": true
+  },
+  "Örnsrogatan 3 A, Örebro, Sweden": {
+    "lat": 59.2680558,
+    "lon": 15.191354,
+    "precise": true
   }
 }
