@@ -8063,5 +8063,75 @@
     "lat": 59.2850107,
     "lon": 15.1548216,
     "precise": true
+  },
+  "Lyrikgatan 13  A , Örebro, Sweden": {
+    "lat": 59.2983656,
+    "lon": 15.1807664,
+    "precise": true
+  },
+  "Varbergagatan 232 , Örebro, Sweden": {
+    "lat": 59.2902316,
+    "lon": 15.1674639,
+    "precise": true
+  },
+  "Versgatan 4  C , Örebro, Sweden": {
+    "lat": 59.3039839,
+    "lon": 15.1893335,
+    "precise": true
+  },
+  "Skaldegatan 13  C , Örebro, Sweden": {
+    "lat": 59.3006252,
+    "lon": 15.193155,
+    "precise": true
+  },
+  "Östra Vintergatan 72 , Örebro, Sweden": {
+    "lat": 59.2727282,
+    "lon": 15.1871716,
+    "precise": true
+  },
+  "Tengvallsgatan 16, Örebro, Sweden": {
+    "lat": 59.2760328,
+    "lon": 15.1884398,
+    "precise": true
+  },
+  "Stortorget 17, Örebro, Sweden": {
+    "lat": 59.2713537,
+    "lon": 15.2167912,
+    "precise": true
+  },
+  "Hertig Karls Allé 42  B, Örebro, Sweden": {
+    "lat": 59.2821021,
+    "lon": 15.2016364,
+    "precise": true
+  },
+  "Skolgatan 8 B, Örebro, Sweden": {
+    "lat": 59.2762327,
+    "lon": 15.2199771,
+    "precise": true
+  },
+  "Hertig Karls Allé 55, Örebro, Sweden": {
+    "lat": 59.2841207,
+    "lon": 15.2025526,
+    "precise": true
+  },
+  "Västra Vintergatan 226, Örebro, Sweden": {
+    "lat": 59.2698382,
+    "lon": 15.1815556,
+    "precise": true
+  },
+  "Västra Vintergatan 118, Örebro, Sweden": {
+    "lat": 59.2707601,
+    "lon": 15.1873369,
+    "precise": true
+  },
+  "Hertig Karls Allé 6, Örebro, Sweden": {
+    "lat": 59.2730241,
+    "lon": 15.2005663,
+    "precise": true
+  },
+  "Älvtomtagatan 53, Örebro, Sweden": {
+    "lat": 59.2800499,
+    "lon": 15.1960965,
+    "precise": true
   }
 }
