@@ -8263,5 +8263,35 @@
     "lat": 59.2884223,
     "lon": 15.1948443,
     "precise": true
+  },
+  "Varbergagatan 130, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Tornfalkgatan 84, Örebro, Sweden": {
+    "lat": 59.2786657,
+    "lon": 15.1751726,
+    "precise": true
+  },
+  "Granrisvägen 5  K, Örebro, Sweden": {
+    "lat": 59.2381852,
+    "lon": 15.2366937,
+    "precise": true
+  },
+  "Varbergagatan 216, Örebro, Sweden": {
+    "lat": 59.2901455,
+    "lon": 15.1685755,
+    "precise": true
+  },
+  "Tornfalkgatan 10, Örebro, Sweden": {
+    "lat": 59.2786657,
+    "lon": 15.1751726,
+    "precise": true
+  },
+  "Varbergagatan 232, Örebro, Sweden": {
+    "lat": 59.2902316,
+    "lon": 15.1674639,
+    "precise": true
   }
 }
