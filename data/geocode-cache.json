@@ -8293,5 +8293,15 @@
     "lat": 59.2902316,
     "lon": 15.1674639,
     "precise": true
+  },
+  "Krönikegatan 4  B , Örebro, Sweden": {
+    "lat": 59.2999396,
+    "lon": 15.1796818,
+    "precise": true
+  },
+  "Varbergagatan 102, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
   }
 }
