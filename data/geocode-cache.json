@@ -8413,5 +8413,45 @@
     "lat": 59.2971662,
     "lon": 15.1937959,
     "precise": true
+  },
+  "Västra Vintergatan 192 , Örebro, Sweden": {
+    "lat": 59.2717054,
+    "lon": 15.1812255,
+    "precise": true
+  },
+  "Varbergagatan 186, Örebro, Sweden": {
+    "lat": 59.2899998,
+    "lon": 15.1718949,
+    "precise": true
+  },
+  "Lertagsgatan 3 , Örebro, Sweden": {
+    "lat": 59.2808961,
+    "lon": 15.1908271,
+    "precise": true
+  },
+  "Tybblegatan 18, Örebro, Sweden": {
+    "lat": 59.2577163,
+    "lon": 15.2397688,
+    "precise": true
+  },
+  "Tybblegatan 74, Örebro, Sweden": {
+    "lat": 59.2562435,
+    "lon": 15.2391283,
+    "precise": true
+  },
+  "Varbergagatan 35, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Tunnelgatan 5, Örebro, Sweden": {
+    "lat": 59.2843412,
+    "lon": 15.2177621,
+    "precise": true
+  },
+  "Björkrisvägen 24, Örebro, Sweden": {
+    "lat": 59.2403999,
+    "lon": 15.2400826,
+    "precise": true
   }
 }
