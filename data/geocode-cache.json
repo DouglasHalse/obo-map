@@ -8453,5 +8453,55 @@
     "lat": 59.2403999,
     "lon": 15.2400826,
     "precise": true
+  },
+  "Varbergagatan 95 , Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Tornfalkgatan 53 , Örebro, Sweden": {
+    "lat": 59.2786657,
+    "lon": 15.1751726,
+    "precise": true
+  },
+  "Poesigatan 7  A , Örebro, Sweden": {
+    "lat": 59.2990713,
+    "lon": 15.191947,
+    "precise": true
+  },
+  "Hovstavägen 23 , Örebro, Sweden": {
+    "lat": 59.2848226,
+    "lon": 15.2209377,
+    "precise": true
+  },
+  "Hovstavägen 17 , Örebro, Sweden": {
+    "lat": 59.2848226,
+    "lon": 15.2209377,
+    "precise": true
+  },
+  "Granrisvägen 4  G, Örebro, Sweden": {
+    "lat": 59.236789,
+    "lon": 15.235644,
+    "precise": true
+  },
+  "Karlslundsgatan 15, Örebro, Sweden": {
+    "lat": 59.2738607,
+    "lon": 15.1498389,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A  510 , Örebro, Sweden": {
+    "lat": 59.2633403,
+    "lon": 15.2357699,
+    "precise": false
+  },
+  "Åstadalsvägen 3  A    0403 , Örebro, Sweden": {
+    "lat": 59.2453601,
+    "lon": 15.2443597,
+    "precise": true
+  },
+  "Norra Grev Rosengatan 17  G , Örebro, Sweden": {
+    "lat": 59.2777622,
+    "lon": 15.2221475,
+    "precise": true
   }
 }
