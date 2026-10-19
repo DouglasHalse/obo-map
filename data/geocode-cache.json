@@ -8638,5 +8638,20 @@
     "lat": 59.2848226,
     "lon": 15.2209377,
     "precise": true
+  },
+  "Norra Grev Rosengatan 17  F , Örebro, Sweden": {
+    "lat": 59.2777622,
+    "lon": 15.2221475,
+    "precise": true
+  },
+  "Drakenbergsgatan 18 , Örebro, Sweden": {
+    "lat": 59.2601767,
+    "lon": 15.2390222,
+    "precise": true
+  },
+  "Östra Vintergatan 2-24 P4  , Örebro, Sweden": {
+    "lat": 59.2711976,
+    "lon": 15.1943573,
+    "precise": true
   }
 }
