@@ -8653,5 +8653,50 @@
     "lat": 59.2711976,
     "lon": 15.1943573,
     "precise": true
+  },
+  "Ekängsgatan 23 , Örebro, Sweden": {
+    "lat": 59.2637308,
+    "lon": 15.2061784,
+    "precise": true
+  },
+  "Västra Nobelgatan 19  A , Örebro, Sweden": {
+    "lat": 59.2793713,
+    "lon": 15.212907,
+    "precise": true
+  },
+  "Varbergagatan 47 , Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Diktargatan 9  C , Örebro, Sweden": {
+    "lat": 59.2971662,
+    "lon": 15.1937958,
+    "precise": true
+  },
+  "Hemmansvägen 64 , Örebro, Sweden": {
+    "lat": 59.2571183,
+    "lon": 15.2322948,
+    "precise": true
+  },
+  "Hemmansvägen 68 , Örebro, Sweden": {
+    "lat": 59.2571183,
+    "lon": 15.2322948,
+    "precise": true
+  },
+  "Varbergagatan 140, Örebro, Sweden": {
+    "lat": 59.2846291,
+    "lon": 15.1817196,
+    "precise": true
+  },
+  "Norrbygatan 14, Örebro, Sweden": {
+    "lat": 59.2855868,
+    "lon": 15.2346944,
+    "precise": true
+  },
+  "Fabriksgatan 38, Örebro, Sweden": {
+    "lat": 59.2677898,
+    "lon": 15.2029365,
+    "precise": true
   }
 }
