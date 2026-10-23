@@ -8833,5 +8833,90 @@
     "lat": 59.2759122,
     "lon": 15.1899149,
     "precise": true
+  },
+  "Östra Vintergatan 34 , Örebro, Sweden": {
+    "lat": 59.2725913,
+    "lon": 15.1918389,
+    "precise": true
+  },
+  "Västra Vintergatan 29 , Örebro, Sweden": {
+    "lat": 59.2706675,
+    "lon": 15.1846998,
+    "precise": true
+  },
+  "Lars Wivallius Väg 17 , Örebro, Sweden": {
+    "lat": 59.2922088,
+    "lon": 15.1999654,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 136 , Örebro, Sweden": {
+    "lat": 59.2884223,
+    "lon": 15.1948443,
+    "precise": true
+  },
+  "Författargatan 2  G, Örebro, Sweden": {
+    "lat": 59.2959475,
+    "lon": 15.1942229,
+    "precise": true
+  },
+  "Varbergagatan 25, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 80 , Örebro, Sweden": {
+    "lat": 59.2884223,
+    "lon": 15.1948443,
+    "precise": true
+  },
+  "Örnsköldsgatan 95, Örebro, Sweden": {
+    "lat": 59.2840739,
+    "lon": 15.1863105,
+    "precise": true
+  },
+  "Örnsköldsgatan 7 , Örebro, Sweden": {
+    "lat": 59.282129,
+    "lon": 15.1903763,
+    "precise": true
+  },
+  "Örnsköldsgatan 53 , Örebro, Sweden": {
+    "lat": 59.2828803,
+    "lon": 15.1898557,
+    "precise": true
+  },
+  "Balladgatan 17  A , Örebro, Sweden": {
+    "lat": 59.3017424,
+    "lon": 15.1789089,
+    "precise": true
+  },
+  "Björkrisvägen 33  E, Örebro, Sweden": {
+    "lat": 59.2403999,
+    "lon": 15.2400826,
+    "precise": true
+  },
+  "Varbergagatan 134, Örebro, Sweden": {
+    "lat": 59.2846291,
+    "lon": 15.1817196,
+    "precise": true
+  },
+  "Västra Nobelgatan 19  A, Örebro, Sweden": {
+    "lat": 59.2793713,
+    "lon": 15.212907,
+    "precise": true
+  },
+  "Åstadalsvägen 3  D    0201 , Örebro, Sweden": {
+    "lat": 59.2519271,
+    "lon": 15.2436247,
+    "precise": true
+  },
+  "Åstadalsvägen 3  D    0203 , Örebro, Sweden": {
+    "lat": 59.2519271,
+    "lon": 15.2436247,
+    "precise": true
+  },
+  "Skäpplandsgatan 13, Örebro, Sweden": {
+    "lat": 59.2741823,
+    "lon": 15.1698807,
+    "precise": true
   }
 }
