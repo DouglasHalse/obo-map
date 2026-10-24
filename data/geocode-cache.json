@@ -8918,5 +8918,40 @@
     "lat": 59.2741823,
     "lon": 15.1698807,
     "precise": true
+  },
+  "Drakenbergsgatan 21 , Örebro, Sweden": {
+    "lat": 59.2580701,
+    "lon": 15.2376792,
+    "precise": true
+  },
+  "Norrbygatan 50 , Örebro, Sweden": {
+    "lat": 59.2864756,
+    "lon": 15.2335204,
+    "precise": true
+  },
+  "Lars Wivallius Väg 65 , Örebro, Sweden": {
+    "lat": 59.2922088,
+    "lon": 15.1999654,
+    "precise": true
+  },
+  "Strofgatan 19  D , Örebro, Sweden": {
+    "lat": 59.3036016,
+    "lon": 15.1838154,
+    "precise": true
+  },
+  "Östra Vintergatan 34, Örebro, Sweden": {
+    "lat": 59.2725913,
+    "lon": 15.1918389,
+    "precise": true
+  },
+  "Västra Vintergatan 29, Örebro, Sweden": {
+    "lat": 59.2706675,
+    "lon": 15.1846998,
+    "precise": true
+  },
+  "Örnsköldsgatan 7, Örebro, Sweden": {
+    "lat": 59.282129,
+    "lon": 15.1903763,
+    "precise": true
   }
 }
