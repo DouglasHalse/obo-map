@@ -8953,5 +8953,15 @@
     "lat": 59.282129,
     "lon": 15.1903763,
     "precise": true
+  },
+  "Längbrotorg 10 , Örebro, Sweden": {
+    "lat": 59.2827001,
+    "lon": 15.2267708,
+    "precise": false
+  },
+  "Varbergagatan 128, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
   }
 }
