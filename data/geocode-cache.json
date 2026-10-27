@@ -8963,5 +8963,55 @@
     "lat": 59.2896139,
     "lon": 15.1746048,
     "precise": true
+  },
+  "Lars Wivallius Väg 35, Örebro, Sweden": {
+    "lat": 59.2922088,
+    "lon": 15.1999654,
+    "precise": true
+  },
+  "Balladgatan 3  C , Örebro, Sweden": {
+    "lat": 59.3017424,
+    "lon": 15.1789089,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 84, Örebro, Sweden": {
+    "lat": 59.2884223,
+    "lon": 15.1948443,
+    "precise": true
+  },
+  "Grönsångaregatan 94, Örebro, Sweden": {
+    "lat": 59.2771696,
+    "lon": 15.1665506,
+    "precise": true
+  },
+  "Lyrikgatan 8  B, Örebro, Sweden": {
+    "lat": 59.2983656,
+    "lon": 15.1807664,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A  209, Örebro, Sweden": {
+    "lat": 59.2633403,
+    "lon": 15.2357699,
+    "precise": false
+  },
+  "Åstadalsvägen 3  A    0406 , Örebro, Sweden": {
+    "lat": 59.2453601,
+    "lon": 15.2443597,
+    "precise": true
+  },
+  "Åstadalsvägen 3  D    0301 , Örebro, Sweden": {
+    "lat": 59.2519271,
+    "lon": 15.2436247,
+    "precise": true
+  },
+  "Författargatan 16, Örebro, Sweden": {
+    "lat": 59.2959475,
+    "lon": 15.1942229,
+    "precise": true
+  },
+  "Prinsgatan 9, Örebro, Sweden": {
+    "lat": 59.2763126,
+    "lon": 15.2034246,
+    "precise": true
   }
 }
