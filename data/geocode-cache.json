@@ -9063,5 +9063,40 @@
     "lat": 59.2873192,
     "lon": 15.2287945,
     "precise": true
+  },
+  "Tengvallsgatan 10, Örebro, Sweden": {
+    "lat": 59.2766901,
+    "lon": 15.190039,
+    "precise": true
+  },
+  "Kungsgatan 36 B, Örebro, Sweden": {
+    "lat": 59.2680535,
+    "lon": 15.212085,
+    "precise": true
+  },
+  "Tengvallsgatan 6, Örebro, Sweden": {
+    "lat": 59.2762508,
+    "lon": 15.1900271,
+    "precise": true
+  },
+  "Fogdegatan 2, Örebro, Sweden": {
+    "lat": 59.2799628,
+    "lon": 15.2031167,
+    "precise": true
+  },
+  "Tornfalkgatan 11, Örebro, Sweden": {
+    "lat": 59.2786657,
+    "lon": 15.1751726,
+    "precise": true
+  },
+  "Parkvägen 2 B, Örebro, Sweden": {
+    "lat": 59.2122046,
+    "lon": 15.4973854,
+    "precise": true
+  },
+  "Björkrisvägen 21, Örebro, Sweden": {
+    "lat": 59.2403999,
+    "lon": 15.2400826,
+    "precise": true
   }
 }
