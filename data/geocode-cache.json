@@ -8490,8 +8490,8 @@
     "precise": true
   },
   "Rudbecksgatan 38 A  510 , Örebro, Sweden": {
-    "lat": 59.2633403,
-    "lon": 15.2357699,
+    "lat": 59.26504,
+    "lon": 15.2338929,
     "precise": false
   },
   "Åstadalsvägen 3  A    0403 , Örebro, Sweden": {
@@ -9097,6 +9097,61 @@
   "Björkrisvägen 21, Örebro, Sweden": {
     "lat": 59.2403999,
     "lon": 15.2400826,
+    "precise": true
+  },
+  "Ringvägsplan 34, Örebro, Sweden": {
+    "lat": 59.3176196,
+    "lon": 15.3973117,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 116 , Örebro, Sweden": {
+    "lat": 59.2884223,
+    "lon": 15.1948443,
+    "precise": true
+  },
+  "Torgvägen 12  C , Örebro, Sweden": {
+    "lat": 59.2796445,
+    "lon": 15.238865,
+    "precise": true
+  },
+  "Drottninggatan 27 , Örebro, Sweden": {
+    "lat": 59.2691558,
+    "lon": 15.2098162,
+    "precise": true
+  },
+  "Norrbygatan 14 , Örebro, Sweden": {
+    "lat": 59.2855868,
+    "lon": 15.2346944,
+    "precise": true
+  },
+  "Varbergagatan 195, Örebro, Sweden": {
+    "lat": 59.2900435,
+    "lon": 15.170899,
+    "precise": true
+  },
+  "Gamla Arbogavägen 11  D, Örebro, Sweden": {
+    "lat": 59.3185117,
+    "lon": 15.3982704,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A  507 , Örebro, Sweden": {
+    "lat": 59.2633403,
+    "lon": 15.2357699,
+    "precise": false
+  },
+  "Åstadalsvägen 3  A    0423 , Örebro, Sweden": {
+    "lat": 59.2453601,
+    "lon": 15.2443597,
+    "precise": true
+  },
+  "Tornfalkgatan 59, Örebro, Sweden": {
+    "lat": 59.2786657,
+    "lon": 15.1751726,
+    "precise": true
+  },
+  "Trädgårdsgatan 6 F, Örebro, Sweden": {
+    "lat": 59.2714585,
+    "lon": 15.2181113,
     "precise": true
   }
 }
