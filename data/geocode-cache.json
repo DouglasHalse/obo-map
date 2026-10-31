@@ -8820,8 +8820,8 @@
     "precise": true
   },
   "Rudbecksgatan 38 A 602, Örebro, Sweden": {
-    "lat": 59.2633403,
-    "lon": 15.2357699,
+    "lat": 59.26504,
+    "lon": 15.2338929,
     "precise": false
   },
   "Studentgatan 20    0315, Örebro, Sweden": {
@@ -8990,8 +8990,8 @@
     "precise": true
   },
   "Rudbecksgatan 38 A  209, Örebro, Sweden": {
-    "lat": 59.2633403,
-    "lon": 15.2357699,
+    "lat": 59.26504,
+    "lon": 15.2338929,
     "precise": false
   },
   "Åstadalsvägen 3  A    0406 , Örebro, Sweden": {
@@ -9152,6 +9152,11 @@
   "Trädgårdsgatan 6 F, Örebro, Sweden": {
     "lat": 59.2714585,
     "lon": 15.2181113,
+    "precise": true
+  },
+  "Varbergagatan 39, Örebro, Sweden": {
+    "lat": 59.2860692,
+    "lon": 15.1754747,
     "precise": true
   }
 }
