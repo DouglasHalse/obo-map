@@ -9158,5 +9158,20 @@
     "lat": 59.2860692,
     "lon": 15.1754747,
     "precise": true
+  },
+  "Lyrikgatan 10  A, Örebro, Sweden": {
+    "lat": 59.2983656,
+    "lon": 15.1807664,
+    "precise": true
+  },
+  "Åstadalsvägen 3  C    0303, Örebro, Sweden": {
+    "lat": 59.2519271,
+    "lon": 15.2436247,
+    "precise": true
+  },
+  "Granrisvägen 8, Örebro, Sweden": {
+    "lat": 59.2375984,
+    "lon": 15.2376116,
+    "precise": true
   }
 }
