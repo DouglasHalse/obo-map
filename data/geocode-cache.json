@@ -9173,5 +9173,35 @@
     "lat": 59.2375984,
     "lon": 15.2376116,
     "precise": true
+  },
+  "Granrisvägen 32  P, Örebro, Sweden": {
+    "lat": 59.2374482,
+    "lon": 15.2436284,
+    "precise": true
+  },
+  "Lyrikgatan 3  B, Örebro, Sweden": {
+    "lat": 59.2983656,
+    "lon": 15.1807664,
+    "precise": true
+  },
+  "Drottninggatan 27, Örebro, Sweden": {
+    "lat": 59.2691558,
+    "lon": 15.2098162,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 805 , Örebro, Sweden": {
+    "lat": 59.26504,
+    "lon": 15.2338929,
+    "precise": false
+  },
+  "Majorsgatan 3, Örebro, Sweden": {
+    "lat": 59.2864427,
+    "lon": 15.2363534,
+    "precise": true
+  },
+  "Höglundagatan 43, Örebro, Sweden": {
+    "lat": 59.289124,
+    "lon": 15.2301985,
+    "precise": true
   }
 }
