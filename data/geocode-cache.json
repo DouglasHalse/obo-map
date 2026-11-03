@@ -9203,5 +9203,40 @@
     "lat": 59.289124,
     "lon": 15.2301985,
     "precise": true
+  },
+  "Skäpplandsgatan 15, Örebro, Sweden": {
+    "lat": 59.2742411,
+    "lon": 15.1691035,
+    "precise": true
+  },
+  "Höglundagatan 43 , Örebro, Sweden": {
+    "lat": 59.289124,
+    "lon": 15.2301985,
+    "precise": true
+  },
+  "Författargatan 20  E, Örebro, Sweden": {
+    "lat": 59.2959475,
+    "lon": 15.1942229,
+    "precise": true
+  },
+  "Örnsköldsgatan 83, Örebro, Sweden": {
+    "lat": 59.2838356,
+    "lon": 15.1874392,
+    "precise": true
+  },
+  "Rosenhillsgatan 5 , Örebro, Sweden": {
+    "lat": 59.2833735,
+    "lon": 15.2227661,
+    "precise": true
+  },
+  "Korsbandsgatan 33, Örebro, Sweden": {
+    "lat": 59.2852861,
+    "lon": 15.1569112,
+    "precise": true
+  },
+  "Restalundsvägen 24, Örebro, Sweden": {
+    "lat": 59.2650667,
+    "lon": 15.2232967,
+    "precise": true
   }
 }
