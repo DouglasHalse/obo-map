@@ -9318,5 +9318,50 @@
     "lat": 59.2561258,
     "lon": 15.2262474,
     "precise": true
+  },
+  "Krukmakaregatan 19 , Örebro, Sweden": {
+    "lat": 59.2875045,
+    "lon": 15.2288405,
+    "precise": true
+  },
+  "Lars Wivallius Väg 75 , Örebro, Sweden": {
+    "lat": 59.2922088,
+    "lon": 15.1999654,
+    "precise": true
+  },
+  "Varbergagatan 63, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Vivallaringen 12  B , Örebro, Sweden": {
+    "lat": 59.2968156,
+    "lon": 15.1797212,
+    "precise": true
+  },
+  "Hjalmar Bergmans Väg 6 , Örebro, Sweden": {
+    "lat": 59.2886744,
+    "lon": 15.2001027,
+    "precise": true
+  },
+  "Örnsköldsgatan 35 , Örebro, Sweden": {
+    "lat": 59.2825785,
+    "lon": 15.1904211,
+    "precise": true
+  },
+  "Norrbygatan 48, Örebro, Sweden": {
+    "lat": 59.2864756,
+    "lon": 15.2335204,
+    "precise": true
+  },
+  "Sturegatan 22  C, Örebro, Sweden": {
+    "lat": 59.2697512,
+    "lon": 15.2332686,
+    "precise": true
+  },
+  "Spannlandsgatan 21 , Örebro, Sweden": {
+    "lat": 59.2711747,
+    "lon": 15.1679278,
+    "precise": true
   }
 }
