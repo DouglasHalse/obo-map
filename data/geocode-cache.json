@@ -9363,5 +9363,100 @@
     "lat": 59.2711747,
     "lon": 15.1679278,
     "precise": true
+  },
+  "Sockengatan 7  D , Örebro, Sweden": {
+    "lat": 59.2633742,
+    "lon": 15.2345112,
+    "precise": true
+  },
+  "Författargatan 10  A , Örebro, Sweden": {
+    "lat": 59.2959475,
+    "lon": 15.1942229,
+    "precise": true
+  },
+  "Varbergagatan 245 , Örebro, Sweden": {
+    "lat": 59.2903098,
+    "lon": 15.1674959,
+    "precise": true
+  },
+  "Varbergagatan 236 , Örebro, Sweden": {
+    "lat": 59.2902566,
+    "lon": 15.1674626,
+    "precise": true
+  },
+  "Tunnelgatan 11 , Örebro, Sweden": {
+    "lat": 59.284743,
+    "lon": 15.2190513,
+    "precise": true
+  },
+  "Varbergagatan 201, Örebro, Sweden": {
+    "lat": 59.2900726,
+    "lon": 15.1702352,
+    "precise": true
+  },
+  "Bromsgatan 14  A , Örebro, Sweden": {
+    "lat": 59.2829299,
+    "lon": 15.2252112,
+    "precise": true
+  },
+  "Lars Wivallius Väg 49 , Örebro, Sweden": {
+    "lat": 59.2922088,
+    "lon": 15.1999654,
+    "precise": true
+  },
+  "Peppargatan 10, Örebro, Sweden": {
+    "lat": 59.2550451,
+    "lon": 15.2168345,
+    "precise": true
+  },
+  "Örnsköldsgatan 35, Örebro, Sweden": {
+    "lat": 59.2825785,
+    "lon": 15.1904211,
+    "precise": true
+  },
+  "Karlslundsgatan 1, Örebro, Sweden": {
+    "lat": 59.2746251,
+    "lon": 15.1367778,
+    "precise": true
+  },
+  "Åbylundsgatan 4  D, Örebro, Sweden": {
+    "lat": 59.2677486,
+    "lon": 15.1926847,
+    "precise": true
+  },
+  "Drakenbergsgatan 65, Örebro, Sweden": {
+    "lat": 59.2577972,
+    "lon": 15.2352842,
+    "precise": true
+  },
+  "Örnsköldsgatan 121, Örebro, Sweden": {
+    "lat": 59.2838457,
+    "lon": 15.1838659,
+    "precise": true
+  },
+  "Änggatan 19, Örebro, Sweden": {
+    "lat": 59.2674717,
+    "lon": 15.2076082,
+    "precise": true
+  },
+  "Rosenhillsgatan 5, Örebro, Sweden": {
+    "lat": 59.2833735,
+    "lon": 15.2227661,
+    "precise": true
+  },
+  "Lövstagatan 15  B, Örebro, Sweden": {
+    "lat": 59.2801885,
+    "lon": 15.2044455,
+    "precise": true
+  },
+  "Bergslagsgatan 11 , Örebro, Sweden": {
+    "lat": 59.286015,
+    "lon": 15.222848,
+    "precise": true
+  },
+  "Fredsgatan 20 , Örebro, Sweden": {
+    "lat": 59.2760622,
+    "lon": 15.2180664,
+    "precise": true
   }
 }
