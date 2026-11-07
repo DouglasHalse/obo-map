@@ -9458,5 +9458,60 @@
     "lat": 59.2760622,
     "lon": 15.2180664,
     "precise": true
+  },
+  "Ånäsgatan 10 , Örebro, Sweden": {
+    "lat": 59.2736017,
+    "lon": 15.2021985,
+    "precise": true
+  },
+  "Varbergagatan 90, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Lertagsgatan 22 , Örebro, Sweden": {
+    "lat": 59.2801699,
+    "lon": 15.1892004,
+    "precise": true
+  },
+  "Tornfalkgatan 42, Örebro, Sweden": {
+    "lat": 59.2786657,
+    "lon": 15.1751726,
+    "precise": true
+  },
+  "Örnsköldsgatan 71 , Örebro, Sweden": {
+    "lat": 59.2834989,
+    "lon": 15.1884733,
+    "precise": true
+  },
+  "Hertig Karls Allé 50  A , Örebro, Sweden": {
+    "lat": 59.2821021,
+    "lon": 15.2016364,
+    "precise": true
+  },
+  "Drakenbergsgatan 28 , Örebro, Sweden": {
+    "lat": 59.260443,
+    "lon": 15.2378866,
+    "precise": true
+  },
+  "Varbergagatan 245, Örebro, Sweden": {
+    "lat": 59.2903098,
+    "lon": 15.1674959,
+    "precise": true
+  },
+  "Varbergagatan 236, Örebro, Sweden": {
+    "lat": 59.2902566,
+    "lon": 15.1674626,
+    "precise": true
+  },
+  "Bromsgatan 14  A, Örebro, Sweden": {
+    "lat": 59.2829299,
+    "lon": 15.2252112,
+    "precise": true
+  },
+  "Åstadalsvägen 3  A    0416 , Örebro, Sweden": {
+    "lat": 59.2453601,
+    "lon": 15.2443597,
+    "precise": true
   }
 }
