@@ -9513,5 +9513,10 @@
     "lat": 59.2453601,
     "lon": 15.2443597,
     "precise": true
+  },
+  "Stånggatan 10 C, Örebro, Sweden": {
+    "lat": 59.2733106,
+    "lon": 15.1640436,
+    "precise": true
   }
 }
