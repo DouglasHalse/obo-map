@@ -4700,9 +4700,9 @@
     "precise": true
   },
   "Rönnvägen 30, Örebro, Sweden": {
-    "lat": 59.264219,
-    "lon": 15.2418269,
-    "precise": false
+    "lat": 59.2638562,
+    "lon": 15.2407056,
+    "precise": true
   },
   "Rosenhillsgatan 3 , Örebro, Sweden": {
     "lat": 59.28301620000001,
@@ -9582,6 +9582,71 @@
   "Åstadalsvägen 7    0305 , Örebro, Sweden": {
     "lat": 59.251428,
     "lon": 15.242576,
+    "precise": true
+  },
+  "Varbergagatan 93, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Tengvallsgatan 76, Örebro, Sweden": {
+    "lat": 59.276678,
+    "lon": 15.182788,
+    "precise": true
+  },
+  "Tybblegatan 78, Örebro, Sweden": {
+    "lat": 59.2562409,
+    "lon": 15.2395824,
+    "precise": true
+  },
+  "Stånggatan 6 A, Örebro, Sweden": {
+    "lat": 59.2733106,
+    "lon": 15.1640436,
+    "precise": true
+  },
+  "Stånggatan 8 D, Örebro, Sweden": {
+    "lat": 59.2733106,
+    "lon": 15.1640436,
+    "precise": true
+  },
+  "Stånggatan 2 C, Örebro, Sweden": {
+    "lat": 59.2733106,
+    "lon": 15.1640436,
+    "precise": true
+  },
+  "Stånggatan 12 C, Örebro, Sweden": {
+    "lat": 59.2733106,
+    "lon": 15.1640436,
+    "precise": true
+  },
+  "Trädgårdsgränd 3 A, Örebro, Sweden": {
+    "lat": 59.2718183,
+    "lon": 15.2187149,
+    "precise": true
+  },
+  "Bondegatan 7, Örebro, Sweden": {
+    "lat": 59.2679176,
+    "lon": 15.2101666,
+    "precise": true
+  },
+  "Hertig Karls Allé 50  A, Örebro, Sweden": {
+    "lat": 59.2821021,
+    "lon": 15.2016364,
+    "precise": true
+  },
+  "Sockengatan 7  D, Örebro, Sweden": {
+    "lat": 59.2633742,
+    "lon": 15.2345112,
+    "precise": true
+  },
+  "Holländaregatan 22 , Örebro, Sweden": {
+    "lat": 59.2653991,
+    "lon": 15.2573855,
+    "precise": true
+  },
+  "Varbergagatan 43, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
     "precise": true
   }
 }
