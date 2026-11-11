@@ -9648,5 +9648,35 @@
     "lat": 59.2896139,
     "lon": 15.1746048,
     "precise": true
+  },
+  "Längbrogatan 4  B , Örebro, Sweden": {
+    "lat": 59.2841706,
+    "lon": 15.2265409,
+    "precise": true
+  },
+  "Majorsgatan 3 , Örebro, Sweden": {
+    "lat": 59.2864427,
+    "lon": 15.2363534,
+    "precise": true
+  },
+  "Varbergagatan 132 , Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Rickardsbergsgatan 3 , Örebro, Sweden": {
+    "lat": 59.2885771,
+    "lon": 15.229094,
+    "precise": true
+  },
+  "Granrisvägen 28  H, Örebro, Sweden": {
+    "lat": 59.2373699,
+    "lon": 15.2426608,
+    "precise": true
+  },
+  "Varbergagatan 49 , Örebro, Sweden": {
+    "lat": 59.2846291,
+    "lon": 15.1817196,
+    "precise": true
   }
 }
