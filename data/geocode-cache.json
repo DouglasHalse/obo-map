@@ -9678,5 +9678,45 @@
     "lat": 59.2846291,
     "lon": 15.1817196,
     "precise": true
+  },
+  "Björkrisvägen 25  E, Örebro, Sweden": {
+    "lat": 59.2403999,
+    "lon": 15.2400826,
+    "precise": true
+  },
+  "Varbergagatan 108 , Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Tengvallsgatan 10 , Örebro, Sweden": {
+    "lat": 59.2766901,
+    "lon": 15.190039,
+    "precise": true
+  },
+  "Prosagatan 13  C , Örebro, Sweden": {
+    "lat": 59.3019551,
+    "lon": 15.1926395,
+    "precise": true
+  },
+  "Varbergagatan 146, Örebro, Sweden": {
+    "lat": 59.2846291,
+    "lon": 15.1817196,
+    "precise": true
+  },
+  "Varbergagatan 132, Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Tornfalkgatan 17 , Örebro, Sweden": {
+    "lat": 59.2786657,
+    "lon": 15.1751726,
+    "precise": true
+  },
+  "Åstadalsvägen 3  B    0303 , Örebro, Sweden": {
+    "lat": 59.2519271,
+    "lon": 15.2436247,
+    "precise": true
   }
 }
