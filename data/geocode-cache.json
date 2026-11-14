@@ -9813,5 +9813,15 @@
     "lat": 59.2827286,
     "lon": 15.1901366,
     "precise": true
+  },
+  "Krukmakaregatan 37 , Örebro, Sweden": {
+    "lat": 59.2870076,
+    "lon": 15.2291056,
+    "precise": true
+  },
+  "Längbrogatan 4  B, Örebro, Sweden": {
+    "lat": 59.2841706,
+    "lon": 15.2265409,
+    "precise": true
   }
 }
