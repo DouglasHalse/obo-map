@@ -9823,5 +9823,30 @@
     "lat": 59.2841706,
     "lon": 15.2265409,
     "precise": true
+  },
+  "Tengvallsgatan 16 , Örebro, Sweden": {
+    "lat": 59.2760328,
+    "lon": 15.1884398,
+    "precise": true
+  },
+  "Drottninggatan 39 , Örebro, Sweden": {
+    "lat": 59.2676257,
+    "lon": 15.2079737,
+    "precise": false
+  },
+  "Ekenäsvägen 10, Örebro, Sweden": {
+    "lat": 59.1630734,
+    "lon": 15.5233606,
+    "precise": true
+  },
+  "Varbergagatan 116 , Örebro, Sweden": {
+    "lat": 59.2896139,
+    "lon": 15.1746048,
+    "precise": true
+  },
+  "Studentgatan 22    0102, Örebro, Sweden": {
+    "lat": 59.2519864,
+    "lon": 15.2453272,
+    "precise": true
   }
 }
