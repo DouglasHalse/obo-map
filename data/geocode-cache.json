@@ -9983,5 +9983,20 @@
     "lat": 59.2793617,
     "lon": 15.2211408,
     "precise": true
+  },
+  "Författargatan 14  C , Örebro, Sweden": {
+    "lat": 59.2959475,
+    "lon": 15.1942229,
+    "precise": true
+  },
+  "Varbergagatan 238, Örebro, Sweden": {
+    "lat": 59.2902689,
+    "lon": 15.1674679,
+    "precise": true
+  },
+  "Västra Vintergatan 114 , Örebro, Sweden": {
+    "lat": 59.2705437,
+    "lon": 15.1869733,
+    "precise": true
   }
 }
