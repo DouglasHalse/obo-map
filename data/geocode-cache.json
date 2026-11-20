@@ -9998,5 +9998,30 @@
     "lat": 59.2705437,
     "lon": 15.1869733,
     "precise": true
+  },
+  "Hjalmar Bergmans Väg 116, Örebro, Sweden": {
+    "lat": 59.2884223,
+    "lon": 15.1948443,
+    "precise": true
+  },
+  "Versgatan 10  C, Örebro, Sweden": {
+    "lat": 59.3039839,
+    "lon": 15.1893335,
+    "precise": true
+  },
+  "Polhemsgatan 18  B , Örebro, Sweden": {
+    "lat": 59.2832989,
+    "lon": 15.2196028,
+    "precise": true
+  },
+  "Versgatan 10  B , Örebro, Sweden": {
+    "lat": 59.3039839,
+    "lon": 15.1893335,
+    "precise": true
+  },
+  "Fanjunkarevägen 6, Örebro, Sweden": {
+    "lat": 59.2816669,
+    "lon": 15.2305432,
+    "precise": true
   }
 }
