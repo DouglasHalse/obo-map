@@ -10023,5 +10023,45 @@
     "lat": 59.2816669,
     "lon": 15.2305432,
     "precise": true
+  },
+  "Spannlandsgatan 5 D, Örebro, Sweden": {
+    "lat": 59.2711747,
+    "lon": 15.1679278,
+    "precise": true
+  },
+  "Örnsköldsgatan 83 , Örebro, Sweden": {
+    "lat": 59.2838356,
+    "lon": 15.1874392,
+    "precise": true
+  },
+  "Metallvägen 8 , Örebro, Sweden": {
+    "lat": 59.199098,
+    "lon": 15.156132,
+    "precise": true
+  },
+  "Varbergagatan 248 , Örebro, Sweden": {
+    "lat": 59.2903252,
+    "lon": 15.1675172,
+    "precise": true
+  },
+  "Kungsgatan 30 B , Örebro, Sweden": {
+    "lat": 59.2681228,
+    "lon": 15.2119247,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 711 , Örebro, Sweden": {
+    "lat": 59.26504,
+    "lon": 15.2338929,
+    "precise": false
+  },
+  "Rudbecksgatan 38 A  301 , Örebro, Sweden": {
+    "lat": 59.26504,
+    "lon": 15.2338929,
+    "precise": false
+  },
+  "Restalundsvägen 34, Örebro, Sweden": {
+    "lat": 59.2651717,
+    "lon": 15.2237729,
+    "precise": true
   }
 }
