@@ -10063,5 +10063,50 @@
     "lat": 59.2651717,
     "lon": 15.2237729,
     "precise": true
+  },
+  "Norrbygatan 54 , Örebro, Sweden": {
+    "lat": 59.2869522,
+    "lon": 15.2332377,
+    "precise": true
+  },
+  "Höglundagatan 10 B, Örebro, Sweden": {
+    "lat": 59.2851812,
+    "lon": 15.2324185,
+    "precise": true
+  },
+  "Lertagsgatan 6  A , Örebro, Sweden": {
+    "lat": 59.2807186,
+    "lon": 15.1904267,
+    "precise": true
+  },
+  "Tengvallsgatan 20 , Örebro, Sweden": {
+    "lat": 59.2763722,
+    "lon": 15.188552,
+    "precise": true
+  },
+  "Tengvallsgatan 60 , Örebro, Sweden": {
+    "lat": 59.2769528,
+    "lon": 15.1851554,
+    "precise": true
+  },
+  "Metallvägen 8, Örebro, Sweden": {
+    "lat": 59.199098,
+    "lon": 15.156132,
+    "precise": true
+  },
+  "Varbergagatan 248, Örebro, Sweden": {
+    "lat": 59.2903252,
+    "lon": 15.1675172,
+    "precise": true
+  },
+  "Kungsgatan 30 B, Örebro, Sweden": {
+    "lat": 59.2681228,
+    "lon": 15.2119247,
+    "precise": true
+  },
+  "Toringsgatan 20, Örebro, Sweden": {
+    "lat": 59.2844465,
+    "lon": 15.2303938,
+    "precise": true
   }
 }
