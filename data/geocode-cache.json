@@ -10108,5 +10108,55 @@
     "lat": 59.2844465,
     "lon": 15.2303938,
     "precise": true
+  },
+  "Örnsköldsgatan 45, Örebro, Sweden": {
+    "lat": 59.282129,
+    "lon": 15.1903763,
+    "precise": true
+  },
+  "Poesigatan 4  B, Örebro, Sweden": {
+    "lat": 59.2990713,
+    "lon": 15.191947,
+    "precise": true
+  },
+  "Lertagsgatan 6  A, Örebro, Sweden": {
+    "lat": 59.2807186,
+    "lon": 15.1904267,
+    "precise": true
+  },
+  "Tengvallsgatan 20, Örebro, Sweden": {
+    "lat": 59.2763722,
+    "lon": 15.188552,
+    "precise": true
+  },
+  "Tengvallsgatan 60, Örebro, Sweden": {
+    "lat": 59.2769528,
+    "lon": 15.1851554,
+    "precise": true
+  },
+  "Örnsköldsgatan 53, Örebro, Sweden": {
+    "lat": 59.2828803,
+    "lon": 15.1898557,
+    "precise": true
+  },
+  "Författargatan 20, Örebro, Sweden": {
+    "lat": 59.2959475,
+    "lon": 15.1942229,
+    "precise": true
+  },
+  "Tengvallsgatan 78, Örebro, Sweden": {
+    "lat": 59.2768534,
+    "lon": 15.1828469,
+    "precise": true
+  },
+  "Granrisvägen 13, Örebro, Sweden": {
+    "lat": 59.2376662,
+    "lon": 15.2384335,
+    "precise": true
+  },
+  "Granrisvägen 7, Örebro, Sweden": {
+    "lat": 59.2382129,
+    "lon": 15.2371573,
+    "precise": true
   }
 }
