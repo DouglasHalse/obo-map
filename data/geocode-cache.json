@@ -10158,5 +10158,75 @@
     "lat": 59.2382129,
     "lon": 15.2371573,
     "precise": true
+  },
+  "Restalundsvägen 46 , Örebro, Sweden": {
+    "lat": 59.2652721,
+    "lon": 15.2245518,
+    "precise": true
+  },
+  "Åbylundsgatan 2  D , Örebro, Sweden": {
+    "lat": 59.2682111,
+    "lon": 15.1924664,
+    "precise": true
+  },
+  "Örnsköldsgatan 95 , Örebro, Sweden": {
+    "lat": 59.2840739,
+    "lon": 15.1863105,
+    "precise": true
+  },
+  "Granrisvägen 34  A, Örebro, Sweden": {
+    "lat": 59.2383241,
+    "lon": 15.2463953,
+    "precise": true
+  },
+  "Lyrikgatan 18  D, Örebro, Sweden": {
+    "lat": 59.2983656,
+    "lon": 15.1807664,
+    "precise": true
+  },
+  "Lars Wivallius Väg 73 , Örebro, Sweden": {
+    "lat": 59.2922088,
+    "lon": 15.1999654,
+    "precise": true
+  },
+  "Lyrikgatan 11  A, Örebro, Sweden": {
+    "lat": 59.2983656,
+    "lon": 15.1807664,
+    "precise": true
+  },
+  "Stånggatan 2 D, Örebro, Sweden": {
+    "lat": 59.2733106,
+    "lon": 15.1640436,
+    "precise": true
+  },
+  "Stånggatan 6 C, Örebro, Sweden": {
+    "lat": 59.2733106,
+    "lon": 15.1640436,
+    "precise": true
+  },
+  "Stånggatan 6 D, Örebro, Sweden": {
+    "lat": 59.2733106,
+    "lon": 15.1640436,
+    "precise": true
+  },
+  "Gäddestavägen 4 B , Örebro, Sweden": {
+    "lat": 59.2750186,
+    "lon": 15.1512288,
+    "precise": true
+  },
+  "Balladgatan 3  C, Örebro, Sweden": {
+    "lat": 59.3017424,
+    "lon": 15.1789089,
+    "precise": true
+  },
+  "Strofgatan 19  C, Örebro, Sweden": {
+    "lat": 59.3036016,
+    "lon": 15.1838154,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 606 , Örebro, Sweden": {
+    "lat": 59.26504,
+    "lon": 15.2338929,
+    "precise": false
   }
 }
