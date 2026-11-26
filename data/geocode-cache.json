@@ -10228,5 +10228,40 @@
     "lat": 59.26504,
     "lon": 15.2338929,
     "precise": false
+  },
+  "Västra Vintergatan 148 , Örebro, Sweden": {
+    "lat": 59.2725823,
+    "lon": 15.1854816,
+    "precise": true
+  },
+  "Vivallaringen 2  D, Örebro, Sweden": {
+    "lat": 59.2968156,
+    "lon": 15.1797212,
+    "precise": true
+  },
+  "Lars Wivallius Väg 73, Örebro, Sweden": {
+    "lat": 59.2922088,
+    "lon": 15.1999654,
+    "precise": true
+  },
+  "Balladgatan 19  A, Örebro, Sweden": {
+    "lat": 59.3017424,
+    "lon": 15.1789089,
+    "precise": true
+  },
+  "Åstadalsvägen 3  A    0205 , Örebro, Sweden": {
+    "lat": 59.2453601,
+    "lon": 15.2443597,
+    "precise": true
+  },
+  "Studentgatan 20    0107, Örebro, Sweden": {
+    "lat": 59.2522392,
+    "lon": 15.2451003,
+    "precise": true
+  },
+  "Rudbecksgatan 38 A 601 , Örebro, Sweden": {
+    "lat": 59.26504,
+    "lon": 15.2338929,
+    "precise": false
   }
 }
