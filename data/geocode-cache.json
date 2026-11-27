@@ -10263,5 +10263,60 @@
     "lat": 59.26504,
     "lon": 15.2338929,
     "precise": false
+  },
+  "Västra Vintergatan 39 , Örebro, Sweden": {
+    "lat": 59.2703899,
+    "lon": 15.1829098,
+    "precise": true
+  },
+  "Krönikegatan 23 C, Örebro, Sweden": {
+    "lat": 59.2999396,
+    "lon": 15.1796818,
+    "precise": true
+  },
+  "Skäpplandsgatan 7, Örebro, Sweden": {
+    "lat": 59.273521,
+    "lon": 15.1711259,
+    "precise": true
+  },
+  "Skäpplandsgatan 11 , Örebro, Sweden": {
+    "lat": 59.2741026,
+    "lon": 15.1706299,
+    "precise": true
+  },
+  "Skäpplandsgatan 19 , Örebro, Sweden": {
+    "lat": 59.2737868,
+    "lon": 15.1682725,
+    "precise": true
+  },
+  "Östra Vintergatan 92, Örebro, Sweden": {
+    "lat": 59.2714503,
+    "lon": 15.1881069,
+    "precise": true
+  },
+  "Västra Vintergatan 148, Örebro, Sweden": {
+    "lat": 59.2725823,
+    "lon": 15.1854816,
+    "precise": true
+  },
+  "Åbylundsgatan 2  D, Örebro, Sweden": {
+    "lat": 59.2682111,
+    "lon": 15.1924664,
+    "precise": true
+  },
+  "Gäddestavägen 4 B, Örebro, Sweden": {
+    "lat": 59.2750186,
+    "lon": 15.1512288,
+    "precise": true
+  },
+  "Restalundsvägen 43, Örebro, Sweden": {
+    "lat": 59.2652721,
+    "lon": 15.2245518,
+    "precise": true
+  },
+  "Hjalmar Bergmans väg 132 , Örebro, Sweden": {
+    "lat": 59.2884223,
+    "lon": 15.1948443,
+    "precise": true
   }
 }
